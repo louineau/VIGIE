@@ -308,7 +308,7 @@
         <table class="tbl"><thead><tr><th>Source</th><th>Groupe</th><th>Type</th><th>Cote</th><th>Dernière collecte</th></tr></thead><tbody>
         ${src.map(s => `<tr><td>${s.url && s.url.startsWith("http") ? `<a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.name)}</a>` : esc(s.name)}</td>
           <td>${esc(s.group)}</td><td>${esc(KIND[s.kind] || s.kind)}</td><td><span class="cote">${esc(s.cote)}</span></td>
-          <td>${s.ok === true ? `<span class="ok">● ${s.count} entrées</span>` : s.ok === false ? `<span class="ko" title="${esc(s.error || "")}">● en échec</span>` : '<span class="muted">—</span>'}</td></tr>`).join("")}
+          <td>${s.ok === true ? `<span class="ok">● ${s.count} ${s.count > 1 ? "entrées" : "entrée"}</span>` : s.ok === false ? `<span class="ko" title="${esc(s.error || "")}">● en échec</span>` : '<span class="muted">—</span>'}</td></tr>`).join("")}
         </tbody></table></section>`;
   }
 
