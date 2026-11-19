@@ -7,6 +7,7 @@
 
   const D = window.VIGIE_DATA || { items: [], themes: [], sources: [], weeks: [], agenda: [], site: {} };
   const F = window.VIGIE_FICHES || [];
+  const P = window.VIGIE_PAGES || [];
   const app = document.getElementById("app");
   const TH = Object.fromEntries((D.themes || []).map(t => [t.id, t]));
   const BY_ID = Object.fromEntries((D.items || []).map(i => [i.id, i]));
@@ -243,6 +244,17 @@
       <div class="prose">${f.html}</div></article>`;
   }
 
+  function viewPage(slug) {
+    const p = P.find(x => x.slug === slug);
+    if (!p) { app.innerHTML = '<div class="empty">Page introuvable. <a href="#/">Retour au tableau de bord</a></div>'; return; }
+    app.innerHTML = `<article class="article">
+      <p class="eyebrow">${esc(p.nav_label || "Page")}</p>
+      <h1>${esc(p.title)}</h1>
+      ${p.summary ? `<p class="lede">${esc(p.summary)}</p>` : ""}
+      ${p.updated ? `<div class="article-meta"><span>Mis à jour le ${esc(fmtDate(p.updated, { day: "numeric", month: "long", year: "numeric" }))}</span>${p.draft ? '<span class="draft">brouillon</span>' : ""}</div>` : ""}
+      <div class="prose">${p.html}</div></article>`;
+  }
+
   function viewHebdo() {
     const weeks = D.weeks || [];
     app.innerHTML = `<div class="page-head"><p class="eyebrow">Hebdo</p><h1>Synthèses hebdomadaires</h1>
@@ -280,7 +292,7 @@
   function viewMethode() {
     const src = (D.sources || []).slice().sort((a, b) => (a.group || "").localeCompare(b.group || "") || a.name.localeCompare(b.name));
     app.innerHTML = `<div class="page-head"><p class="eyebrow">Méthode</p><h1>Méthode et sources</h1>
-      <p class="lede">Comment cette veille est collectée, triée et analysée.</p></div>
+      <p class="lede">Comment cette veille est collectée, triée et analysée.${P.some(p => p.slug === "methodologie") ? ' <a href="#/p/methodologie">Méthodologie détaillée →</a>' : ""}</p></div>
       <section class="section" style="margin-top:0"><h2>Cycle de veille</h2>
         <div class="cycle">
           <div class="step"><strong>Orientation</strong>Axes suivis et publics visés.</div>
@@ -318,9 +330,11 @@
     const [path, query] = h.split("?");
     const params = new URLSearchParams(query || "");
     const seg = path.split("/");
+    const here = seg[0] === "p" ? "p/" + (seg[1] || "") : seg[0];
     document.querySelectorAll("#nav a").forEach(a => a.classList.toggle("active",
-      a.dataset.route === seg[0] || (seg[0] === "fiche" && a.dataset.route === "fiches")));
-    if (seg[0] === "flux") viewFlux(params);
+      a.dataset.route === here || (seg[0] === "fiche" && a.dataset.route === "fiches")));
+    if (seg[0] === "p") viewPage(decodeURIComponent(seg[1] || ""));
+    else if (seg[0] === "flux") viewFlux(params);
     else if (seg[0] === "fiches") viewFiches();
     else if (seg[0] === "fiche") viewFiche(decodeURIComponent(seg[1] || ""));
     else if (seg[0] === "hebdo") viewHebdo();
@@ -328,7 +342,9 @@
     else if (seg[0] === "methode") viewMethode();
     else viewDashboard();
     const titles = { flux: "Flux", fiches: "Fiches", fiche: "Fiche", hebdo: "Hebdo", agenda: "Agenda", methode: "Méthode" };
-    document.title = (D.site.name || "VIGIE") + (titles[seg[0]] ? " — " + titles[seg[0]] : " — Veille cybersécurité");
+    const pg = seg[0] === "p" && P.find(x => x.slug === decodeURIComponent(seg[1] || ""));
+    const t = pg ? (pg.nav_label || pg.title) : titles[seg[0]];
+    document.title = (D.site.name || "VIGIE") + (t ? " — " + t : " — Veille cybersécurité");
     window.scrollTo(0, 0);
   }
 
@@ -345,6 +361,15 @@
     const nxt = cur === "dark" ? "light" : "dark";
     document.documentElement.dataset.theme = nxt;
     try { localStorage.setItem("vigie-theme", nxt); } catch (e) { /* stockage indisponible */ }
+  });
+  /* pages Markdown marquées « nav: true » : ajoutées au menu, dans l'ordre de « order » */
+  const navEl = document.getElementById("nav");
+  P.filter(p => p.nav).forEach(p => {
+    const a = document.createElement("a");
+    a.href = "#/p/" + encodeURIComponent(p.slug);
+    a.dataset.route = "p/" + p.slug;
+    a.textContent = p.nav_label || p.title;
+    navEl.appendChild(a);
   });
   window.addEventListener("hashchange", route);
   route();

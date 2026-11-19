@@ -33,6 +33,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONF = os.path.join(ROOT, "config")
 DATA = os.path.join(ROOT, "data")
 FICHES = os.path.join(ROOT, "fiches")
+PAGES = os.path.join(ROOT, "pages")
 
 TIMEOUT = 25
 UA = "Mozilla/5.0 (compatible; VIGIE-veille/1.0)"
@@ -277,7 +278,8 @@ def md_inline(s):
 
     s = re.sub(r"`([^`]+)`", keep_code, s)
     s = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+|[^)\s:]+)\)",
-               lambda m: '<a href="%s" target="_blank" rel="noopener">%s</a>' % (html.escape(m.group(2)), m.group(1)), s)
+               lambda m: ('<a href="%s">%s</a>' if m.group(2).startswith("#") else
+                          '<a href="%s" target="_blank" rel="noopener">%s</a>') % (html.escape(m.group(2)), m.group(1)), s)
     s = re.sub(r"(?<![\"'>=])(https?://[^\s<)]+)", r'<a href="\1" target="_blank" rel="noopener">\1</a>', s)
     s = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", s)
     s = re.sub(r"(?<![\w*])\*([^*\s][^*]*)\*(?!\w)", r"<em>\1</em>", s)
@@ -405,7 +407,22 @@ def parse_fiche(path):
         "cote": meta.get("cote", ""), "criticite": meta.get("criticite", ""),
         "summary": meta.get("summary", ""), "sources": meta.get("sources", []),
         "draft": bool(meta.get("draft", False)), "html": md_to_html(body),
+        "type": meta.get("type", "fiche"), "nav": bool(meta.get("nav", False)),
+        "nav_label": meta.get("nav_label", ""), "order": int(meta.get("order", 50)),
+        "updated": meta.get("updated", ""),
     }
+
+
+def load_md_dir(path, drafts, reverse):
+    out = []
+    if os.path.isdir(path):
+        for fn in sorted(os.listdir(path), reverse=reverse):
+            if fn.endswith(".md") and not fn.startswith("_"):
+                f = parse_fiche(os.path.join(path, fn))
+                if f["draft"] and not drafts:
+                    continue
+                out.append(f)
+    return out
 
 
 # --- Synthèses hebdomadaires ---------------------------------------------------
@@ -528,14 +545,13 @@ def main():
     recent_limit = (NOW - timedelta(days=SITE.get("recent_days", 30))).isoformat()
     recent = [x for x in kept if (x.get("date") or "") >= recent_limit]
 
-    fiches = []
-    if os.path.isdir(FICHES):
-        for fn in sorted(os.listdir(FICHES), reverse=True):
-            if fn.endswith(".md") and not fn.startswith("_"):
-                f = parse_fiche(os.path.join(FICHES, fn))
-                if f["draft"] and not drafts:
-                    continue
-                fiches.append(f)
+    fiches = load_md_dir(FICHES, drafts, reverse=True)
+    fiches.sort(key=lambda f: f["date"], reverse=True)
+    pages = load_md_dir(PAGES, drafts, reverse=False)
+    pages.sort(key=lambda p: (p["order"], p["title"]))
+    for p in pages:
+        for k in ("date", "themes", "cote", "criticite", "sources", "type"):
+            p.pop(k, None)
 
     public_site = {k: SITE.get(k, "") for k in ("name", "tagline", "description", "repo", "site_url", "recent_days")}
     write_js(os.path.join(DATA, "veille.js"), "VIGIE_DATA", {
@@ -549,11 +565,12 @@ def main():
         "stats": {"archive": len(kept), "recent": len(recent)},
     })
     write_js(os.path.join(DATA, "fiches.js"), "VIGIE_FICHES", fiches)
+    write_js(os.path.join(DATA, "pages.js"), "VIGIE_PAGES", pages)
     write_site_feed(fiches, recent)
 
     ok = sum(1 for s in status if s["ok"])
-    print("\n%d entrées récentes, %d en archive, %d fiches, sources : %s" % (
-        len(recent), len(kept), len(fiches), "hors ligne" if offline else "%d/%d OK" % (ok, len(status))))
+    print("\n%d entrées récentes, %d en archive, %d fiches, %d pages, sources : %s" % (
+        len(recent), len(kept), len(fiches), len(pages), "hors ligne" if offline else "%d/%d OK" % (ok, len(status))))
 
 
 if __name__ == "__main__":

@@ -11,6 +11,7 @@ on:
       - "scripts/**"
       - "config/**"
       - "fiches/**"
+      - "pages/**"
       - ".github/workflows/veille.yml"
 
 permissions:

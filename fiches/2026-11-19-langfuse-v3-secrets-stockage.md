@@ -5,14 +5,12 @@ themes: [ia, vuln]
 cote: A
 criticite: À évaluer
 summary: Un correctif « security » sans CVE, publié en v3.227.1, empêche de rediriger l'export des traces LLM vers une destination contrôlée par un tiers en réutilisant les identifiants enregistrés.
-draft: true
+draft: false
 ---
 
-<!-- BROUILLON : seuls les faits publics sont remplis. Rédiger « En bref », « Analyse » et « Recommandations », puis passer draft à false. -->
+<!-- Publiée en version « faits ». Pour compléter : ajouter les sections « En bref », « Analyse » et « Recommandations » (voir fiches/_modele.md) et retirer l'encadré ci-dessous. -->
 
-## En bref
-
-_À rédiger._
+> **Fiche en cours** : seuls les faits vérifiés sont publiés pour l'instant. L'analyse et les recommandations suivront.
 
 ## Faits
 
@@ -24,14 +22,6 @@ _À rédiger._
 - **Versions** : branche principale via la PR #19566 (fusionnée le 03/11/2026) ; branche v3 en **v3.227.1** via la PR #19817 (10/11/2026).
 - **Identifiant** : aucun CVE ni avis GHSA publié au 19/11/2026.
 - **Classe de défaut** : les PR citent un correctif antérieur du même type sur les destinations webhook et PostHog.
-
-## Analyse
-
-_À rédiger._
-
-## Recommandations
-
-_À rédiger._
 
 ## Sources
 

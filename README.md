@@ -59,6 +59,8 @@ Ne pas commiter une construction faite avec `--drafts` : les brouillons seraient
 - **Une source** : une entrée dans `config/sources.json` (`name`, `url`, `kind`, `cote`, `group`, et `require` pour ne garder que les articles pertinents).
 - **Un thème** : une entrée dans `config/themes.json` (`pattern` insensible à la casse, `pattern_cs` pour les acronymes).
 - **Une fiche** : copier `fiches/_modele.md` en `fiches/AAAA-MM-JJ-sujet.md`, rédiger, passer `draft: false`.
+- **Une page** : copier `pages/_modele.md` en `pages/mon-slug.md` ; elle est servie à `#/p/mon-slug`. Avec `nav: true`, elle apparaît dans le menu (classée par `order`). Liens internes : `[texte](#/p/autre-page)`, `[texte](#/flux?theme=ia)`.
+- Dans les fiches et les pages, les commentaires `<!-- … -->` ne sont jamais publiés : pratique pour des notes de rédaction.
 - **Une échéance** : une entrée dans `config/agenda.json`, avec sa source et sa date de vérification.
 
 ## Règle de publication
