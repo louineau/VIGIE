@@ -139,8 +139,7 @@
       <p class="lede">${(D.items || []).length} entrées sur ${esc(String(D.site.recent_days || 30))} jours, issues de ${(D.sources || []).length} sources. Cliquez sur un thème pour filtrer.</p></div>
       <div class="filters">
         <input class="search" id="q" type="search" placeholder="Rechercher (titre, résumé, source, CVE…)" value="${esc(flux.q)}" autocomplete="off" aria-label="Rechercher">
-        <div class="chips" id="chThemes"></div>
-        <div class="chips" id="chOther"></div>
+        <div id="chips"></div>
       </div>
       <div class="result-count" id="count"></div>
       <div id="list"></div>`;
@@ -158,25 +157,37 @@
   }
 
   function renderChips() {
-    const a = document.getElementById("chThemes"), b = document.getElementById("chOther");
-    a.innerHTML = '<span class="chip-label">thème</span>'; b.innerHTML = "";
-    (D.themes || []).forEach(t => a.appendChild(chip(t.icon + " " + t.label, flux.theme.has(t.id), () => {
+    const root = document.getElementById("chips");
+    const open = root.querySelector("details")?.open || !!(flux.kind || flux.cote);
+    root.innerHTML = "";
+    const row = (label, chips, parent) => {
+      const r = document.createElement("div"); r.className = "frow";
+      const l = document.createElement("span"); l.className = "frow-label"; l.textContent = label;
+      const c = document.createElement("div"); c.className = "chips";
+      chips.forEach(x => c.appendChild(x));
+      r.append(l, c); (parent || root).appendChild(r);
+      return c;
+    };
+    row("Thème", (D.themes || []).map(t => chip(t.icon + " " + t.label, flux.theme.has(t.id), () => {
       flux.theme.has(t.id) ? flux.theme.delete(t.id) : flux.theme.add(t.id); refresh();
     }, t.color)));
-    const lab = s => { const l = document.createElement("span"); l.className = "chip-label"; l.textContent = s; return l; };
-    b.appendChild(lab("criticité"));
-    [["crit", "Critique"], ["high", "≥ Élevée"], ["med", "≥ Moyenne"]].forEach(([k, l]) =>
-      b.appendChild(chip(l, flux.sev === k, () => { flux.sev = flux.sev === k ? null : k; refresh(); })));
-    b.appendChild(lab("période"));
-    [[1, "24 h"], [7, "7 j"], [30, "30 j"]].forEach(([k, l]) =>
-      b.appendChild(chip(l, flux.days === k, () => { flux.days = flux.days === k ? null : k; refresh(); })));
-    b.appendChild(lab("type"));
+    row("Criticité", [["crit", "Critique"], ["high", "Élevée et plus"], ["med", "Moyenne et plus"]].map(([k, l]) =>
+      chip(l, flux.sev === k, () => { flux.sev = flux.sev === k ? null : k; refresh(); })));
+    const per = row("Période", [[1, "24 h"], [7, "7 jours"], [30, "30 jours"]].map(([k, l]) =>
+      chip(l, flux.days === k, () => { flux.days = flux.days === k ? null : k; refresh(); })));
+    const sortBtn = chip("Tri : " + (flux.sort === "date" ? "plus récent" : "plus critique"), false, () => { flux.sort = flux.sort === "date" ? "sev" : "date"; refresh(); });
+    sortBtn.classList.add("reset"); per.appendChild(sortBtn);
+    const more = document.createElement("details"); more.className = "frows-more"; more.open = open;
+    const sm = document.createElement("summary"); sm.textContent = "Plus de filtres (type, fiabilité)"; more.appendChild(sm);
     const kinds = [...new Set((D.items || []).map(i => i.kind))];
-    kinds.forEach(k => b.appendChild(chip(KIND[k] || k, flux.kind === k, () => { flux.kind = flux.kind === k ? null : k; refresh(); })));
-    b.appendChild(lab("fiabilité"));
-    ["A", "B", "C"].forEach(k => b.appendChild(chip(k, flux.cote === k, () => { flux.cote = flux.cote === k ? null : k; refresh(); })));
-    b.appendChild(lab("tri"));
-    b.appendChild(chip(flux.sort === "date" ? "Plus récent" : "Plus critique", true, () => { flux.sort = flux.sort === "date" ? "sev" : "date"; refresh(); }));
+    row("Type", kinds.map(k => chip(KIND[k] || k, flux.kind === k, () => { flux.kind = flux.kind === k ? null : k; refresh(); })), more);
+    row("Fiabilité", ["A", "B", "C"].map(k => chip("Cote " + k, flux.cote === k, () => { flux.cote = flux.cote === k ? null : k; refresh(); })), more);
+    root.appendChild(more);
+    if (flux.theme.size || flux.sev || flux.kind || flux.cote || flux.days || flux.q) {
+      const r = document.createElement("button"); r.type = "button"; r.className = "frows-more reset-all"; r.textContent = "Effacer les filtres";
+      r.addEventListener("click", () => { flux.theme.clear(); flux.sev = flux.kind = flux.cote = flux.days = null; flux.q = ""; document.getElementById("q").value = ""; refresh(); });
+      root.appendChild(r);
+    }
   }
 
   function refresh() {
