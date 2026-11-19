@@ -1,0 +1,88 @@
+{
+  "_doc": "Thèmes attribués automatiquement sur le titre et le résumé. 'pattern' : expression régulière insensible à la casse. 'pattern_cs' : sensible à la casse (acronymes : AI, IA, RAG… pour ne pas confondre avec « j'ai »). 'groups' : groupes de sources dont tous les articles reçoivent le thème.",
+  "themes": [
+    {
+      "id": "ia",
+      "label": "Sécurité de l'IA",
+      "icon": "◆",
+      "color": "#a78bfa",
+      "groups": [
+        "Sécurité de l'IA",
+        "Écosystème IA open source"
+      ],
+      "pattern": "(\\bLLMs?\\b|LLMjacking|GenAI|IA générative|generative AI|intelligence artificielle|artificial intelligence|prompt injection|injection de prompt|jailbreak|chatbot|agents? IA|AI agents?|agentic|agentique|model context protocol|deepfake|hypertrucage|machine learning|copilot|ChatGPT|OpenAI|Anthropic|Hugging ?Face|\\bvLLM\\b|\\bOllama\\b|LangChain|Langfuse)",
+      "pattern_cs": "\\b(AI|IA|RAG|MCP|Claude|Gemini|Mistral AI)\\b"
+    },
+    {
+      "id": "sante",
+      "label": "Santé",
+      "icon": "✚",
+      "color": "#34d399",
+      "groups": [
+        "Santé numérique"
+      ],
+      "pattern": "\\b(santé|health|healthcare|hôpital|hôpitaux|hospitals?|cliniques?|clinics?|médical|médicale|medical|patients?|dispositifs? médicaux|medical devices?|psychiatri\\w*|mental health)\\b",
+      "pattern_cs": "\\b(CHU|GHT|HDS)\\b"
+    },
+    {
+      "id": "exploit",
+      "label": "Exploitée activement",
+      "icon": "▲",
+      "color": "#f87171",
+      "pattern": "(activement exploit|actively exploited|exploited in the wild|zero[- ]day|\\b0-day|jour zéro|known exploited)"
+    },
+    {
+      "id": "ransomware",
+      "label": "Rançongiciels",
+      "icon": "■",
+      "color": "#fb923c",
+      "pattern": "\\b(ransomware|rançongiciels?|extorsion|extortion|LockBit|Akira|Qilin|BlackCat|ALPHV|RansomHub)\\b",
+      "pattern_cs": "\\b(Clop|Cl0p)\\b"
+    },
+    {
+      "id": "fuite",
+      "label": "Fuites de données",
+      "icon": "◒",
+      "color": "#f472b6",
+      "pattern": "(data breach|data leak|fuite de données|violation de données|exfiltrat|stolen data|données volées|leaked)"
+    },
+    {
+      "id": "vuln",
+      "label": "Vulnérabilités",
+      "icon": "●",
+      "color": "#fbbf24",
+      "pattern": "(CVE-\\d{4}-\\d+|GHSA-|vulnérabilit|vulnerabilit|\\bfailles?\\b|\\bflaws?\\b|\\bpatch|correctif|remote code execution|exécution de code)",
+      "pattern_cs": "\\bRCE\\b"
+    },
+    {
+      "id": "regl",
+      "label": "Réglementation",
+      "icon": "§",
+      "color": "#60a5fa",
+      "pattern": "(\\bNIS ?2\\b|AI Act|RGPD|GDPR|\\bCNIL\\b|\\bANSSI\\b|loi résilience|\\bDORA\\b|Cyber Resilience Act|directive européenne|conformité|compliance|\\bENISA\\b|réglementation|regulation)",
+      "pattern_cs": "\\b(CRA|HDS)\\b"
+    },
+    {
+      "id": "identite",
+      "label": "Identité & accès",
+      "icon": "◐",
+      "color": "#22d3ee",
+      "pattern": "(phishing|hameçonnage|credentials?|identifiants|Active Directory|Entra ID|Azure AD|OAuth|Kerberos|\\bNTLM\\b|passkeys?|session hijack|\\bAiTM\\b)",
+      "pattern_cs": "\\b(MFA|2FA|SSO)\\b"
+    },
+    {
+      "id": "supply",
+      "label": "Chaîne d'approvisionnement",
+      "icon": "⬡",
+      "color": "#e879f9",
+      "pattern": "(supply[- ]chain|chaîne d'approvisionnement|\\bnpm\\b|\\bPyPI\\b|typosquat|malicious packages?|paquets? malveillants?|GitHub Actions|CI/CD)"
+    },
+    {
+      "id": "etat",
+      "label": "Menaces étatiques",
+      "icon": "✦",
+      "color": "#94a3b8",
+      "pattern": "(\\bAPT ?\\d+|espionnage|espionage|cyber-espionage|state-sponsored|nation-state|étatique|Lazarus|Volt Typhoon|Salt Typhoon|Sandworm|CGRI|IRGC)"
+    }
+  ]
+}

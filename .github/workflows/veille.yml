@@ -1,0 +1,48 @@
+name: Veille — collecte des flux
+
+# Récupère les flux, met à jour l'archive et régénère les données du site.
+on:
+  schedule:
+    - cron: "23 */6 * * *"     # toutes les 6 heures
+  workflow_dispatch: {}         # lancement manuel (onglet Actions)
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "config/**"
+      - "fiches/**"
+      - ".github/workflows/veille.yml"
+
+permissions:
+  contents: write               # commit des données générées
+
+concurrency:
+  group: veille
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collecter les flux et construire les données
+        run: python scripts/build.py
+
+      - name: Commit si changement
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ feed.xml
+          if git diff --staged --quiet; then
+            echo "Aucun changement."
+          else
+            git commit -m "chore(veille): collecte $(date -u +%FT%TZ)"
+            git pull --rebase --autostash
+            git push
+          fi

@@ -1,0 +1,43 @@
+{
+  "_doc": "Sources de veille. cote : A officiel/primaire, B chercheur/éditeur reconnu, C média spécialisé, D à recouper. kind : alerte | avis | actu | cti | recherche | version | media. require : expression régulière ; si présente, seules les entrées qui la contiennent (titre, résumé ou contenu) sont gardées.",
+  "feeds": [
+    {"name": "CERT-FR · Alertes", "url": "https://www.cert.ssi.gouv.fr/alerte/feed/", "kind": "alerte", "cote": "A", "group": "Institutionnel"},
+    {"name": "CERT-FR · Avis", "url": "https://www.cert.ssi.gouv.fr/avis/feed/", "kind": "avis", "cote": "A", "group": "Institutionnel"},
+    {"name": "CERT-FR · Actualités", "url": "https://www.cert.ssi.gouv.fr/actualite/feed/", "kind": "actu", "cote": "A", "group": "Institutionnel"},
+    {"name": "CERT-FR · Menaces (CTI)", "url": "https://www.cert.ssi.gouv.fr/cti/feed/", "kind": "cti", "cote": "A", "group": "Institutionnel"},
+    {"name": "CERT Santé · Alertes", "url": "https://cyberveille.esante.gouv.fr/alertes-et-vulnerabilites/rss.xml", "kind": "alerte", "cote": "A", "group": "Institutionnel"},
+    {"name": "CISA · Advisories", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml", "kind": "avis", "cote": "A", "group": "Institutionnel"},
+
+    {"name": "OWASP GenAI Security", "url": "https://genai.owasp.org/feed/", "kind": "recherche", "cote": "A", "group": "Sécurité de l'IA"},
+    {"name": "MITRE ATLAS · Versions", "url": "https://github.com/mitre-atlas/atlas-data/releases.atom", "kind": "version", "cote": "A", "group": "Sécurité de l'IA"},
+    {"name": "AI Incident Database", "url": "https://incidentdatabase.ai/rss.xml", "kind": "actu", "cote": "B", "group": "Sécurité de l'IA"},
+    {"name": "Simon Willison · Prompt injection", "url": "https://simonwillison.net/tags/prompt-injection.atom", "kind": "recherche", "cote": "B", "group": "Sécurité de l'IA"},
+    {"name": "Embrace The Red", "url": "https://embracethered.com/blog/index.xml", "kind": "recherche", "cote": "B", "group": "Sécurité de l'IA"},
+    {"name": "arXiv · cs.CR (IA)", "url": "https://rss.arxiv.org/rss/cs.CR", "kind": "recherche", "cote": "B", "group": "Sécurité de l'IA",
+     "require": "\\b(LLMs?|large language models?|prompt injection|jailbreak|AI agents?|agentic|RAG|retrieval-augmented)\\b", "max": 10},
+
+    {"name": "vLLM · Versions sécurité", "url": "https://github.com/vllm-project/vllm/releases.atom", "kind": "version", "cote": "A", "group": "Écosystème IA open source", "require": "\\b(security|CVE-|GHSA-|vulnerab)", "max": 5},
+    {"name": "Ollama · Versions sécurité", "url": "https://github.com/ollama/ollama/releases.atom", "kind": "version", "cote": "A", "group": "Écosystème IA open source", "require": "\\b(security|CVE-|GHSA-|vulnerab)", "max": 5},
+    {"name": "Qdrant · Versions sécurité", "url": "https://github.com/qdrant/qdrant/releases.atom", "kind": "version", "cote": "A", "group": "Écosystème IA open source", "require": "\\b(security|CVE-|GHSA-|vulnerab)", "max": 5},
+    {"name": "Langfuse · Versions sécurité", "url": "https://github.com/langfuse/langfuse/releases.atom", "kind": "version", "cote": "A", "group": "Écosystème IA open source", "require": "\\b(security|CVE-|GHSA-|vulnerab)", "max": 5},
+    {"name": "Presidio · Versions sécurité", "url": "https://github.com/microsoft/presidio/releases.atom", "kind": "version", "cote": "A", "group": "Écosystème IA open source", "require": "\\b(security|CVE-|GHSA-|vulnerab)", "max": 5},
+
+    {"name": "Microsoft Security Blog", "url": "https://www.microsoft.com/en-us/security/blog/feed/", "kind": "cti", "cote": "B", "group": "Éditeurs"},
+    {"name": "Google Threat Intelligence", "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v", "kind": "cti", "cote": "B", "group": "Éditeurs"},
+
+    {"name": "LeMagIT", "url": "https://www.lemagit.fr/rss/ContentSyndication.xml", "kind": "media", "cote": "C", "group": "Médias",
+     "require": "(sécurité|cyber|attaque|vulnérab|rançongiciel|ransomware|faille|fuite|IA |intelligence artificielle|LLM|agent)"},
+    {"name": "ZDNet.fr", "url": "https://www.zdnet.fr/feeds/rss/actualites/", "kind": "media", "cote": "C", "group": "Médias",
+     "require": "(sécurité|cyber|attaque|vulnérab|rançongiciel|ransomware|faille|fuite|piratage|hacker)"},
+    {"name": "Le Monde Informatique · Sécurité", "url": "https://www.lemondeinformatique.fr/flux-rss/thematique/securite/rss.xml", "kind": "media", "cote": "C", "group": "Médias"},
+    {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/", "kind": "media", "cote": "C", "group": "Médias"},
+    {"name": "The Record", "url": "https://therecord.media/feed", "kind": "media", "cote": "C", "group": "Médias"},
+    {"name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "kind": "media", "cote": "C", "group": "Médias"},
+    {"name": "NoLimitSecu", "url": "https://www.nolimitsecu.fr/feed/", "kind": "media", "cote": "C", "group": "Médias"},
+
+    {"name": "DSIH", "url": "https://www.dsih.fr/rss", "kind": "media", "cote": "C", "group": "Santé numérique"},
+    {"name": "TICsanté", "url": "https://www.ticsante.com/FluxRSS", "kind": "media", "cote": "C", "group": "Santé numérique"}
+  ],
+  "kev": {"name": "CISA · KEV (vulnérabilités exploitées)", "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json", "kind": "kev", "cote": "A", "group": "Institutionnel", "days": 30},
+  "nvd": {"name": "NVD · CVE critiques", "kind": "cve", "cote": "A", "group": "Institutionnel", "days": 7, "per_severity": 15, "severities": ["CRITICAL"]}
+}

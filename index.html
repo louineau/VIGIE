@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VIGIE — Veille cybersécurité</title>
+  <meta name="description" content="Veille cybersécurité : sécurité de l'IA, santé, vulnérabilités exploitées, réglementation. Flux publics agrégés automatiquement et fiches d'analyse." />
+  <link rel="alternate" type="application/rss+xml" title="VIGIE — fiches et alertes critiques" href="feed.xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script>try{var t=localStorage.getItem("vigie-theme");if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18"><circle cx="12" cy="12" r="3.2" fill="currentColor"/><circle cx="12" cy="12" r="7.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+      <span class="brand-name" id="brandName">VIGIE</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Navigation principale">
+      <a href="#/" data-route="">Tableau de bord</a>
+      <a href="#/flux" data-route="flux">Flux</a>
+      <a href="#/fiches" data-route="fiches">Fiches</a>
+      <a href="#/hebdo" data-route="hebdo">Hebdo</a>
+      <a href="#/agenda" data-route="agenda">Agenda</a>
+      <a href="#/methode" data-route="methode">Méthode</a>
+    </nav>
+    <div class="top-actions">
+      <span class="updated" id="updated"></span>
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Changer de thème" title="Clair / sombre">
+        <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z" fill="currentColor"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="foot">
+    <p><strong id="footName">VIGIE</strong> — <span id="footTag"></span></p>
+    <p class="foot-dim">Flux publics agrégés automatiquement toutes les 6 heures ; fiches rédigées à la main. Les contenus restent la propriété de leurs auteurs : chaque entrée renvoie à sa source.
+      <a href="feed.xml">Flux RSS du site</a><span id="repoWrap"></span></p>
+  </footer>
+
+  <script src="data/veille.js"></script>
+  <script src="data/fiches.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

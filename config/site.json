@@ -1,0 +1,11 @@
+{
+  "name": "VIGIE",
+  "tagline": "Veille cybersécurité — IA, santé, vulnérabilités, réglementation",
+  "description": "Site de veille SSI alimenté automatiquement par des flux publics, enrichi de fiches d'analyse rédigées à la main.",
+  "repo": "https://github.com/louineau/VIGIE",
+  "site_url": "https://louineau.github.io/VIGIE",
+  "language": "fr",
+  "retention_days": 120,
+  "recent_days": 30,
+  "per_source": 25
+}
