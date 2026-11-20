@@ -1,5 +1,318 @@
 [
 {
+"id": "f5add3ab0294ab97",
+"title": "CVE-2026-133493",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133493",
+"summary": "A vulnerability was identified in D-Link DIR-600L 2.17b02. Affected is the function genacgi_main of the file gena.cgi of the component GENA Handler. Such manipulation leads to os command injection. The attack can be launched remotely. The exploit is publicly available and might b…",
+"date": "2026-11-20T07:17:10.853000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 10.0,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "dc6901c8a6d8ff52",
+"title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+"link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+"summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8)…",
+"date": "2026-11-20T06:33:31+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": 9.8,
+"sev": "crit",
+"themes": [
+"exploit",
+"vuln",
+"etat"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "fa700a4eb8ceffe8",
+"title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+"link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+"summary": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterda…",
+"date": "2026-11-20T05:30:01+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"exploit"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "231bbb6daa44d8c6",
+"title": "Attacks and Defenses in Decentralized Multi-Agent Systems with Hop-by-Hop Task Decomposition and Delegation",
+"link": "https://arxiv.org/abs/2611.25056",
+"summary": "arXiv:2611.25056v1 Announce Type: new Abstract: Decentralized multi-agent LLM systems enable independently administered agents, each with its own operator, model, memory, and configuration, to collaborate on complex tasks without centralized coordination. Agents autonomously deco…",
+"date": "2026-11-20T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "7e8a318ac6feb848",
+"title": "PriTabICL: Differentially Private Tabular In-Context Learning with Task-Aligned Cluster-Wise Synthesis",
+"link": "https://arxiv.org/abs/2611.25073",
+"summary": "arXiv:2611.25073v1 Announce Type: new Abstract: Tabular in-context learning (TabICL) enables large language models (LLMs) to predict target records using a handful of labeled demonstrations in their prompts. However, these demonstrations often contain sensitive personal informati…",
+"date": "2026-11-20T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "cca794af25e336f0",
+"title": "Verified Netlist-to-RTL Recovery with LLM Agents",
+"link": "https://arxiv.org/abs/2611.25324",
+"summary": "arXiv:2611.25324v1 Announce Type: new Abstract: Gate-level netlists circulate among IP integrators and foundries and can be extracted from chips. Reverse engineering them into readable register-transfer-level (RTL) code would help an adversary understand and modify a design, but…",
+"date": "2026-11-20T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "b109a6d9796a3a28",
+"title": "From FIPS to FPGA with LLM Agents: Measuring What Tests and Reviews Miss in Post-Quantum Cryptographic Hardware",
+"link": "https://arxiv.org/abs/2611.25339",
+"summary": "arXiv:2611.25339v1 Announce Type: new Abstract: As LLM agents increasingly generate RTL alongside the tests and reviews that validate it, self-generated evidence is a weak foundation for trustworthy hardware. We present our seven-stage verification-gated workflow, evolved during…",
+"date": "2026-11-20T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "f1c3ab95da2d82ae",
+"title": "ChainAgent: Automated Chainable Vulnerability Discovery in PHP Web Applications",
+"link": "https://arxiv.org/abs/2611.25412",
+"summary": "arXiv:2611.25412v1 Announce Type: new Abstract: High-impact attacks on PHP web applications often chain limited-capability vulnerabilities with other flaws or intended behaviors. Discovering these chains requires identifying flaws and the dependencies enabling capability composit…",
+"date": "2026-11-20T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "d309f6169a82740f",
+"title": "ToolPulse: Side-Channel Eavesdropping on Tool-Using LLM Agents",
+"link": "https://arxiv.org/abs/2611.25470",
+"summary": "arXiv:2611.25470v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly deployed as agents that translate user requests into sequences of local tool invocations. While prior cache-based side-channel attacks target the locally deployed models, they typically…",
+"date": "2026-11-20T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "b1d1a0de2b43bc4d",
+"title": "LingSante MedGuard Technical Report",
+"link": "https://arxiv.org/abs/2611.25509",
+"summary": "arXiv:2611.25509v1 Announce Type: new Abstract: As medical AI is increasingly used for patient consultation and clinical decision support, identifying harmful, non-compliant, or ethically problematic responses is essential for responsible deployment. Assessing these risks require…",
+"date": "2026-11-20T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"sante"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "fe231af6f51dd38c",
+"title": "Tether: Verified Stateful Policy Engine for System-Level Monitoring of Agents",
+"link": "https://arxiv.org/abs/2611.25599",
+"summary": "arXiv:2611.25599v1 Announce Type: new Abstract: Autonomous AI agents are increasingly deployed for long-running tasks that execute arbitrary shell commands or programs. However, these actions can result in unauthorized network requests or persistent, malicious changes to the user…",
+"date": "2026-11-20T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "1c1c0d05263f3864",
+"title": "Hardening JavaScript Programs against LLM-Based Vulnerability Detection",
+"link": "https://arxiv.org/abs/2611.25718",
+"summary": "arXiv:2611.25718v1 Announce Type: new Abstract: JavaScript programs are often distributed as source code, so attackers can analyze them for vulnerabilities. LLM-based vulnerability detection agents now make this analysis much easier. To mitigate this emerging threat, we present A…",
+"date": "2026-11-20T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "42fb814b60b244fc",
+"title": "On the Reliability of CyberGym Evaluation: Task Material Consistency and Reference-Target Identity",
+"link": "https://arxiv.org/abs/2611.25790",
+"summary": "arXiv:2611.25790v1 Announce Type: new Abstract: CyberGym evaluates vulnerability reproduction by checking whether a proof-of-concept input (PoC) crashes a vulnerable program version but not a fixed version. Interpreting this differential pass as successful reproduction requires c…",
+"date": "2026-11-20T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "8127d47eb7697c50",
+"title": "LLM : avec Olala, OVH se prépare à se jeter dans le grand bain",
+"link": "https://www.lemagit.fr/actualites/366655032/LLM-avec-Olala-OVH-se-prepare-a-se-jeter-dans-le-grand-bain",
+"summary": "Olala-v1.0-mini est à la fois le premier LLM d’OVH et le dernier de DragonLLM, devenu OVHai LLM. Si le petit modèle a déjà prouvé son utilité chez Qwant, deux chantiers d’envergure attendent le laboratoire d’IA adossé au fournisseur cloud français. Il entend bien proposer une alt…",
+"date": "2026-11-20T02:23:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "c5e24a06d3952b8f",
+"title": "VMware patches vCenter zero-day exploited in attacks since September",
+"link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+"summary": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
+"date": "2026-11-20T00:26:25+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"exploit",
+"vuln"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "df29d71aedcbd867",
+"title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+"link": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+"summary": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people. [...]",
+"date": "2026-11-19T22:25:42+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "8dfce1d63ad40fde",
+"title": "Lawmakers launch new AI safety caucus amid rising security concerns",
+"link": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
+"summary": "Seven of 26 founding members of the caucus are Republicans, a notable number given the White House’s steadfast opposition to regulating AI.",
+"date": "2026-11-19T21:19:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "3797ecb529a51da9",
+"title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+"link": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+"summary": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
+"date": "2026-11-19T21:15:59+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
 "id": "09576f66a8d0c790",
 "title": "CVE-2026-76536",
 "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76536",
@@ -252,7 +565,7 @@
 },
 {
 "id": "7008c485fa38b4e8",
-"title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+"title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
 "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
 "summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all supported branches, and the company lists no w…",
 "date": "2026-11-19T15:11:06+00:00",
@@ -260,9 +573,10 @@
 "kind": "media",
 "cote": "C",
 "group": "Médias",
-"cvss": 9.8,
+"cvss": null,
 "sev": "crit",
 "themes": [
+"exploit",
 "vuln"
 ],
 "first_seen": "2026-11-19T20:50:13+00:00"
