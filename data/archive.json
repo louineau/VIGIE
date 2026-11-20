@@ -1,5 +1,588 @@
 [
 {
+"id": "133178f17f8f0c91",
+"title": "CVE-2026-133680",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133680",
+"summary": "A vulnerability was found in D-Link DCS-935L 1.10.01. This affects the function loginRouter of the file web/cgi-bin/localrecording/setconf.cgi of the component Local Recording CGI. Performing a manipulation of the argument account/password results in os command injection. Remote…",
+"date": "2026-11-20T20:17:35.750000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.9,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "edfeced150c6a6c3",
+"title": "Container Store restores systems after cyberattack",
+"link": "https://therecord.media/container-store-restores-systems-cyberattack",
+"summary": "The firm’s parent company, Neighborhood Intelligence, said in a statement that The Container Store has “restored its website and systems following a cybersecurity incident this past weekend.”",
+"date": "2026-11-20T19:32:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "6c623452a14a6d23",
+"title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
+"link": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+"summary": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]",
+"date": "2026-11-20T18:51:43+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "6cc616c5c6e76f97",
+"title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+"link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+"summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of ex…",
+"date": "2026-11-20T17:57:20+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "0abe4221510a96d0",
+"title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+"link": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+"summary": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
+"date": "2026-11-20T17:30:00+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"ia",
+"sante",
+"exploit",
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "cd038ca0a29b9504",
+"title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
+"link": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+"summary": "A China-linked threat actor used the open source AI penetration testing tool Cairn to persistently attack two universities, and in one case, possibly discover a zero-day bug, researchers said.",
+"date": "2026-11-20T17:30:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"ia",
+"exploit"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "705577b57ecf22bf",
+"title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM",
+"link": "https://www.microsoft.com/en-us/security/blog/2026/11/20/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
+"summary": "We're honored that Microsoft has once again been recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Security Information and Event Management (SIEM). The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM appeared first on Microsoft Security…",
+"date": "2026-11-20T17:00:00+00:00",
+"source": "Microsoft Security Blog",
+"kind": "cti",
+"cote": "B",
+"group": "Éditeurs",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "9dbbebdeb6a3a85d",
+"title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+"link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+"summary": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat…",
+"date": "2026-11-20T16:58:16+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"identite"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "f67114676f5678ce",
+"title": "NSA resumes normal operations following internal network disruptions",
+"link": "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions",
+"summary": "Certain facilities remain under “Code Orange” for non-essential employees, meaning delayed openings and some must check in with their supervisors.",
+"date": "2026-11-20T16:06:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "17ae46d8b0f3bb1d",
+"title": "Les députés adoptent enfin le projet de loi \"résilience\" en première lecture",
+"link": "https://www.ticsante.com/Story?Id=8533",
+"summary": "Les députés ont voté, le 17 novembre, en première lecture, le projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité, qui transpose la directive NIS (Network and Information Security) 2.",
+"date": "2026-11-20T16:00:00+00:00",
+"source": "TICsanté",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "bbc19bb6f991b9cb",
+"title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+"link": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+"summary": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
+"date": "2026-11-20T15:58:06+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"fuite"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "19cca4f1450a3e90",
+"title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
+"link": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
+"summary": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility, identify security risks,…",
+"date": "2026-11-20T15:00:10+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"identite"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "57375f482cd69943",
+"title": "Cyber Director Cairncross out as White House resets cyber leadership",
+"link": "https://therecord.media/sean-cairncross-out-as-national-cyber-director",
+"summary": "Sean Cairncross is leaving the White House as Kirsten Davies, the Pentagon’s chief information officer, has been named the acting cyber czar.",
+"date": "2026-11-20T14:30:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "c21f2f095f9f04c9",
+"title": "Dozens of credit unions hit by supplier breach that went unnoticed for six weeks",
+"link": "https://therecord.media/dozens-of-credit-unions-hit-by-supplier-breach",
+"summary": "Ireland’s Data Protection Commission told Recorded Future News on Thursday it had received more than 40 breach notifications from credit unions that used the Belfast-based company as a data processor.",
+"date": "2026-11-20T14:24:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "716cd9da152aa072",
+"title": "Qare victime d'un vol de données",
+"link": "https://www.ticsante.com/Story?Id=8532",
+"summary": "L'entreprise française Qare a été victime d'un vol de données le 31 octobre, sans accès à des données de santé, a-t-elle confirmé à TICsanté le 13 novembre.",
+"date": "2026-11-20T14:00:00+00:00",
+"source": "TICsanté",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "705420c621d0b3af",
+"title": "DBaaS : Microsoft repeint HorizonDB aux couleurs de l’IA agentique",
+"link": "https://www.lemagit.fr/actualites/366655115/DBaaS-Microsoft-repeint-HorizonDB-aux-couleurs-de-lIA-agentique",
+"summary": "Microsoft profite de la disponibilité d’HorizonDB pour adapter sa distribution managée de PostgreSQL à l’IA agentique, et plus particulièrement aux usages analytiques. Selon les analystes, la DBaaS pensée pour accueillir les systèmes des clients mécontents d’Oracle, manque encore…",
+"date": "2026-11-20T13:57:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "d9a325150570d699",
+"title": "N-able says recent security breach led to major service outage",
+"link": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+"summary": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
+"date": "2026-11-20T13:18:36+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "f80afcc478575741",
+"title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+"link": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+"summary": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers' virtual machines. The flaw, tracked as…",
+"date": "2026-11-20T12:20:00+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "fc7b1a32d55e6eab",
+"title": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
+"link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/",
+"summary": "Starting this week, Microsoft has begun automatically upgrading eligible devices that aren't managed by an IT department to Windows 11 26H2. [...]",
+"date": "2026-11-20T12:14:28+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "4c7dec2cc4303190",
+"title": "Ransomware : le FBI piège un arnaqueur qui prétendait pouvoir déchiffrer",
+"link": "https://www.lemagit.fr/actualites/366655114/Ransomware-le-FBI-piege-un-arnaqueur-qui-pretendait-pouvoir-dechiffrer",
+"summary": "Le piège s’est refermé avec l’intervention de deux agents, l’un se faisant passer pour une victime de rançongiciel et l’autre… pour le cybercriminel ayant conduit la prétendue attaque.",
+"date": "2026-11-20T12:13:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ransomware"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "c9b95aebd9d613d0",
+"title": "Tablettes Android 2026 : notre sélection par profil, étudiant, cadre nomade, créatif, famille",
+"link": "https://www.zdnet.fr/publicite/tablettes-android-2026-notre-selection-par-profil-etudiant-cadre-nomade-creatif-famille-508289.htm#xtor=RSS-1",
+"summary": "La meilleure tablette Android en 2026 dépend avant tout de votre profil. Pour un étudiant ou une famille, la Galaxy Tab S12+ avec son écran de 12,6 pouces, son poids de 553 grammes en version Wi-Fi et son autonomie jusqu’à 21 heures offre le meilleur équilibre. En revanche, pour…",
+"date": "2026-11-20T12:11:00+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "0c1fbfe6ce8e649a",
+"title": "Puces IA : AMD consolide son offre avec les puces de Taalas",
+"link": "https://www.lemagit.fr/actualites/366655133/Puces-IA-AMD-consolide-son-offre-avec-les-puces-de-Taalas",
+"summary": "Le numéro 2 des GPU rachète la startup canadienne qui a mis au point une puce d’accélération HC1 pour l’inférence. Si ce rapprochement rappelle celui de Nvidia avec Groq, on ignore encore comment AMD entend conjuguer cette technologie avec le reste de son catalogue.",
+"date": "2026-11-20T12:01:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "925f615d574112f7",
+"title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+"link": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+"summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-42884 SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability CVE-2026-76466 Cisco Expressway Seri…",
+"date": "2026-11-20T12:00:00+00:00",
+"source": "CISA · Advisories",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"exploit",
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "d9e0b261f40899fb",
+"title": "The Path to AI Autonomy in the SOC",
+"link": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
+"summary": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12 months from now, 60% exp…",
+"date": "2026-11-20T12:00:00+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "0a07857a6fcc347d",
+"title": "Sanofi nettoie son SIRH pour y lâcher ses agents IA",
+"link": "https://www.lemagit.fr/etude/Sanofi-nettoie-son-SIRH-avant-dy-lacher-ses-agents-IA",
+"summary": "Du recrutement au coaching, le groupe pharmaceutique déploie des agents IA dans les RH. Des projets qui mettent au jour plusieurs bonnes pratiques, comme la coordination avec l’IT.",
+"date": "2026-11-20T11:17:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "b9350a002a3a2b8a",
+"title": "Acheter une tablette : boîte, accessoires, sécurité, ce qu’il faut vérifier",
+"link": "https://www.zdnet.fr/publicite/acheter-une-tablette-boite-accessoires-securite-ce-quil-faut-verifier-508286.htm#xtor=RSS-1",
+"summary": "Avant d'acheter une tablette, cinq points à vérifier : ce que contient la boîte, les accessoires à acheter à part, la durée des mises à jour de sécurité, la résistance et si le format correspond à vos besoins. Pour les Galaxy Tab S12 Ultra et Galaxy Tab S12+ de Samsung, on retrou…",
+"date": "2026-11-20T11:11:00+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "6a744f24eada9345",
+"title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+"link": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
+"summary": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
+"date": "2026-11-20T10:57:43+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "5bdbc8d046aabd5c",
+"title": "OVHai Workspace : la suite collaborative nourrit la feuille de route IA d’OVHcloud",
+"link": "https://www.lemagit.fr/actualites/366655152/OVHai-Workspace-la-suite-collaborative-nourrit-la-feuille-de-route-IA-dOVHcloud",
+"summary": "La suite collaborative infusée à l’IA du fournisseur français débarque en accès anticipé. Elle doit encore faire ses preuves. En attendant, les fonctionnalités d’IA agentique conçues pour l’occasion sont converties en services managés pour une disponibilité prévue en 2027.",
+"date": "2026-11-20T10:54:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "b6dced9e8be0bdef",
+"title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+"link": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+"summary": "SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. \"Attackers now use automation and AI to find and exploit unsuppor…",
+"date": "2026-11-20T10:38:22+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "c9ddefa65f5030a8",
+"title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+"link": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+"summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score:…",
+"date": "2026-11-20T10:32:50+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "dcacc970204b645d",
+"title": "L'IA au secours d'elfes, de nains et d'hobbits à l'assaut des failles dans le code",
+"link": "https://www.zdnet.fr/actualites/lia-au-secours-delfes-de-nains-et-dhobbits-a-lassaut-des-failles-dans-le-code-508243.htm#xtor=RSS-1",
+"summary": "Face à des vulnérabilités enfouies depuis des décennies que l'intelligence artificielle sait désormais exploiter en quelques secondes, la traque aux failles change d'échelle. Entre fuzzing, exécution symbolique, vérification formelle et LLM, plongée au cœur de la nouvelle bataill…",
+"date": "2026-11-20T10:11:50+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "dc6901c8a6d8ff52",
+"title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+"link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+"summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8)…",
+"date": "2026-11-20T09:38:15+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": 9.8,
+"sev": "crit",
+"themes": [
+"exploit",
+"vuln",
+"etat"
+],
+"first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "09d3f14eaae718fb",
+"title": "Windows 11 KB5132057 update released with 28 changes and fixes",
+"link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
+"summary": "Microsoft released the KB5132057 November Windows 11 preview update, which comes with 28 changes, including improvements to Windows Search, Windows Hello, and the Run dialog. [...]",
+"date": "2026-11-20T09:25:35+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "3e411161e99085b1",
+"title": "CVE-2026-133500",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133500",
+"summary": "A vulnerability was identified in Gladys Assistant up to 4.71.0. This affects an unknown function of the file gateway.downloadBackup.js of the component Backup Restore Endpoint. The manipulation of the argument file_url leads to os command injection. The attack can be initiated r…",
+"date": "2026-11-20T09:20:07.047000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.1,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "2924444e68126fb8",
+"title": "Cyberhebdo du 20 novembre 2026 : deux énergéticiens norvégiens attaqués",
+"link": "https://www.lemagit.fr/actualites/366655112/Cyberhebdo-du-20-novembre-2026",
+"summary": "Chaque semaine, dans le Cyberhebdo, nous vous présentons une liste aussi exhaustive que possible des cyberattaques évoquées par la presse dans le monde entier.",
+"date": "2026-11-20T08:59:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
 "id": "f5add3ab0294ab97",
 "title": "CVE-2026-133493",
 "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133493",
@@ -17,23 +600,19 @@
 "first_seen": "2026-11-20T07:31:47+00:00"
 },
 {
-"id": "dc6901c8a6d8ff52",
-"title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-"link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-"summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8)…",
-"date": "2026-11-20T06:33:31+00:00",
+"id": "ba74506a96acc2d3",
+"title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+"link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+"summary": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion…",
+"date": "2026-11-20T07:11:39+00:00",
 "source": "The Hacker News",
 "kind": "media",
 "cote": "C",
 "group": "Médias",
-"cvss": 9.8,
-"sev": "crit",
-"themes": [
-"exploit",
-"vuln",
-"etat"
-],
-"first_seen": "2026-11-20T07:31:47+00:00"
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-20T20:34:05+00:00"
 },
 {
 "id": "fa700a4eb8ceffe8",
@@ -227,6 +806,141 @@
 "first_seen": "2026-11-20T07:31:47+00:00"
 },
 {
+"id": "0e0146577be2aaf3",
+"title": "Le directeur national de la cybersécurité des Etats-Unis viré suite à une cascade de pannes numériques",
+"link": "https://www.zdnet.fr/actualites/le-directeur-national-de-la-cybersecurite-des-etats-unis-vire-suite-a-une-cascade-de-pannes-numeriques-508330.htm#xtor=RSS-1",
+"summary": "La Maison-Blanche démet Sean Cairncross de ses fonctions de directeur national de la cybersécurité. Kirsten Davies, DSI du département de la Défense, assure l'intérim alors que les États-Unis subissent une série de pannes informatiques paralysant le transport aérien, le secteur b…",
+"date": "2026-11-20T04:11:34+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "e4c4b484b9a94a95",
+"title": "Mitel - CVE-2026-133323",
+"link": "https://cyberveille.esante.gouv.fr/alertes/mitel-cve-2026-133323-2026-11-20",
+"summary": "Il s’agit d’une vulnérabilité d’injection de commandes dans le composant AWV (Audio, Web and Video Conferencing) de Mitel MiCollab . Mitel MiCollab est une plateforme de...",
+"date": "2026-11-20T03:31:45+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "e731e80b056fbf62",
+"title": "Ruby2Shell - CVE-2026-132825",
+"link": "https://cyberveille.esante.gouv.fr/alertes/ruby2shell-cve-2026-132825-2026-11-20",
+"summary": "Il s’agit d’une vulnérabilité dans la conversion de casse des chaînes (fonction case_map() ) de l’interpréteur Ruby pour les encodages mono-octet comme ISO-8859-x et Windows-125x . Ru...",
+"date": "2026-11-20T03:30:40+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "1528ac951a4a8b13",
+"title": "phpAftershell - CVE-2026-126714",
+"link": "https://cyberveille.esante.gouv.fr/alertes/phpaftershell-cve-2026-126714-2026-11-20",
+"summary": "Il s’agit d’une vulnérabilité dans le gestionnaire de sessions par fichiers (files) de l’extension ext-session de PHP , utilisé par défaut. PHP est un langage de script généraliste...",
+"date": "2026-11-20T03:28:54+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "a773082f54cd75ef",
+"title": "VMware vCenter - CVE-2026-123890",
+"link": "https://cyberveille.esante.gouv.fr/alertes/vmware-vcenter-cve-2026-123890-2026-11-20",
+"summary": "Il s’agit d’une vulnérabilité d’authentification dans le service d’annuaire VMware Directory Service (vmdird) de VMware vCenter Server . VMware vCenter Server est une plateforme de...",
+"date": "2026-11-20T03:25:00+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "ef6bed8f3d1dcd44",
+"title": "Spring - CVE-2026-59414",
+"link": "https://cyberveille.esante.gouv.fr/alertes/spring-cve-2026-59414-2026-11-20",
+"summary": "Il s’agit d’une vulnérabilité de contournement d’autorisation dans les request matchers EndpointRequest et PathRequest de Spring Boot , utilisés pour écrire les règles de Spring ...",
+"date": "2026-11-20T03:23:55+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "52859ca868b42ac5",
+"title": "Face aux cyberattaques, Sébastien Lecornu réoriente 200 millions",
+"link": "https://www.zdnet.fr/actualites/face-aux-cyberattaques-sebastien-lecornu-reoriente-200-millions-508317.htm#xtor=RSS-1",
+"summary": "Face à une vague de sabotages informatiques propulsée par l'IA, la France muscle sa défense. Le Premier ministre Sébastien Lecornu annonce 200 millions d'euros pour contrer ces menaces inédites, tandis que la directive NIS2 doit sécuriser 20 000 organisations.",
+"date": "2026-11-20T03:11:34+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"regl"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "d4e4496748fcb4bb",
+"title": "Artex frappe l'UE : l'exploitation d'une IA autonome paralyse le SIRH de la Commission européenne",
+"link": "https://www.zdnet.fr/actualites/artex-frappe-lue-lexploitation-dune-ia-autonome-paralyse-le-sirh-de-la-commission-europeenne-508320.htm#xtor=RSS-1",
+"summary": "La Commission européenne confirme une cyberattaque pilotée par une intelligence artificielle. Détectée le 22 octobre 2026, l'offensive a neutralisé plusieurs systèmes d'information des ressources humaines de l'institution.",
+"date": "2026-11-20T03:11:15+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
 "id": "8127d47eb7697c50",
 "title": "LLM : avec Olala, OVH se prépare à se jeter dans le grand bain",
 "link": "https://www.lemagit.fr/actualites/366655032/LLM-avec-Olala-OVH-se-prepare-a-se-jeter-dans-le-grand-bain",
@@ -260,6 +974,401 @@
 "vuln"
 ],
 "first_seen": "2026-11-20T07:31:47+00:00"
+},
+{
+"id": "ce0f204eed681717",
+"title": "Multiples vulnérabilités dans Moodle (20 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1581/",
+"summary": "De multiples vulnérabilités ont été découvertes dans Moodle. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "773441edca2c2b03",
+"title": "Multiples vulnérabilités dans les produits Citrix (20 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1582/",
+"summary": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "ce90111d6f798b7d",
+"title": "Multiples vulnérabilités dans Tenable Security Center (20 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1583/",
+"summary": "De multiples vulnérabilités ont été découvertes dans Tenable Security Center. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et un contournement de la politique de sécurité.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "3aca047f6328f262",
+"title": "Vulnérabilité dans les produits Palo Alto Networks (20 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1584/",
+"summary": "Une vulnérabilité a été découverte dans les produits Palo Alto Networks. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "5b1ee5db38c8b2c8",
+"title": "Vulnérabilité dans Metabase (20 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1585/",
+"summary": "Une vulnérabilité a été découverte dans Metabase. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "b389d7640e0de1ea",
+"title": "Vulnérabilité dans KeyCloak (20 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1586/",
+"summary": "Une vulnérabilité a été découverte dans KeyCloak. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "0eaca1313f1f575f",
+"title": "Multiples vulnérabilités dans Apache Tomcat (20 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1587/",
+"summary": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "7fc1ef9960a74ab4",
+"title": "Multiples vulnérabilités dans les produits Mattermost (20 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1588/",
+"summary": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "ab8bdacb4a1cdd74",
+"title": "Multiples vulnérabilités dans les produits Moxa (20 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1589/",
+"summary": "De multiples vulnérabilités ont été découvertes dans les produits Moxa. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "af7bab821b93e532",
+"title": "Multiples vulnérabilités dans Siemens Industrial Edge (20 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1590/",
+"summary": "De multiples vulnérabilités ont été découvertes dans Siemens Industrial Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "a472fbbfcd2640e6",
+"title": "Vulnérabilité dans GitLab (20 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1591/",
+"summary": "Une vulnérabilité a été découverte dans GitLab. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "c504a905936b09ea",
+"title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (20 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1592/",
+"summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "96435ada9d3110d2",
+"title": "Multiples vulnérabilités dans le noyau Linux de SUSE (20 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1593/",
+"summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "710d5d8c86921548",
+"title": "Multiples vulnérabilités dans le noyau Linux de Debian (20 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1594/",
+"summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "baa2fde59d476b82",
+"title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (20 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1595/",
+"summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "3fea43a85e2c41af",
+"title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (20 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1596/",
+"summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à l'intégrité des données et un déni de service.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "3c0a19488796dbf9",
+"title": "Multiples vulnérabilités dans les produits IBM (20 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1597/",
+"summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "4750bf0bdbb85fb6",
+"title": "Multiples vulnérabilités dans les produits VMware (20 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1598/",
+"summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une injection SQL (SQLi). Google et Mandiant indiquent que la vulné…",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "7e4a0c5d489453cd",
+"title": "CVE-2026-129448 — Apache Roller : Apache Roller Deserialization of Untrusted Data Vulnerability",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448",
+"summary": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underl…",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-11-23",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"exploit"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "f735a25b93914a51",
+"title": "CVE-2026-123890 — Broadcom VMware vCenter : VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890",
+"summary": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-11-23",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"exploit"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "8784cb352de9dd57",
+"title": "CVE-2025-42884 — SAP NetWeaver : SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884",
+"summary": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup ope…",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-11-23",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"exploit"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
+"id": "3195f70d08735c54",
+"title": "CVE-2026-76466 — Cisco Expressway Series : Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
+"summary": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
+"date": "2026-11-20T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-11-23",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"identite",
+"exploit"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
 },
 {
 "id": "df29d71aedcbd867",
@@ -917,7 +2026,7 @@
 },
 {
 "id": "ef3cecb6fd503aee",
-"title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+"title": "Ruby Ships Fixes for 7 Flaws, Including Critical Ruby2Shell, Said to Hit Default Rails Apps Pre-Auth",
 "link": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
 "summary": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine. \"We are aware of PoCs that prove som…",
 "date": "2026-11-19T08:42:11+00:00",
@@ -926,7 +2035,7 @@
 "cote": "C",
 "group": "Médias",
 "cvss": null,
-"sev": null,
+"sev": "high",
 "themes": [
 "vuln"
 ],
