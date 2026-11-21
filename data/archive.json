@@ -1,5 +1,54 @@
 [
 {
+"id": "62fc744c118282b7",
+"title": "CVE-2026-120539",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120539",
+"summary": "The Restrictions for BuddyPress plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.5.4 This is due to the plugin splicing the attacker-controlled request URI into a PHP expression inside a double-quoted string and evaluating it wit…",
+"date": "2026-11-21T06:16:33.227000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.8,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-21T07:26:23+00:00"
+},
+{
+"id": "f0b8696c25c4c4a7",
+"title": "West Virginia Legislature hit with cyber incident affecting IT systems",
+"link": "https://therecord.media/west-virginia-legislature-cyberattack",
+"summary": "A cybersecurity incident that began Thursday was still ongoing Friday in the West Virginia Legislature. A spokesperson said the disruption did not spread to other government entities.",
+"date": "2026-11-20T21:34:36+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-21T07:26:23+00:00"
+},
+{
+"id": "e010061a1eb7f0ca",
+"title": "US companies’ use of Chinese open weight AI draws rebuke from House chairmen",
+"link": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+"summary": "An investigation led by the House Homeland Security Committee focused on the dangers of U.S. companies using lower-cost open weight AI models for certain projects.",
+"date": "2026-11-20T20:25:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-21T07:26:23+00:00"
+},
+{
 "id": "133178f17f8f0c91",
 "title": "CVE-2026-133680",
 "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133680",
