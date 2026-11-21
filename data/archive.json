@@ -1,5 +1,195 @@
 [
 {
+"id": "f3e6247994414734",
+"title": "CVE-2026-125294",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-125294",
+"summary": "The Nexter Blocks Pro plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 5.0.10 via the `tpgb_ajax_register_user()` function. This is due to a byte-level denylist on the `tpgb_acf_key[]` and `tpgb_acf[]` parameters that fails to block…",
+"date": "2026-11-21T19:16:31.403000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.8,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "17800d7ea6726f4c",
+"title": "CVE-2026-133993",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133993",
+"summary": "A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component GENA Subscription Handler. Performing a manipulation of the argument service results in stack-based buffer overflow. The attack is possible…",
+"date": "2026-11-21T18:16:54.277000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 10.0,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "1e1dbef95d66a94a",
+"title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+"link": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+"summary": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
+"date": "2026-11-21T18:01:58+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante",
+"fuite",
+"vuln"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "47559b083c1f41d7",
+"title": "CVE-2026-134292",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-134292",
+"summary": "SurrealDB 1.0.0 before 4.0.0 contains a capability check bypass in its embedded JavaScript scripting engine, where the surrealdb.functions bridge calls the internal fnc::synchronous() and fnc::asynchronous() dispatchers without enforcing function capability checks. Authenticated…",
+"date": "2026-11-21T17:16:48.897000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.8,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "4b6021947b3ef390",
+"title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+"link": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+"summary": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
+"date": "2026-11-21T15:17:27+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "efef5bd50b96f7db",
+"title": "FBI reportedly hacked again, this time targeting nationwide police database",
+"link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+"summary": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
+"date": "2026-11-21T14:26:04+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "0ad755f2681c3730",
+"title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+"link": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+"summary": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected accoun…",
+"date": "2026-11-21T11:53:07+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"identite"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "761885e6c02d6550",
+"title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+"link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+"summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released f…",
+"date": "2026-11-21T11:05:53+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "16765aea3bd9ae9d",
+"title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+"link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+"summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to…",
+"date": "2026-11-21T11:03:17+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"ia",
+"sante",
+"exploit",
+"vuln"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "9da47b8efcbbfaa0",
+"title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+"link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+"summary": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic systems built into iOS 27 and on A…",
+"date": "2026-11-21T08:49:20+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "a3eac34b29cf4ec4",
+"title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+"link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+"summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilit…",
+"date": "2026-11-21T08:49:13+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"exploit",
+"vuln",
+"etat"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
 "id": "62fc744c118282b7",
 "title": "CVE-2026-120539",
 "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120539",
@@ -15,6 +205,282 @@
 "vuln"
 ],
 "first_seen": "2026-11-21T07:26:23+00:00"
+},
+{
+"id": "3cf5f943ba254f47",
+"title": "Waymo pauses robotaxi service amid San Francisco storms: ‘We were kind of just stuck there’",
+"link": "https://www.sfchronicle.com/sf/article/waymo-service-paused-storm-rain-22537988.php",
+"summary": "Waymo suspended its autonomous ride-hail service Wednesday morning, provoking complaints that ripped through social media with nearly as much ferocity as a super El Niño pummeling the Bay Area. “We’ve paused for now due to weather,” the co ... (https://incidentdatabase.ai/cite/18…",
+"date": "2026-11-21T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "26d34d6f1d6594b0",
+"title": "Bay Area Waymo robotaxi service suspended amid storm, flooding",
+"link": "https://www.cbsnews.com/sanfrancisco/news/waymo-service-pause-bay-area-storm-flooding/",
+"summary": "Heavy rain and localized flooding in the Bay Area prompted Waymo to suspend its driverless vehicle service on Wednesday, the company announced. The Waymo app indicated at around 11 a.m. that its robotaxi service would be paused until road ... (https://incidentdatabase.ai/cite/183…",
+"date": "2026-11-21T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "b17da93956d993e5",
+"title": "Waymo resumes service as more storms loom over Bay Area",
+"link": "https://www.sfchronicle.com/sf/article/waymo-resumes-service-22539972.php",
+"summary": "Waymo resumed service in the Bay Area on Thursday morning after a temporary stoppage Wednesday as robotaxis struggled to navigate battering storms. The restoration at 9 a.m. came as rain abated and wan sunlight pressed through cloud banks ... (https://incidentdatabase.ai/cite/183…",
+"date": "2026-11-21T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "7f14e867cc77c1a4",
+"title": "Tech outage wave reaches US government; Trump says all is 'fine'",
+"link": "https://www.reuters.com/business/aerospace-defense/trump-shrugs-off-spate-us-outages-says-things-like-that-happen-2026-11-17/",
+"summary": "WASHINGTON, Nov 17 (Reuters) - Technology outages that shut down email for many companies and grounded thousands of flights over the past few days extended to the US National Security Agency on Tuesday, as President Donald Trump's administr ... (https://incidentdatabase.ai/cite/1…",
+"date": "2026-11-21T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "129f5049b8effe3a",
+"title": "National Security Agency network outage linked to software vulnerability",
+"link": "https://www.cbsnews.com/news/national-security-agency-network-outage-software-vulnerability/",
+"summary": "The National Security Agency's network outage Tuesday has been linked to an urgent patching of vulnerabilities in PHP, the programming language that powers the majority of all websites, multiple sources told CBS News. The NSA's internal ne ... (https://incidentdatabase.ai/cite/18…",
+"date": "2026-11-21T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "9e815f596e4f8a46",
+"title": "NSA statement on network issues",
+"link": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues/",
+"summary": "The National Security Agency experienced temporary degradation during scheduled routine maintenance. While some internal systems were affected, mission-critical capabilities remain fully operational and our ability to defend national securi ... (https://incidentdatabase.ai/cite/1…",
+"date": "2026-11-21T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "c394599fa2dfd2b8",
+"title": "Jay Clayton addresses concerns amid widespread tech outages",
+"link": "https://www.foxbusiness.com/technology/jay-clayton-addresses-concerns-amid-widespread-tech-outages",
+"summary": "Director of National Intelligence Jay Clayton said Tuesday that officials see no signs of a coordinated cyberattack or state-sponsored activity behind a wave of technology outages, pointing instead to institutions installing security patche ... (https://incidentdatabase.ai/cite/1…",
+"date": "2026-11-21T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln",
+"etat"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "e3f80aa13f80789b",
+"title": "Exclusive: Highly classified US national security communications network goes down, sources say",
+"link": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
+"summary": "The highly classified network that the National Security Agency uses for its internal communications is down, according to six people familiar with the matter. The NSA closed its campus to most employees on Tuesday night, reverting to essen ... (https://incidentdatabase.ai/cite/1…",
+"date": "2026-11-21T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "314d5c1788572c1d",
+"title": "Outage at NSA’s highly classified communications network has been resolved, sources say",
+"link": "https://keyt.com/politics/cnn-us-politics/2026/11/20/outage-at-nsas-highly-classified-communications-network-has-been-resolved/",
+"summary": "(CNN) — The outage of a key internal communications network at the National Security Agency that has kept large swaths of employees locked out for more than three days has now been resolved, according to a source familiar with the matter an ... (https://incidentdatabase.ai/cite/1…",
+"date": "2026-11-21T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "b78654be85e60482",
+"title": "NSA outage hits key facility for Middle East intel operations as agency resorts to workarounds, sources say",
+"link": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/11/18/nsa-outage-disrupts-key-intel-hub-that-supports-middle-east-intelligence-and-operations-sources-say/",
+"summary": "(CNN) — The sweeping IT disruptions that have kept large swaths of the National Security Agency’s workforce at home for three days has also impacted operations at a critical Georgia facility that supports signals intelligence and cybersecur ... (https://incidentdatabase.ai/cite/1…",
+"date": "2026-11-21T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "a94c0f950219c895",
+"title": "Security officials tell Congress tech outages are not malicious",
+"link": "https://www.nextgov.com/cybersecurity/2026/11/security-officials-tell-congress-tech-outages-are-not-malicious/417312/",
+"summary": "Officials on Wednesday sought to assuage fears about foreign adversaries accessing various digital platforms amid a series of major tech outages that affected online services over the last week. Homeland Security Secretary Markwayne Mullin ... (https://incidentdatabase.ai/cite/18…",
+"date": "2026-11-21T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "93c7f1ceb26522ce",
+"title": "Classified U.S. Intelligence System Is Down, U.S. Officials Say",
+"link": "https://www.wsj.com/politics/national-security/classified-u-s-intelligence-system-is-down-for-now-u-s-officials-say-aa09b6d1",
+"summary": "WASHINGTON—A classified internal communications network is down at the National Security Agency, U.S. officials said, the latest in a string of digital systems that have temporarily gone down. A person familiar with the incident said the N ... (https://incidentdatabase.ai/cite/18…",
+"date": "2026-11-21T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "d1b73617ae1996c9",
+"title": "Classified communications network at the National Security Agency goes down, defense official says",
+"link": "https://abcnews.com/Technology/wireStory/classified-communications-network-national-security-agency-defense-official-138223663",
+"summary": "WASHINGTON -- An internal network the National Security Agency uses to communicate classified information was offline Tuesday after what the agency described as “routine maintenance.” The problem disrupted the operations of NSANet, a class ... (https://incidentdatabase.ai/cite/18…",
+"date": "2026-11-21T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "bb59c1759a0ea149",
+"title": "Update: Disruptions in NSA’s internal network caused by software patch, DNI says",
+"link": "https://therecord.media/nsa-net-disruptions",
+"summary": "The National Security Agency’s classified internal communications network experienced a technical issue on Tuesday that resulted in a delayed opening and staggered employee arrivals. The difficulties with the system, known as NSA Net, were ... (https://incidentdatabase.ai/cite/18…",
+"date": "2026-11-21T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "0c7c33d40dbdc8f3",
+"title": "NSA's classified internal network goes down, sources say",
+"link": "https://www.cbsnews.com/news/nsa-network-down-classified-fort-meade/",
+"summary": "Washington — The National Security Agency's internal network used to store and share classified information went offline Tuesday, according to multiple U.S. officials familiar with the situation, prompting the agency to stagger arrival time ... (https://incidentdatabase.ai/cite/1…",
+"date": "2026-11-21T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "5ae7f97b0f6f776f",
+"title": "Classified NSA communications network down, people familiar say",
+"link": "https://www.nextgov.com/digital-government/2026/11/classified-nsa-communications-network-down-people-familiar-say/417277/",
+"summary": "The National Security Agency’s classified internal communications network has gone down, slowing down analysts’ workflows and forcing employees to rearrange their arrivals at the agency’s campus, according to six people familiar with the ma ... (https://incidentdatabase.ai/cite/1…",
+"date": "2026-11-21T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-21T19:30:49+00:00"
 },
 {
 "id": "f0b8696c25c4c4a7",
@@ -101,14 +567,14 @@
 "id": "6cc616c5c6e76f97",
 "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
 "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
-"summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of ex…",
+"summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5), has been described as a case of incomplet…",
 "date": "2026-11-20T17:57:20+00:00",
 "source": "The Hacker News",
 "kind": "media",
 "cote": "C",
 "group": "Médias",
-"cvss": null,
-"sev": null,
+"cvss": 3.5,
+"sev": "low",
 "themes": [
 "vuln"
 ],
@@ -9279,21 +9745,6 @@
 "themes": [
 "ia"
 ],
-"first_seen": "2026-11-19T10:50:56+00:00"
-},
-{
-"id": "66e9644375196e34",
-"title": "Updated Cyber Threat Actor Naming System",
-"link": "https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/",
-"summary": "Update (July 30): A table listing the new names of select prominent threat actors was appended to this post. Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents…",
-"date": "2026-07-24T14:00:00+00:00",
-"source": "Google Threat Intelligence",
-"kind": "cti",
-"cote": "B",
-"group": "Éditeurs",
-"cvss": null,
-"sev": null,
-"themes": [],
 "first_seen": "2026-11-19T10:50:56+00:00"
 }
 ]
