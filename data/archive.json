@@ -1,5 +1,56 @@
 [
 {
+"id": "78074d39dfa2deb1",
+"title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+"link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+"summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is suppo…",
+"date": "2026-11-22T05:06:55+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-22T07:08:08+00:00"
+},
+{
+"id": "0be8ff22df4a77bf",
+"title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+"link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+"summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats,…",
+"date": "2026-11-22T05:03:41+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-22T07:08:08+00:00"
+},
+{
+"id": "9f2af01a2aa93e76",
+"title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+"link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+"summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+"date": "2026-11-21T22:59:58+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"identite"
+],
+"first_seen": "2026-11-22T07:08:08+00:00"
+},
+{
 "id": "f3e6247994414734",
 "title": "CVE-2026-125294",
 "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-125294",
@@ -152,6 +203,24 @@
 "vuln"
 ],
 "first_seen": "2026-11-21T19:30:49+00:00"
+},
+{
+"id": "3d78d34e7ac4d1c3",
+"title": "GitHub et Microsoft envoient des correctifs à six projets open source",
+"link": "https://www.zdnet.fr/blogs/l-esprit-libre/github-et-microsoft-envoient-des-correctifs-a-six-projets-open-source-508383.htm#xtor=RSS-1",
+"summary": "Face à l’afflux de signalements de sécurité générés par IA, le projet Codename MDASH modifie des rapports de vulnérabilité en y incluant des propositions de correctifs.",
+"date": "2026-11-21T10:11:48+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-22T07:08:08+00:00"
 },
 {
 "id": "9da47b8efcbbfaa0",
@@ -9727,23 +9796,6 @@
 "sev": null,
 "themes": [
 "vuln"
-],
-"first_seen": "2026-11-19T10:50:56+00:00"
-},
-{
-"id": "9fa938ec3060a990",
-"title": "Quoting Boris Cherny",
-"link": "https://simonwillison.net/2026/Jul/25/boris-cherny/",
-"summary": "More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully. — Boris Cherny , here…",
-"date": "2026-07-25T00:42:59+00:00",
-"source": "Simon Willison · Prompt injection",
-"kind": "recherche",
-"cote": "B",
-"group": "Sécurité de l'IA",
-"cvss": null,
-"sev": null,
-"themes": [
-"ia"
 ],
 "first_seen": "2026-11-19T10:50:56+00:00"
 }
