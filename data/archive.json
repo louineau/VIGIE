@@ -1,5 +1,56 @@
 [
 {
+"id": "e84afceb005f0d48",
+"title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+"link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+"summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]",
+"date": "2026-11-22T18:45:37+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-22T19:51:51+00:00"
+},
+{
+"id": "855a50efe0f3bb9d",
+"title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+"link": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+"summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+"date": "2026-11-22T15:43:04+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"fuite"
+],
+"first_seen": "2026-11-22T19:51:51+00:00"
+},
+{
+"id": "2361e0929a29e0d7",
+"title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+"link": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+"summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+"date": "2026-11-22T15:15:25+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-22T19:51:51+00:00"
+},
+{
 "id": "78074d39dfa2deb1",
 "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
 "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
