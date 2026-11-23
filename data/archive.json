@@ -1,5 +1,209 @@
 [
 {
+"id": "5d81d8091009c293",
+"title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+"link": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+"summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
+"date": "2026-11-23T07:44:19+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"exploit",
+"vuln"
+],
+"first_seen": "2026-11-23T07:54:41+00:00"
+},
+{
+"id": "382a08f40d63de35",
+"title": "Exploring Early Vulnerability Analysis via Automatic Identification of Vulnerability-Introducing Commits",
+"link": "https://arxiv.org/abs/2611.26739",
+"summary": "arXiv:2611.26739v1 Announce Type: new Abstract: Developing effective vulnerability analysis techniques requires high-quality datasets that capture how vulnerabilities appear and evolve in real software codebase. Existing datasets, however, typically label as vulnerable only the c…",
+"date": "2026-11-23T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-23T07:54:41+00:00"
+},
+{
+"id": "f86f8287f80c3d24",
+"title": "Extracting Next Generation Access Control Policies from Natural Language Using LLMs: An Intermediate-Representation Approach with Back-Translation Verification",
+"link": "https://arxiv.org/abs/2611.26941",
+"summary": "arXiv:2611.26941v1 Announce Type: new Abstract: Organizations write access-control rules in natural language, but NIST's Next Generation Access Control (NGAC) needs them as a formal policy graph. Large language models (LLMs) can automate this translation, but their output can bre…",
+"date": "2026-11-23T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-23T07:54:41+00:00"
+},
+{
+"id": "c09e8593f51d1cb1",
+"title": "GeoCloak: Defending Against Geolocation Reasoning in Multimodal Language Models via Perceptual Image Editing",
+"link": "https://arxiv.org/abs/2611.26987",
+"summary": "arXiv:2611.26987v1 Announce Type: new Abstract: Multimodal large language models can infer sensitive geographic information from ordinary images by combining visual, textual, architectural, and environmental cues. This capability creates a privacy risk: users may reveal fine-grai…",
+"date": "2026-11-23T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-23T07:54:41+00:00"
+},
+{
+"id": "781cd346a83a10d2",
+"title": "Subverting Tool Arguments: Defense-Evading Metadata Poisoning in LLM Agents",
+"link": "https://arxiv.org/abs/2611.27041",
+"summary": "arXiv:2611.27041v1 Announce Type: new Abstract: Conventional indirect prompt injection (IPI) attacks hijack an LLM agent's workflow through malicious instructions embedded in retrieved external content. The growing adoption of the Model Context Protocol (MCP) exposes another atta…",
+"date": "2026-11-23T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-23T07:54:41+00:00"
+},
+{
+"id": "751973183647138d",
+"title": "\"More Than You Expect!\": Leakage-Abuse Attacks on Encrypted Vector Search",
+"link": "https://arxiv.org/abs/2611.27174",
+"summary": "arXiv:2611.27174v1 Announce Type: new Abstract: Vector databases support semantic search and retrieval-augmented generation, but embeddings, queries, and record labels may contain sensitive information. Although encrypted vector search protects these contents, some schemes expose…",
+"date": "2026-11-23T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-23T07:54:41+00:00"
+},
+{
+"id": "253a177be96f562c",
+"title": "Felid: A Flexible and Efficient Design for Transformer Fine-Tuning over Encrypted Data",
+"link": "https://arxiv.org/abs/2611.27175",
+"summary": "arXiv:2611.27175v1 Announce Type: new Abstract: Fully Homomorphic Encryption (FHE) enables non-interactive, privacy-preserving transformer fine-tuning, protecting highly sensitive data as inputs to large language models. Prior work has predominantly pursued efficiency gains throu…",
+"date": "2026-11-23T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-23T07:54:41+00:00"
+},
+{
+"id": "725989c230c856c4",
+"title": "Suspected Until Inspected: Neuro-Symbolic Detection of Broken Access Control in Server-Side Web Applications",
+"link": "https://arxiv.org/abs/2611.27270",
+"summary": "arXiv:2611.27270v1 Announce Type: new Abstract: Broken access control (BAC) has topped the OWASP Top 10 since 2021. Unfortunately, a decade of detectors still leaves a gap on every front. Static analyzers are tied to one language or framework, dynamic testers cover only the endpo…",
+"date": "2026-11-23T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-23T07:54:41+00:00"
+},
+{
+"id": "382af47d8ca5020a",
+"title": "Detecting Word-Substitution Poisoning of a RAG Knowledge Base with Relative Entropy and Runtime Verification",
+"link": "https://arxiv.org/abs/2611.27410",
+"summary": "arXiv:2611.27410v1 Announce Type: new Abstract: A retrieval-augmented generation (RAG) system answers questions using passages it retrieves from a knowledge base, so users must trust that knowledge base. We study an attacker who quietly edits existing passages by swapping words f…",
+"date": "2026-11-23T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-23T07:54:41+00:00"
+},
+{
+"id": "abb9f28457f67533",
+"title": "TrojanMaxxing: One-shotting VLM Backdoors with Weight-Space Programming",
+"link": "https://arxiv.org/abs/2611.27425",
+"summary": "arXiv:2611.27425v1 Announce Type: new Abstract: Recent work shows that large language models (LLMs) can reason directly about the weights of other neural networks. Given only a natural-language objective, an LLM can inspect a model's weights, understand what they compute, and edi…",
+"date": "2026-11-23T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-23T07:54:41+00:00"
+},
+{
+"id": "64bfada7399cf9fd",
+"title": "Cleave: Severing Guardrails and Auditing Spectral Coupling in Open-Weight LLMs",
+"link": "https://arxiv.org/abs/2611.27426",
+"summary": "arXiv:2611.27426v1 Announce Type: new Abstract: Open-weight Large Language Models (LLMs) are widely downloaded for their strong coding and reasoning capabilities and deployed locally beyond the provider's control. To prevent misuse, developers embed safety guardrails into these m…",
+"date": "2026-11-23T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-23T07:54:41+00:00"
+},
+{
+"id": "6fa481a63fc647ad",
+"title": "Anti-manuel de cybersécurité",
+"link": "https://www.nolimitsecu.fr/anti-manuel-de-cybersecurite/",
+"summary": "Episode #559 consacré au livre Anti-manuel de cybersécurité Avec Nicolas Remarck The post Anti-manuel de cybersécurité appeared first on NoLimitSecu .",
+"date": "2026-11-22T21:18:38+00:00",
+"source": "NoLimitSecu",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-23T07:54:41+00:00"
+},
+{
 "id": "e84afceb005f0d48",
 "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
 "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
