@@ -1,5 +1,750 @@
 [
 {
+"id": "5e4209ae374025b4",
+"title": "Hackers breach Austrian Foreign Ministry website, access diplomats' contact details",
+"link": "https://therecord.media/austrian-foreign-ministry-says-website-hacked",
+"summary": "Austria's Foreign Ministry said late last week that hackers breached one of its websites and accessed the names and official contact information of employees at its Vienna headquarters and at Austria’s diplomatic missions abroad.",
+"date": "2026-11-24T00:00:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "d0a014829727bee9",
+"title": "CVE-2026-70193",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-70193",
+"summary": "Improper limitation of a pathname to a restricted directory ('path traversal') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
+"date": "2026-11-23T22:22:36.660000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.9,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "02f4f66a6aae2a6b",
+"title": "CVE-2026-69899",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-69899",
+"summary": "Authentication bypass by spoofing in Azure DevTest Labs allows an unauthorized attacker to perform spoofing over a network.",
+"date": "2026-11-23T22:22:11.980000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.1,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "465fadc6233fa0b8",
+"title": "CVE-2026-62841",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-62841",
+"summary": "Improper authentication in Azure Event Grid allows an unauthorized attacker to elevate privileges over a network.",
+"date": "2026-11-23T22:20:39.293000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 10.0,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "582d888261e6135c",
+"title": "CVE-2026-50691",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-50691",
+"summary": "Improper authorization in M365 Copilot allows an authorized attacker to elevate privileges over a network.",
+"date": "2026-11-23T22:20:16.553000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.9,
+"sev": "crit",
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "a338e6e06ac810f6",
+"title": "CVE-2026-118286",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118286",
+"summary": "Improper access control in Azure Site Recovery allows an unauthorized attacker to elevate privileges over a network.",
+"date": "2026-11-23T22:19:30.903000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.1,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "4d3d6c5527ecb94a",
+"title": "CVE-2026-118285",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118285",
+"summary": "Server-side request forgery in Azure Machine Learning allows an authorized attacker to elevate privileges over a network.",
+"date": "2026-11-23T22:19:30.710000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.6,
+"sev": "crit",
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "28d67ce0ac91918c",
+"title": "CVE-2026-113824",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-113824",
+"summary": "Authorization bypass through user-controlled key in Microsoft Clarity allows an unauthorized attacker to elevate privileges over a network.",
+"date": "2026-11-23T22:19:04.970000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.1,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "653c10f557c53acd",
+"title": "CVE-2026-109490",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109490",
+"summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Authentication Methods Portal Extension allows an unauthorized attacker to elevate privileges over a network.",
+"date": "2026-11-23T22:18:30.130000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.3,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "3762b82b02930547",
+"title": "CVE-2026-109480",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109480",
+"summary": "Server-side request forgery in Profile Data Roaming Service (PDRS) allows an authorized attacker to elevate privileges over a network.",
+"date": "2026-11-23T22:18:29.133000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.6,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "f1397973b7c60ba0",
+"title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
+"link": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+"summary": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
+"date": "2026-11-23T20:54:51+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"fuite"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "ad3d2932dda18cd6",
+"title": "OpenRouter drops AI providers over leaked prompts and secrets",
+"link": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+"summary": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]",
+"date": "2026-11-23T20:00:20+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"fuite"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "53716c4432abe034",
+"title": "Microsoft Azure flaw exploited to steal customers' API credentials",
+"link": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+"summary": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]",
+"date": "2026-11-23T19:42:20+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln",
+"identite"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "f714b48247a9be7f",
+"title": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
+"link": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
+"summary": "LaLiga, Spain's top men's football league, disclosed a data breach that exposed personal information belonging to users of its services and those of some affiliated clubs. [...]",
+"date": "2026-11-23T18:38:40+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"fuite"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "6edcda57ebaecc84",
+"title": "Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents",
+"link": "https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems",
+"summary": "Google’s Gemini Intelligence and Apple's Siri AI \"are changing this environment in a way that’s making it increasingly hostile to privacy,\" Signal said.",
+"date": "2026-11-23T18:37:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "4ca5a6cc42e6642a",
+"title": "FBI reportedly facing second data breach involving National Crime Information Center",
+"link": "https://therecord.media/fbi-cyberattack-data-breach",
+"summary": "The FBI is reportedly investigating a data breach involving the National Crime Information Center, a database used by U.S. law enforcement agencies that contains information on criminals, fugitives and missing people.",
+"date": "2026-11-23T18:30:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"fuite"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "1ab128c432ff969e",
+"title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+"link": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+"summary": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring software to establish covert remote access…",
+"date": "2026-11-23T17:45:15+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "c23cd2a7d9a6c495",
+"title": "CrowdStrike to purchase Zscaler for $43.9 billion",
+"link": "https://therecord.media/crowdstrike-zscaler",
+"summary": "“We see a path to become the largest AI safety and security company the world has ever seen,” CrowdStrike CEO George Kurtz said.",
+"date": "2026-11-23T17:14:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "0af9a7510182f44f",
+"title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+"link": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+"summary": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]",
+"date": "2026-11-23T16:50:01+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "4020ca5151d6cd75",
+"title": "CVE-2026-135208",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-135208",
+"summary": "Kerberos Agent before 3.14.4 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge administrator tokens because JWTMiddleWare() falls back to the hard-coded key TOBECHANGED. Attackers can sign HS256 tokens with arbitrary username and role…",
+"date": "2026-11-23T16:17:38.250000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.8,
+"sev": "crit",
+"themes": [
+"vuln",
+"identite"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "961bf8318c0ee103",
+"title": "Cyberattaque de Softway Medical : 11 millions de patients touchés par une fuite de données administratives",
+"link": "https://www.ticsante.com/Story?Id=8535",
+"summary": "FUVEAU (Bouches-du-Rhône) (TICsanté) - Quelque 11 millions de patients ont vu leurs données administratives fuiter en raison d'une cyberattaque du système d'information en radiologie One Manager* survenue début novembre, dont 4 millions pour lesquels le numéro de sécurité sociale…",
+"date": "2026-11-23T16:00:00+00:00",
+"source": "TICsanté",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante",
+"fuite"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "bcc6ff74f5232787",
+"title": "Norway says hackers exploited Microsoft security flaw to attack energy firms Equinor, Skagerak Energi",
+"link": "https://therecord.media/norway-microsoft-cyberattack-equinor",
+"summary": "Norwegian energy companies Equinor and Skagerak Energi were affected by a Microsoft cloud security vulnerability that hackers have exploited to target sensitive credentials, Norway's cybersecurity authorities said.",
+"date": "2026-11-23T15:45:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln",
+"identite"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "ca0d1bdeb307b963",
+"title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+"link": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+"summary": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already open. This week's stories show how quickly…",
+"date": "2026-11-23T15:10:48+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"exploit"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "594a8d6fa69747ba",
+"title": "AI Agents Are Creating a Shared Responsibility Gap",
+"link": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+"summary": "AI agents operate across multiple platforms, creating security gaps when no single vendor can see or control their actions. Token Security examines the shared responsibility problem and explains how organizations can better manage agent identities, permissions, and accountability…",
+"date": "2026-11-23T15:00:10+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "f4133b58ad4a67a0",
+"title": "Dedalus acquiert Deigma, une plateforme numérique entre laboratoires de biologie et infirmiers libéraux",
+"link": "https://www.ticsante.com/Story?Id=8534",
+"summary": "ARTIGUES-PRÈS-BORDEAUX (Gironde) (TICsanté) - Dedalus a annoncé début novembre l'acquisition des actifs de Deigma, une société française spécialisée dans la numérisation des échanges entre laboratoires de biologie médicale et infirmiers libéraux.",
+"date": "2026-11-23T14:00:00+00:00",
+"source": "TICsanté",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "4be13f5936eab78f",
+"title": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
+"link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
+"summary": "Microsoft is working to fix a long-standing Windows issue that has been causing significant audio quality drops for Bluetooth headphone users. [...]",
+"date": "2026-11-23T13:28:45+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "cb673b121b80fca4",
+"title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+"link": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+"summary": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting bi…",
+"date": "2026-11-23T13:22:20+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": 9.2,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "f843346b5b8250e2",
+"title": "Washington remet Jensen Huang à la tête de Nvidia",
+"link": "https://www.lemagit.fr/actualites/366655333/Washington-remet-Jensen-Huang-a-la-tete-de-Nvidia",
+"summary": "Après une démission qui n’aura tenu qu’une dizaine de jours, le fondateur de Nvidia en reprend les rênes, a priori grâce à une intervention de la Maison-Blanche. Pour l’heure, le sujet semble davantage concerner des intérêts financiers que des questions de morales ou de sécurité…",
+"date": "2026-11-23T12:53:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "b2346b3908c2d479",
+"title": "Pour Octave Klaba (OVHcloud), les GPU de Nvidia sont enfin rentables",
+"link": "https://www.lemagit.fr/actualites/366655332/Pour-Octave-Klaba-OVHcloud-les-GPU-de-Nvidia-sont-enfin-rentables",
+"summary": "Lors de son AI Summit, OVHcloud a annoncé l’arrivée prochaine d’une plus grande quantité de GPU Blackwell Ultra et les premières machines de la génération Rubin. En 2025, Octave Klaba, son PDG, jugeait que l’achat de H100 et H200 était un risque. Les puces plus puissantes justifi…",
+"date": "2026-11-23T12:48:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "33d65726f50ee8a4",
+"title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+"link": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+"summary": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute…",
+"date": "2026-11-23T12:41:04+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": 9.9,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "759d50b40080dffe",
+"title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+"link": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+"summary": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw.…",
+"date": "2026-11-23T12:28:09+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "bf1ceda487353358",
+"title": "v4.84.0",
+"link": "https://github.com/langfuse/langfuse/releases/tag/v4.84.0",
+"summary": "What's Changed Features feat(mcp): add batchCreateAnnotationQueueItems tool by @tobi12345 in #20477 feat(web): show Intent topic shares in the tracing pulse chart header by @nmtrang29 in #20482 feat(billing): ship the billable_events ledger as a ClickHouse migration by @Steffen91…",
+"date": "2026-11-23T12:22:31+00:00",
+"source": "Langfuse · Versions sécurité",
+"kind": "version",
+"cote": "A",
+"group": "Écosystème IA open source",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "f8665cc5b1ef467b",
+"title": "Call center operator gets 8 years for helping scam 30,000 Americans",
+"link": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
+"summary": "A Peruvian call center operator was sentenced to eight years in prison for helping steal millions of dollars from over 30,000 Spanish-speaking US residents in a years-long government-impersonation fraud scheme. [...]",
+"date": "2026-11-23T12:02:23+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "12b4ad14dd49d8e8",
+"title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+"link": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+"summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability CVE-2026-134624 N-able Mail Assure (SpamExperts) Server-Side Request Forg…",
+"date": "2026-11-23T12:00:00+00:00",
+"source": "CISA · Advisories",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"exploit",
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "0904e5bc062a614a",
+"title": "Cyberattaque : la Banque Delubac & Cie déjoue une tentative de fraude mais subit une fuite de données",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-la-banque-delubac-cie-dejoue-une-tentative-de-fraude-mais-subit-une-fuite-de-donnees",
+"summary": "La Banque Delubac & Cie a été victime d'une intrusion dans ses systèmes d'information, détectée le vendredi 20 novembre. Selon l'établissement ardéchois, les attaquants ont tenté de réaliser des opérations financières frauduleuses, sans y parvenir. L'intrusion a toutefois entraîn…",
+"date": "2026-11-23T11:16:34+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"fuite"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "92ef118df1b2b244",
+"title": "Web pratique : six paramètres de Chrome à choisir pour améliorer sa navigation",
+"link": "https://www.zdnet.fr/pratique/web-pratique-six-parametres-de-chrome-a-choisir-pour-ameliorer-sa-navigation-508389.htm#xtor=RSS-1",
+"summary": "Pour renforcer la confidentialité et la sécurité, réduire les interruptions et améliorer la productivité, voici les réglages par défaut du navigateur de Google à modifier.",
+"date": "2026-11-23T11:11:54+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "62f07c643793ffe4",
+"title": "Supply Chain IA : les fuites de secrets dans les infrastructures d’inférence",
+"link": "https://www.lemagit.fr/actualites/366655292/Supply-Chain-IA-les-fuites-de-secrets-dans-les-infrastructures-dinference",
+"summary": "L’analyse de la chaîne logistique de l’inférence IA révèle des failles structurelles et des compromissions de fournisseurs exposant les données clients. Une expérimentation de plusieurs mois en dresse une cartographie.",
+"date": "2026-11-23T10:58:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln",
+"supply"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "1d460438657663c0",
+"title": "Ransomware : les frameworks offensifs agentiques sont entrés dans la danse",
+"link": "https://www.lemagit.fr/actualites/366655137/Ransomware-les-frameworks-offensifs-agentiques-sont-entres-dans-la-danse",
+"summary": "Les cybercriminels ne se contentent plus d’un usage superficiel des modèles d’IA générative : ils ont commencé à s’appuyer sur des frameworks offensifs agentiques tels qu’Artex.",
+"date": "2026-11-23T10:55:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"ransomware"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "bc9b237f7eb3633b",
+"title": "CVE-2026-134882",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-134882",
+"summary": "A weakness has been identified in TOTOLINK A7100RU 7.4cu.2313_B20191024. This issue affects the function exportOvpn of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. This manipulation of the argument Username causes os command injection. The attack is possible to be…",
+"date": "2026-11-23T09:17:05.653000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 10.0,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "31afdc96e80bb016",
+"title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+"link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+"summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild. The vulnerability, tracked as CVE-2026-131914,…",
+"date": "2026-11-23T09:11:56+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"exploit",
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "d0dd2916cf583a59",
+"title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+"link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+"summary": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...]",
+"date": "2026-11-23T09:11:15+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "791422e9c3235070",
+"title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+"link": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+"summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today. The company identified and fixed the…",
+"date": "2026-11-23T09:04:08+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "80927b607c9d99a7",
+"title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+"link": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+"summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country. This unsanctioned activity has resulted in unau…",
+"date": "2026-11-23T08:24:15+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "7539787897db80bd",
+"title": "CVE-2026-120382",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120382",
+"summary": "An improper neutralization of argument delimiters in a command vulnerability in the OAuth API in Synology DiskStation Manager (DSM) before 7.1.1-42962-10, 7.2.1-69057-14, 7.2.2-72806-11, 7.3.2-86009-6, and 7.4.1-90080-2 allows remote attackers to read or write arbitrary files and…",
+"date": "2026-11-23T08:17:14.183000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.8,
+"sev": "crit",
+"themes": [
+"vuln",
+"identite"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
 "id": "5d81d8091009c293",
 "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
 "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
@@ -16,6 +761,42 @@
 "vuln"
 ],
 "first_seen": "2026-11-23T07:54:41+00:00"
+},
+{
+"id": "fbb379ecfe79c4e6",
+"title": "Le CHU de la Guadeloupe visé par une attaque par rançongiciel",
+"link": "https://www.zdnet.fr/actualites/le-chu-de-la-guadeloupe-vise-par-une-attaque-par-rancongiciel-508447.htm#xtor=RSS-1",
+"summary": "L’établissement de santé a activé son « Plan blanc » pour faire face à ce piratage informatique.",
+"date": "2026-11-23T07:11:26+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante",
+"ransomware"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "407610a3b1ab0f07",
+"title": "L'IA peut-elle aider à planifier des attentats terroristes ? Les États-Unis ont testé ChatGPT, Claude, Gemini et Grok pour le savoir",
+"link": "https://www.zdnet.fr/actualites/lia-peut-elle-aider-a-planifier-des-attentats-terroristes-les-etats-unis-ont-teste-chatgpt-claude-gemini-et-grok-pour-le-savoir-508439.htm#xtor=RSS-1",
+"summary": "Les chercheurs ont tenté de contourner les mécanismes de protection de l'IA pour générer des plans d'attaque terroriste. Les résultats mettent en évidence des failles de sécurité préoccupantes et soulèvent des questions quant à la prévention des utilisations abusives.",
+"date": "2026-11-23T07:11:13+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
 },
 {
 "id": "382a08f40d63de35",
@@ -187,6 +968,477 @@
 "ia"
 ],
 "first_seen": "2026-11-23T07:54:41+00:00"
+},
+{
+"id": "20330b30a07c4245",
+"title": "Cybersécurité et IA : après sa traversée du désert, la nouvelle vie de Mark Karpelès",
+"link": "https://www.zdnet.fr/actualites/cybersecurite-et-ia-apres-sa-traversee-du-desert-la-nouvelle-vie-de-mark-karpeles-507622.htm#xtor=RSS-1",
+"summary": "Autrefois à la tête de Mt.Gox, le célèbre geek français qui vit au Japon a refait récemment parler de lui en disséquant des implants suspects dans des matériels Ledger.",
+"date": "2026-11-23T04:11:22+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "123910fdab96c7f3",
+"title": "MISP - CVE-2026-132144",
+"link": "https://cyberveille.esante.gouv.fr/alertes/misp-cve-2026-132144-2026-11-23",
+"summary": "Il s'agit d'une vulnérabilité dans la gestion du changement d'e-mail de connexion de MISP . MISP est une plateforme open source de partage et de corrélation d'informations sur les...",
+"date": "2026-11-23T04:00:36+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "6ab032541a3b5658",
+"title": "MongoDB - CVE-2026-129932",
+"link": "https://cyberveille.esante.gouv.fr/alertes/mongodb-cve-2026-129932-2026-11-23",
+"summary": "Il s'agit d'une vulnérabilité dans la validation de l'hôte des enregistrements DNS SRV de MongoDB Java Driver . MongoDB Java Driver est une bibliothèque Java qui permet à une...",
+"date": "2026-11-23T03:59:23+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "83ee010c2d24ad1f",
+"title": "Apple - CVE-2026-114025",
+"link": "https://cyberveille.esante.gouv.fr/alertes/apple-cve-2026-114025-2026-11-23",
+"summary": "Il s'agit d'une vulnérabilité dans le composant AVEVideoEncoder de iOS, iPadOS, macOS et tvOS . iOS, iPadOS, macOS et tvOS sont les systèmes d'exploitation d'Apple pour les iPhone...",
+"date": "2026-11-23T03:58:22+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "87c23f1b4e075d78",
+"title": "Linux - CVE-2026-99634",
+"link": "https://cyberveille.esante.gouv.fr/alertes/linux-cve-2026-99634-2026-11-23",
+"summary": "Il s'agit d'une vulnérabilité dans la prise en charge de TCP Fast Open pour les sous-flux MP_JOIN de MPTCP dans le noyau Linux . Le noyau Linux est le composant central des systèmes...",
+"date": "2026-11-23T03:57:00+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "f46a54cdae3e97de",
+"title": "Cisco - CVE-2026-76411",
+"link": "https://cyberveille.esante.gouv.fr/alertes/cisco-cve-2026-76411-2026-11-23",
+"summary": "Il s'agit d'une vulnérabilité dans la canonicalisation des URL du module phishcheck de ClamAV . ClamAV est un moteur antivirus open source qui analyse des fichiers et des courriels...",
+"date": "2026-11-23T03:55:35+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "bbdebeb656ab5224",
+"title": "Multiples vulnérabilités dans SPIP (23 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1599/",
+"summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS) et une injection de requêtes illégitimes par rebond (CSRF).",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "3f5d91dacf89c80b",
+"title": "Multiples vulnérabilités dans les produits Palo Alto Networks (23 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1600/",
+"summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "4e95a7a545023af7",
+"title": "Vulnérabilité dans Laravel (23 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1601/",
+"summary": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer un déni de service à distance.",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "9d0380ff58d05fbc",
+"title": "Multiples vulnérabilités dans Roundcube Webmail (23 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1602/",
+"summary": "De multiples vulnérabilités ont été découvertes dans Roundcube Webmail. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "39d3bcc791d5b339",
+"title": "Multiples vulnérabilités dans Microsoft Edge (23 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1603/",
+"summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "40583d75ec25fd51",
+"title": "Vulnérabilité dans Microsoft Office (23 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1604/",
+"summary": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "9eb25df6c4703a6c",
+"title": "Vulnérabilité dans Mattermost Server (23 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1605/",
+"summary": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "ff8cda48537bdedd",
+"title": "Multiples vulnérabilités dans MongoDB (23 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1606/",
+"summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "cc9ad7c438944e52",
+"title": "Multiples vulnérabilités dans les produits Synology (23 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1607/",
+"summary": "De multiples vulnérabilités ont été découvertes dans les produits Synology. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "ce79458098bca94c",
+"title": "Bulletin d'actualité CERTFR-2026-ACT-049 (23 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-049/",
+"summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'app…",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "CERT-FR · Actualités",
+"kind": "actu",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "1f56db5ab6f10695",
+"title": "Claude Code settings.local.json Secrets: 17 months of exposure on GitHub, & Docker Hub",
+"link": "https://blog.gitguardian.com/claude-code-settings-local-json-secrets-docker-hub/",
+"summary": "TL;DR 31,088 secrets, 5,343 valid: GitGuardian found 31,088 distinct secrets in Claude Code’s .claude/settings.local.json on public GitHub, across 23,276 repositories, and 5,343 of them worked when we detected them. “Yes, and don’t ask ag ... (https://incidentdatabase.ai/cite/184…",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "5186d80b7eef5626",
+"title": "Coding Agents Copy Your Secrets to a Hidden File. Thousands Are on GitHub",
+"link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+"summary": "Update, November 8: Anthropic's Head of Claude Code responds. Boris Cherny responded on Hacker News on November 7 and took part in the discussion through the weekend. He said the team is \"looking into what we can do to prevent this,\" named ... (https://incidentdatabase.ai/cite/18…",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "05260ac94dcc1aa1",
+"title": "Claude Code’s ‘don’t ask again’ button has a secrets-spilling problem",
+"link": "https://www.csoonline.com/article/4247336/claude-codes-dont-ask-again-button-has-a-secrets-spilling-problem.html",
+"summary": "A configuration file meant to store local command permissions on Anthropic’s Claude Code is exposing thousands of API keys, database credentials and other secrets, according to findings by GitGuardian. The code security firm identified 31, ... (https://incidentdatabase.ai/cite/18…",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"identite"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "ad386e0a0b43aa91",
+"title": "Données de santé : la Suisse prépare une architecture fédérée pour connecter ses établissements",
+"link": "https://dsih.fr/articles/6476/donnees-de-sante-la-suisse-prepare-une-architecture-federee-pour-connecter-ses-etablissements",
+"summary": "La Suisse avance dans la construction de son espace national de données de santé. Présenté le 23 novembre dans le cadre du programme DigiSanté, le projet prévoit de faciliter les échanges entre établissements sans centraliser les informations médicales. Il s'appuiera notamment su…",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "DSIH",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "fa5ce5cb017f2953",
+"title": "Doctrine du numérique en santé 2027 : l'ANS met le DMP, l'identité numérique et la régulation en concertation",
+"link": "https://dsih.fr/articles/6475/doctrine-du-numerique-en-sante-2027-lans-met-le-dmp-lidentite-numerique-et-la-regulation-en-concertation",
+"summary": "L'Agence du numérique en santé (ANS) a ouvert, le 23 novembre, la concertation sur la doctrine du numérique en santé 2027. Les établissements, les professionnels de santé et les éditeurs ont jusqu'au 15 janvier prochain pour faire remonter leurs observations. Les échanges portero…",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "DSIH",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "d22bcc0b30a5cf93",
+"title": "Cyberattaque au CHU de Guadeloupe : le plan blanc déclenché, des soins reportés jusqu'au 27 novembre",
+"link": "https://dsih.fr/articles/6474/cyberattaque-au-chu-de-guadeloupe-le-plan-blanc-declenche-des-soins-reportes-jusquau-27-novembre",
+"summary": "Le CHU de Guadeloupe fonctionne en mode dégradé depuis une cyberattaque survenue samedi 21 novembre. Les applications informatiques et la téléphonie sont fortement perturbées. L'établissement a déclenché le plan blanc et reporté une partie de son activité programmée jusqu'à vendr…",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "DSIH",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "7792b732a11b6250",
+"title": "Equasens lance Eqwo, un agenda en ligne intégré au logiciel des cabinets médicaux",
+"link": "https://dsih.fr/articles/6473/equasens-lance-eqwo-un-agenda-en-ligne-integre-au-logiciel-des-cabinets-medicaux",
+"summary": "L'éditeur nancéien Equasens a présenté le 19 novembre Eqwo, une application qui associe prise de rendez-vous en ligne, téléconsultation et échange de documents. Elle s'adresse d'abord aux cabinets libéraux équipés de son logiciel MediStory, avant une extension à la pharmacie et à…",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "DSIH",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "dfc7f2031a0473f8",
+"title": "SIH data centré : faire de la donnée un levier de transformation et d'innovation avec Docaposte Santé",
+"link": "https://dsih.fr/articles/6472/sih-data-centre-faire-de-la-donnee-un-levier-de-transformation-et-dinnovation-avec-docaposte-sante",
+"summary": "Les systèmes d'information hospitaliers restent souvent fragmentés. Les données de santé, dispersées entre de multiples applications et enfermées dans des environnements propriétaires, demeurent difficiles à partager et à exploiter pleinement.",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "DSIH",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "7419a96ded96f716",
+"title": "La cyber, ou le drame d'avoir raison trop tôt",
+"link": "https://dsih.fr/articles/6471/la-cyber-ou-le-drame-davoir-raison-trop-tot",
+"summary": "Une chose étrange m'est arrivée cette semaine. Ou plutôt deux. La première, c'est un message sur le fil de discussion d'un des groupes de RSSI auxquels j'appartiens, sur le mode : « eh les filles/gars, c'est la chienlit chez nous, on passe nos journées à patcher, c'est comment ch…",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "DSIH",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante",
+"vuln"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "de3ee9ce4dc23f04",
+"title": "CVE-2026-133968 — Project MONAI MONAI Label : Project MONAI MONAI Label Path Traversal Vulnerability",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968",
+"summary": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially resulting in remote code execution.",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-11-26",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"exploit"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "87153c5bcb42c18a",
+"title": "CVE-2026-134624 — N-able MailAssure : N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624",
+"summary": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary internal hosts and ports, determine which are reachable, and send crafted data to intern…",
+"date": "2026-11-23T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-11-26",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"exploit"
+],
+"first_seen": "2026-11-24T00:06:00+00:00"
 },
 {
 "id": "6fa481a63fc647ad",
@@ -807,6 +2059,24 @@
 "first_seen": "2026-11-21T19:30:49+00:00"
 },
 {
+"id": "f67114676f5678ce",
+"title": "NSA resumes normal operations following internal network disruptions",
+"link": "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions",
+"summary": "The National Security Agency has mostly returned to business as usual after patches to a commonly-used programming language caused an internal communications network to crash for much of the week. An NSA spokesperson said they “can confirm ... (https://incidentdatabase.ai/cite/18…",
+"date": "2026-11-21T00:00:00+00:00",
+"source": "AI Incident Database",
+"kind": "actu",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-20T20:34:05+00:00"
+},
+{
 "id": "f0b8696c25c4c4a7",
 "title": "West Virginia Legislature hit with cyber incident affecting IT systems",
 "link": "https://therecord.media/west-virginia-legislature-cyberattack",
@@ -973,21 +2243,6 @@
 "ia",
 "identite"
 ],
-"first_seen": "2026-11-20T20:34:05+00:00"
-},
-{
-"id": "f67114676f5678ce",
-"title": "NSA resumes normal operations following internal network disruptions",
-"link": "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions",
-"summary": "Certain facilities remain under “Code Orange” for non-essential employees, meaning delayed openings and some must check in with their supervisors.",
-"date": "2026-11-20T16:06:00+00:00",
-"source": "The Record",
-"kind": "media",
-"cote": "C",
-"group": "Médias",
-"cvss": null,
-"sev": null,
-"themes": [],
 "first_seen": "2026-11-20T20:34:05+00:00"
 },
 {
@@ -4599,7 +5854,7 @@
 "id": "b4e088b16dc93314",
 "title": "CVE-2024-10441 — Synology DiskStation Manager (DSM) : Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
 "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441",
-"summary": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
+"summary": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors. Utilisée dans des campagnes de rançongiciel.",
 "date": "2026-11-18T00:00:00+00:00",
 "source": "CISA · KEV (vulnérabilités exploitées)",
 "kind": "kev",
@@ -4608,10 +5863,11 @@
 "cvss": null,
 "extra": {
 "due": "2026-11-21",
-"ransomware": false
+"ransomware": true
 },
 "sev": "high",
 "themes": [
+"ransomware",
 "vuln",
 "exploit"
 ],
@@ -10035,23 +11291,6 @@
 "cvss": null,
 "sev": null,
 "themes": [],
-"first_seen": "2026-11-19T10:50:56+00:00"
-},
-{
-"id": "0947557321cbe5ad",
-"title": "Bulletin d'actualité CERTFR-2026-ACT-032 (27 juillet 2026)",
-"link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-032/",
-"summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le CERT-FR dans le cadre d'une analyse de risques pour prioriser l'app…",
-"date": "2026-07-27T00:00:00+00:00",
-"source": "CERT-FR · Actualités",
-"kind": "actu",
-"cote": "A",
-"group": "Institutionnel",
-"cvss": null,
-"sev": null,
-"themes": [
-"vuln"
-],
 "first_seen": "2026-11-19T10:50:56+00:00"
 }
 ]
