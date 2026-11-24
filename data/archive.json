@@ -1,5 +1,265 @@
 [
 {
+"id": "4daab759e9ace46a",
+"title": "ZDNET Morning 24/11/2026 : Influence politique derrière la réintégration de Jensen Huang, Rétention cognitive et usage des IA, Google Chrome : six réglages clés pour la sécurité,...",
+"link": "https://www.zdnet.fr/actualites/zdnet-morning-24-11-2026-influence-politique-derriere-la-reintegration-de-jensen-huang-retention-cognitive-et-usage-des-ia-google-chrome-six-reglages-cles-pour-la-securite-508481.htm#xtor=RSS-1",
+"summary": "Le ZDNET Morning le brief de l'actu tech pour les pros tous les matins à 9h00. Transformation numérique, IA, matériel, logiciels,... ne passez pas à côté de ce qui fait la Une du secteur.",
+"date": "2026-11-24T10:11:27+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
+"id": "ac0941603296b55e",
+"title": "Règlementation : les entreprises doivent intégrer les contraintes dès la conception de leurs systèmes IT",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/reglementation-les-entreprises-doivent-integrer-les-contraintes-des-la-conception-de-leurs-systemes-it",
+"summary": "Avec l'accumulation des réglementations européennes, de l'IA Act à NIS 2 en passant par le RGPD et DORA, la conformité devient un enjeu structurant pour les directions IT. Lors d'une conférence organisée au TechShow Paris le 18 novembre, trois intervenants ont plaidé pour une app…",
+"date": "2026-11-24T09:30:57+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"regl"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
+"id": "a0a25e5ec0683ad7",
+"title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+"link": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+"summary": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls to shield systems from exploits, giving d…",
+"date": "2026-11-24T06:02:57+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
+"id": "14a00d8221c42a6b",
+"title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+"link": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+"summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The critical vulnerabilities are listed below - CVE…",
+"date": "2026-11-24T06:02:45+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"ia",
+"exploit",
+"vuln"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
+"id": "9a3c812e143d2ef6",
+"title": "STEGOGUARD-LM: Evaluating End-to-End Protection Against LLM Covert Channels",
+"link": "https://arxiv.org/abs/2611.28152",
+"summary": "arXiv:2611.28152v1 Announce Type: new Abstract: A defense that disrupts hidden messages may still provide little protection if its detector rarely triggers an intervention. We present StegoGuard-LM, a controlled framework for evaluating defenses against covert messages in large l…",
+"date": "2026-11-24T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
+"id": "056990f70a230ea9",
+"title": "An LLM-Assisted Multi-Objective AutoML Framework for Efficient Network Intrusion Detection",
+"link": "https://arxiv.org/abs/2611.28312",
+"summary": "arXiv:2611.28312v1 Announce Type: new Abstract: Conventional Machine Learning (ML)-based Intrusion Detection Systems (IDSs) require manual design, optimize only detection performance, and neglect inference latency and model size, which are critical for resource-constrained Intern…",
+"date": "2026-11-24T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
+"id": "4a9d0d3003f8923f",
+"title": "Weight-Space Backdoors in Open-Weight LLMs: Cross-Architecture Attacks and Blind Model Forensics",
+"link": "https://arxiv.org/abs/2611.28543",
+"summary": "arXiv:2611.28543v1 Announce Type: new Abstract: Open-weight language models are vulnerable to trigger-conditioned behaviors introduced through sparse post-training weight modifications, creating supply-chain risks beyond conventional provenance checks. We present Neural Sentinel,…",
+"date": "2026-11-24T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"supply"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
+"id": "0560883253da1784",
+"title": "Who Is Prompt-Injecting Coding Agents? An Empirical Study of Hidden AI-Directed Text on GitHub",
+"link": "https://arxiv.org/abs/2611.28763",
+"summary": "arXiv:2611.28763v1 Announce Type: new Abstract: AI coding agents now triage issues, review pull requests and pick up tasks inside GitHub repositories, and to do so they read text that anyone with a GitHub account can write. This makes GitHub a prime surface for indirect prompt in…",
+"date": "2026-11-24T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
+"id": "6612ce4f1baac1b9",
+"title": "Ads for Agents: Measuring Ad-Serving MCP Servers",
+"link": "https://arxiv.org/abs/2611.28911",
+"summary": "arXiv:2611.28911v1 Announce Type: new Abstract: AI agents call external tools through protocols such as the Model Context Protocol (MCP). Some MCP servers return paid advertisements (ads) into the model's context. The model then decides whether these ads and their disclosures rea…",
+"date": "2026-11-24T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
+"id": "a35c91a123d1a544",
+"title": "Consumer-Time Validity in Stateful AI Runtimes: Verifying Recovered State and Deferred Authority",
+"link": "https://arxiv.org/abs/2611.29004",
+"summary": "arXiv:2611.29004v1 Announce Type: new Abstract: Stateful LLM serving engines and agent runtimes reuse execution state and deferred permissions across components and sessions. A cancellation, rollback, or approval is recorded by one component and relied on by another, and recordin…",
+"date": "2026-11-24T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
+"id": "93e7a0d01b75e579",
+"title": "Watermark Claims Under Test: Lessons from Auditing a Production LLM",
+"link": "https://arxiv.org/abs/2611.29018",
+"summary": "arXiv:2611.29018v1 Announce Type: new Abstract: Can we tell whether an LLM is watermarked without knowing its secret key? Published black-box tests suggest that carefully designed prompts can reveal the statistical footprint of a watermark. This paper examines what happens when t…",
+"date": "2026-11-24T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
+"id": "8153663ea6f46d7a",
+"title": "Persistent Jailbreak Backdoor Attack",
+"link": "https://arxiv.org/abs/2611.29217",
+"summary": "arXiv:2611.29217v1 Announce Type: new Abstract: Safety alignment is widely used to align large language models (LLMs) to produce helpful and harmless responses. However, an attacker can plant a jailbreak backdoor in an LLM such that adding a universal trigger word or phrase to a…",
+"date": "2026-11-24T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
+"id": "ca6822778a97a916",
+"title": "TurboFHE: An Efficient and Scalable Multi-GPU Framework for Homomorphic LLM Inference",
+"link": "https://arxiv.org/abs/2611.29244",
+"summary": "arXiv:2611.29244v1 Announce Type: new Abstract: Fully homomorphic encryption (FHE) enables privacy-preserving large language model inference but remains computationally intensive. Existing multi-GPU FHE inference systems rely on expert-crafted parallelization plans that generaliz…",
+"date": "2026-11-24T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
+"id": "e0d28572d078ffc2",
+"title": "Benchmarking Web Agent Defenses Against Adaptive Visual Prompt Injection",
+"link": "https://arxiv.org/abs/2611.29268",
+"summary": "arXiv:2611.29268v1 Announce Type: new Abstract: Multimodal web agents automate website interactions but remain vulnerable to visual prompt injection (VPI), where malicious webpage content manipulates their visual processing and induces unintended actions. Although several defense…",
+"date": "2026-11-24T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
+"id": "874b59c831027013",
+"title": "CrowdStrike absorbe Zscaler : consolidation et convergence des plateformes",
+"link": "https://www.lemagit.fr/actualites/366655452/CrowdStrike-absorbe-Zscaler-consolidation-et-convergence-des-plateformes",
+"summary": "CrowdStrike acquiert Zscaler pour intégrer la sécurité réseau dans sa plateforme d'endpoint, cherchant à maîtriser les risques associés à l'intelligence artificielle.",
+"date": "2026-11-24T04:37:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
 "id": "5e4209ae374025b4",
 "title": "Hackers breach Austrian Foreign Ministry website, access diplomats' contact details",
 "link": "https://therecord.media/austrian-foreign-ministry-says-website-hacked",
@@ -13,6 +273,90 @@
 "sev": null,
 "themes": [],
 "first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "670f8cdb3eabf4e5",
+"title": "LaLiga hacked: Spain’s top football league confirms theft of fans’ personal data",
+"link": "https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident",
+"summary": "Spain’s professional soccer league LaLiga said Monday hackers stole personal information belonging to fans in a cyberattack affecting its digital services and those of several Spanish clubs.",
+"date": "2026-11-24T00:00:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
+"id": "3e9064fe72c037e1",
+"title": "‘Grand Theft Auto VI’ hacker sentenced to seven years, released the same day",
+"link": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license",
+"summary": "A British cybercriminal who hacked Rockstar Games and leaked footage of Grand Theft Auto VI was sentenced Monday to seven years in prison, and then released on license because of time served.",
+"date": "2026-11-24T00:00:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"fuite"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
+"id": "562fd960e27691a4",
+"title": "Le CHU de Nice obtient les certifications ISO 27001 et HDS pour la protection des données de santé",
+"link": "https://dsih.fr/articles/6479/le-chu-de-nice-obtient-les-certifications-iso-27001-et-hds-pour-la-protection-des-donnees-de-sante",
+"summary": "Le Centre hospitalier universitaire (CHU) de Nice franchit une nouvelle étape dans sa stratégie de sécurisation des données de santé en obtenant les certifications ISO 27001 et Hébergeur de Données de Santé (HDS).",
+"date": "2026-11-24T00:00:00+00:00",
+"source": "DSIH",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante",
+"regl"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
+"id": "ad444c066d25d6bb",
+"title": "Retours à domicile : quand l'info fait défaut",
+"link": "https://dsih.fr/articles/6478/retours-a-domicile-quand-linfo-fait-defaut",
+"summary": "À la sortie de l'hôpital, les professionnels qui prennent le relais ont besoin d'informations de suivi complètes et utilisables. Dans le Dunkerquois, des signalements de professionnels de santé libéraux ont fait apparaître des difficultés lors de certains retours à domicile, en p…",
+"date": "2026-11-24T00:00:00+00:00",
+"source": "DSIH",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
+},
+{
+"id": "7a35b68cf25ac752",
+"title": "Ségur vague 2 : le DPI face aux données corrigées",
+"link": "https://dsih.fr/articles/6477/segur-vague-2-le-dpi-face-aux-donnees-corrigees",
+"summary": "Avec la vague 2 du Ségur numérique, le DMP se consulte sans quitter le DPI. Les spécifications imposent aussi de gérer ce qui arrive à un document corrigé, remplacé ou rejeté. Encore faut-il que les établissements s'y soient préparés.",
+"date": "2026-11-24T00:00:00+00:00",
+"source": "DSIH",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-24T10:08:00+00:00"
 },
 {
 "id": "d0a014829727bee9",
@@ -11276,21 +11620,6 @@
 "themes": [
 "ia"
 ],
-"first_seen": "2026-11-19T10:50:56+00:00"
-},
-{
-"id": "a4efe4224ce7626b",
-"title": "InterCERT France (Juillet 2026)",
-"link": "https://www.nolimitsecu.fr/intercert-france-juillet-2026/",
-"summary": "Episode #549 consacré à l’InterCERT France Avec Thibaud Binétruy The post InterCERT France (Juillet 2026) appeared first on NoLimitSecu .",
-"date": "2026-07-27T08:07:45+00:00",
-"source": "NoLimitSecu",
-"kind": "media",
-"cote": "C",
-"group": "Médias",
-"cvss": null,
-"sev": null,
-"themes": [],
 "first_seen": "2026-11-19T10:50:56+00:00"
 }
 ]
