@@ -1,5 +1,524 @@
 [
 {
+"id": "70f66acc3de798b1",
+"title": "1Password customer data stolen after employee GitHub account breach",
+"link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+"summary": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
+"date": "2026-11-25T21:33:33+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"fuite"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "17a805c0d69ce858",
+"title": "Microsoft: China’s Salt Typhoon hackers are using Artex",
+"link": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+"summary": "An AI tool implicated in several high-profile breaches is rapidly being integrated into the hacking suites of groups from China and North Korea, Microsoft said.",
+"date": "2026-11-25T21:18:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"etat"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "dbfa2402c895a28e",
+"title": "FIFA says hackers accessed ‘limited set of personal and business information’",
+"link": "https://therecord.media/fifa-data-breach-limited",
+"summary": "The Switzerland-based international governing body for soccer says it's working with relevant authorities and law enforcement to investigate a recent breach.",
+"date": "2026-11-25T20:40:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "63da0c2dc0919fd6",
+"title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+"link": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+"summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
+"date": "2026-11-25T19:39:31+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "fc1fe5cb80de4b70",
+"title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+"link": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+"summary": "The AI-powered penetration testing framework ARTEX has been abused by threat actors like Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon to accelerate their existing workflows related to network reconnaissance, credential attacks, and web applic…",
+"date": "2026-11-25T18:09:06+00:00",
+"source": "Microsoft Security Blog",
+"kind": "cti",
+"cote": "B",
+"group": "Éditeurs",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"identite",
+"etat"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "4fcf01c31362b2a5",
+"title": "Florida ransomware recovery CEO indicted for allegedly paying hacker ransoms",
+"link": "https://therecord.media/ransomware-doj-indictment-recovery",
+"summary": "The CEO of a ransomware recovery firm was indicted by a federal grand jury over allegations he lied about his services and paid out ransoms to cybercriminals.",
+"date": "2026-11-25T17:30:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ransomware"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "2bc53ab48fabfa98",
+"title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security",
+"link": "https://www.microsoft.com/en-us/security/blog/2026/11/25/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-email-security/",
+"summary": "We're honored to share that Microsoft has been named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security, for the second consecutive year. The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Email Security appeared first on Microsoft Security B…",
+"date": "2026-11-25T17:15:00+00:00",
+"source": "Microsoft Security Blog",
+"kind": "cti",
+"cote": "B",
+"group": "Éditeurs",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "b93540ef2a5b4c4c",
+"title": "Australia passes tough legislation requiring big tech to preempt foreseeable harms",
+"link": "https://therecord.media/australia-passes-online-safety-legislation-preempt-harms",
+"summary": "The Digital Duty of Care Act sailed through Australia's Parliament. It will mandate that online providers establish protocols to protect users from threats of violence and rape as well as behavior that could cause significant harms.",
+"date": "2026-11-25T17:07:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "97df8d95478773eb",
+"title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+"link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+"summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
+"date": "2026-11-25T16:13:40+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "5cbae3a7a385d2bb",
+"title": "La généralisation du dispositif Domoplaies se fait attendre, le ministère assure que le financement est maintenu",
+"link": "https://www.ticsante.com/Story?Id=8539",
+"summary": "MONTPELLIER, PARIS (TICsanté) - Le ministère de la santé assure maintenir le financement du dispositif Domoplaies de télémédecine pour les plaies chroniques ou complexes en attendant sa généralisation qui a pris du retard, alors que son fondateur, le Dr Luc Téot, affirme que la s…",
+"date": "2026-11-25T16:00:00+00:00",
+"source": "TICsanté",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "58fcdda1dda283b2",
+"title": "Black Friday : les cybermenaces dopées à l'IA mettent les distributeurs sous pression",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/black-friday-les-cybermenaces-dopees-a-l-ia-mettent-les-distributeurs-sous-pression",
+"summary": "À l'approche du Black Friday, les enseignes doivent se préparer à une hausse des attaques visant leurs sites, leurs comptes clients et leurs infrastructures de paiement. L'IA accélère les capacités des attaquants, tandis qu'une part importante des petits et moyens distributeurs r…",
+"date": "2026-11-25T15:40:12+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "a3b682ce25929f59",
+"title": "More Pentests Without More Pentesters: Where AI Safely Helps",
+"link": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+"summary": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitive client data within their own infrastru…",
+"date": "2026-11-25T15:00:10+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "5d8223f882df7625",
+"title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+"link": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+"summary": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the vendors themselves. [...]",
+"date": "2026-11-25T15:00:00+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln",
+"supply"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "150718d0d4e538a1",
+"title": "Ouverture de la concertation sur la doctrine 2027 du numérique en santé",
+"link": "https://www.ticsante.com/Story?Id=8538",
+"summary": "L'Agence du numérique en santé (ANS) a annoncé, le 23 novembre, le lancement d'une concertation sur la doctrine 2027 du numérique en santé, ouverte jusqu'au 15 janvier.",
+"date": "2026-11-25T14:21:54+00:00",
+"source": "TICsanté",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "fa1f50764b02803d",
+"title": "Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital",
+"link": "https://therecord.media/guadeloupe-ransomware-hospital-cyber",
+"summary": "France’s national cybersecurity agency is investigating a suspected ransomware attack that impaired the computer systems of the University Hospital of Guadeloupe, forcing doctors to postpone surgeries, suspend some cancer treatments and revert to pen and paper.",
+"date": "2026-11-25T13:30:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante",
+"ransomware"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "f645ee4919e4e300",
+"title": "Shirudo : le « bouclier » IA pour Linux d’OpenAI et Cisco, encore loin de parer tous les assauts",
+"link": "https://www.lemagit.fr/actualites/366655460/Shirudo-le-bouclier-IA-pour-Linux-dOpenAI-et-Cisco-encore-loin-de-parer-tous-les-assauts",
+"summary": "OpenAI et Cisco ont annoncé le lancement du projet Shirudo, une solution open source portée par Isovalent, une division de l’équipementier réseau. L’idée : accélérer la mise en place de filtres eBPF écrits par des agents IA pour bloquer l’exploitation des systèmes Linux vulnérabl…",
+"date": "2026-11-25T13:15:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "92db407f26f0f4fe",
+"title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+"link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+"summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerabil…",
+"date": "2026-11-25T12:48:54+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": 8.6,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "851806c24f2db9ae",
+"title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+"link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+"summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution, it has taken some systems offline. The bur…",
+"date": "2026-11-25T12:30:08+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "b368c84bce94ed6c",
+"title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+"link": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+"summary": "CISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2023-25914 Danfoss AK-SM 800A Series Path Traversal Vulnerability CVE-2023-25915 Danfoss AK-SM 800A Series Improper Input Validation Vulnerab…",
+"date": "2026-11-25T12:00:00+00:00",
+"source": "CISA · Advisories",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"exploit",
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "6a8ceb0f7d1b2b64",
+"title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
+"link": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+"summary": "TL;DR More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break. Validity-only triage misses 46% of critical secrets: Priori…",
+"date": "2026-11-25T11:51:48+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"identite"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "d52cc031d711c026",
+"title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+"link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+"summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-1321…",
+"date": "2026-11-25T11:23:26+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"exploit",
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "bd8fc62460121290",
+"title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
+"link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+"summary": "Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications. [...]",
+"date": "2026-11-25T11:16:32+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "dab3278ad1a49e11",
+"title": "Souveraineté numérique cyber : peut-être une priorité, mais pas encore une réalité",
+"link": "https://www.zdnet.fr/actualites/souverainete-numerique-du-cyber-une-priorite-mais-pas-encore-une-realite-508566.htm#xtor=RSS-1",
+"summary": "Le CESIN et le Campus Cyber se sont penchés sur la question des dépendances des entreprises sur le volet cyber. Et s'ils s'accordent à dire que le sujet est une priorité, les organisations ont encore du mal à concrétiser les discours dans leur politique d'achats.",
+"date": "2026-11-25T11:11:29+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "fa02e34b4d20dfc9",
+"title": "ZDNET Morning 25/11/2026 : Souveraineté cyber en France et achats IT, Google met l'utilisateur dans les programmes TV, Le capital de Nvidia",
+"link": "https://www.zdnet.fr/actualites/zdnet-morning-25-11-2026-souverainete-cyber-en-france-et-achats-it-google-met-lutilisateur-dans-les-programmes-tv-le-capital-de-nvidia-508596.htm#xtor=RSS-1",
+"summary": "Le ZDNET Morning le brief de l'actu tech pour les pros tous les matins à 9h00. Transformation numérique, IA, matériel, logiciels,... ne passez pas à côté de ce qui fait la Une du secteur.",
+"date": "2026-11-25T11:11:24+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "01d2f9e53963e1a2",
+"title": "Facture électronique : un rodage freiné par l’interopérabilité des systèmes IT",
+"link": "https://www.lemagit.fr/actualites/366655414/Facture-electronique-un-rodage-freine-par-linteroperabilite-des-systemes-IT",
+"summary": "Les débuts de la facture électronique restent modestes. Environ 50 millions de factures pour un objectif de plus de 3 milliards, selon Deborah Pilet, CPO de N2F. Raccordement des logiciels, sécurité des données, synchronisation des adresses entre PA ou encore portabilité sont aut…",
+"date": "2026-11-25T11:05:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "5f45da81b6f63519",
+"title": "Gestion du risque lié aux tiers : fournisseurs et clients, impossibles à réconcilier ?",
+"link": "https://www.lemagit.fr/actualites/366655500/Gestion-du-risque-lie-aux-tiers-fournisseurs-et-clients-impossible-a-reconcilier",
+"summary": "La quatrième édition de l’observatoire du risque cyber lié aux tiers vient de sortir, à point nommé. Il souligne les difficultés de réconcilier des perspectives qui ne manquent pas de diverger.",
+"date": "2026-11-25T10:51:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "3885183f32787fc7",
+"title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+"link": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+"summary": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday. Abdulrahman Alfozan, a 35-year-old Saudi national, was…",
+"date": "2026-11-25T10:43:07+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "7f1dc136f63a10d3",
+"title": "Dette technique : l’IA offensive risque de la faire payer au prix fort",
+"link": "https://www.lemagit.fr/actualites/366655515/Dette-technique-lIA-offensive-risque-de-la-faire-payer-au-prix-fort",
+"summary": "L’émergence des frameworks offensifs agentiques a de quoi faire peur. Mais son impact est avant tout la traduction d’une dette technique trop longtemps accumulée. Et qu’il est temps de régler.",
+"date": "2026-11-25T10:32:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "7bb089ac45e5adb8",
+"title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+"link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+"summary": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]",
+"date": "2026-11-25T10:10:20+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"exploit",
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "916629091cfddbe4",
+"title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+"link": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+"summary": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from. The flaw used in the attack had been in the registry's code since February 2016, and the team that mainta…",
+"date": "2026-11-25T09:06:59+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": 10.0,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "00f16364aca5121d",
+"title": "Microsoft confirms authentication issues after November updates",
+"link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+"summary": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability. [...]",
+"date": "2026-11-25T09:02:57+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
 "id": "3bc6f96dec950b6c",
 "title": "Hackers reportedly breached CIA intelligence analysis system",
 "link": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
@@ -104,7 +623,7 @@
 "id": "d52512d72b3d3b7a",
 "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
 "link": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
-"summary": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise of the developer's account. The WordPress plugins team has i…",
+"summary": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise of the developer's account. The WordPress plugins team has p…",
 "date": "2026-11-25T06:21:12+00:00",
 "source": "The Hacker News",
 "kind": "media",
@@ -114,6 +633,38 @@
 "sev": null,
 "themes": [],
 "first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "7157a41ea4ec36dd",
+"title": "Télétravail, déplacements, Wi-Fi public : comment protéger les connexions de tous les collaborateurs d’une équipe ?",
+"link": "https://www.zdnet.fr/publicite/teletravail-deplacements-wi-fi-public-comment-proteger-les-connexions-de-tous-les-collaborateurs-dune-equipe-508623.htm#xtor=RSS-1",
+"summary": "Une PME dont les salariés travaillent depuis leur domicile, un hôtel ou un espace de coworking multiplie les réseaux qu'elle ne contrôle pas réellement, et ce sont précisément ces réseaux qui peuvent causer des soucis de sécurité auprès du tout-venant, et a fortiori dans le cadre…",
+"date": "2026-11-25T05:11:12+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "8f45124badd8a0b9",
+"title": "Alexandra Bejan, Synology France : Cyberattaque contre un hôpital : la continuité des soins se prépare aussi dans les systèmes informatiques",
+"link": "https://www.zdnet.fr/tribune/alexandra-bejan-synology-france-cyberattaque-contre-un-hopital-la-continuite-des-soins-se-prepare-aussi-dans-les-systemes-informatiques-508507.htm#xtor=RSS-1",
+"summary": "Après la cyberattaque ayant forcé le CHU de Guadeloupe à déclencher son plan blanc, Alexandra Bejan, Marketing Director chez Synology France, détaille les leviers de résilience : maîtrise des prestataires, sauvegardes immuables et tests réguliers de reprise d'activité.",
+"date": "2026-11-25T05:11:11+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
 },
 {
 "id": "97dd6b1458845a19",
@@ -289,6 +840,448 @@
 "vuln"
 ],
 "first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "1f180532394dee59",
+"title": "Mozilla - CVE-2026-135508",
+"link": "https://cyberveille.esante.gouv.fr/alertes/mozilla-cve-2026-135508-2026-11-25",
+"summary": "Il s'agit d'une vulnérabilité de type utilisation après libération (use-after-free) dans le composant Graphics de Mozilla Firefox , Firefox ESR et Mozilla Thunderbird . Mozilla...",
+"date": "2026-11-25T03:21:08+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "2f0ae97c20883dc6",
+"title": "Idunno - CVE-2026-131914",
+"link": "https://cyberveille.esante.gouv.fr/alertes/idunno-cve-2026-131914-2026-11-25",
+"summary": "Il s'agit d'une vulnérabilité de désérialisation de données non fiables dans le module HTTP AntiCsrfModule (étape PreRequestHandlerExecute ) de Idunno.AntiCsrf . Idunno.AntiCsrf est...",
+"date": "2026-11-25T03:17:29+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "97ba4d0d9ce9d4f2",
+"title": "Broadcom - CVE-2026-123903",
+"link": "https://cyberveille.esante.gouv.fr/alertes/broadcom-cve-2026-123903-2026-11-25",
+"summary": "Il s'agit d'une vulnérabilité dans le service d'annuaire VMware Directory Service (vmdir) de VMware vCenter . VMware vCenter est un serveur de gestion centralisée des hyperviseurs...",
+"date": "2026-11-25T03:16:12+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "b0eafeec04f53f4c",
+"title": "SolarWinds - CVE-2026-123168",
+"link": "https://cyberveille.esante.gouv.fr/alertes/solarwinds-cve-2026-123168-2026-11-25",
+"summary": "Il s'agit d'une vulnérabilité de validation insuffisante dans SolarWinds Serv-U . SolarWinds Serv-U est un serveur de transfert de fichiers (MFT et FTP) disponible sous Windows et...",
+"date": "2026-11-25T03:14:36+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "b7999aa117287fab",
+"title": "Dell - CVE-2026-111546",
+"link": "https://cyberveille.esante.gouv.fr/alertes/dell-cve-2026-111546-2026-11-25",
+"summary": "Il s'agit d'une vulnérabilité d' injection de commandes système (OS command injection) dans l' appliance Dell PowerStore . Dell PowerStore est une gamme de baies de stockage de données...",
+"date": "2026-11-25T03:13:11+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "66d1308e754f8508",
+"title": "Multiples vulnérabilités dans Tenable Enclave Security (25 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1615/",
+"summary": "De multiples vulnérabilités ont été découvertes dans Tenable Enclave Security. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "ff9051b2e2c07abf",
+"title": "Multiples vulnérabilités dans les produits Mozilla (25 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1616/",
+"summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données.",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "a89ab58991ede5fa",
+"title": "Vulnérabilité dans Laravel (25 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1617/",
+"summary": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer un déni de service à distance.",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "e2db05f574300c08",
+"title": "Vulnérabilité dans les produits Schneider Electric (25 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1618/",
+"summary": "Une vulnérabilité a été découverte dans les produits Schneider Electric. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "b9d84c0409eb1bcc",
+"title": "Multiples vulnérabilités dans Symfony (25 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1619/",
+"summary": "De multiples vulnérabilités ont été découvertes dans Symfony. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "857796073af7ddd9",
+"title": "Vulnérabilité dans Microsoft Office (25 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1620/",
+"summary": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "33ba6a6afdcc1b01",
+"title": "Vulnérabilité dans Palo Alto Networks PAN-OS (25 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1621/",
+"summary": "Une vulnérabilité a été découverte dans Palo Alto Networks PAN-OS. Elle permet à un attaquant de provoquer une élévation de privilèges. Palo Alto Networks indique que la vulnérabilité CVE-2026-43600 est activement exploitée.",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"exploit",
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "7ddd967868509da5",
+"title": "Multiples vulnérabilités dans les produits VMware (25 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1622/",
+"summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "dc433e181dc2f09c",
+"title": "CVE-2026-103406 — Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router : Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router…",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+"summary": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-11-28",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"exploit"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "17c8847273b8b211",
+"title": "CVE-2026-133469 — Vates Xen Orchestra : Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469",
+"summary": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted authentication token containing an empty J…",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-11-28",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"exploit"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "c395d7948f743efc",
+"title": "CVE-2025-41450 — Danfoss AK-SM 800A Series : Danfoss AK-SM 800A Series Improper Authentication Vulnerability",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2025-41450",
+"summary": "Danfoss AK-SM 800A Series contains an improper authentication vulnerability that could allow an attacker to generate a web report exposing sensitive information, including internal IP addresses, usernames, and store names.",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-12-09",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"exploit"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "2863b0a9ccdb53ac",
+"title": "CVE-2023-25914 — Danfoss AK-SM 800A Series : Danfoss AK-SM 800A Series Path Traversal Vulnerability",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914",
+"summary": "Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-11-28",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"exploit"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "1a9b58e929d7d767",
+"title": "CVE-2023-25915 — Danfoss AK-SM 800A Series : Danfoss AK-SM 800A Series Improper Input Validation Vulnerability",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2023-25915",
+"summary": "Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-11-28",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"exploit"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "6cc7e1c1407739c6",
+"title": "CVE-2026-133324 — Mitel MiCollab : Mitel MiCollab Not Failing Securely Vulnerability",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133324",
+"summary": "Mitel MiCollab contains a not failing securely vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to bypass authentication controls and perform unauthorized actions.",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-11-28",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"exploit"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "d96450e9bbe52725",
+"title": "CVE-2026-133275 — Mitel MiCollab : Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133275",
+"summary": "Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audio, Web and Video Conferencing (AWV) component due to insufficient file type validation that could allow an unauthenticated attacker to upload arbitrary files.",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-11-28",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"exploit"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "9dc367a4753db62c",
+"title": "CVE-2026-133311 — Mitel MiCollab : Mitel MiCollab Weak Authentication Vulnerability",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133311",
+"summary": "Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using a specific system-generated random identifier or pre-staged content.",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-12-09",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"exploit"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "43ca3b3fbbb66072",
+"title": "CVE-2026-133303 — Mitel MiCollab : Mitel MiCollab XML Injection Vulnerability",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
+"summary": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious content.",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-11-28",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"exploit"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "88b3821519f3a63d",
+"title": "CVE-2026-133323 — Mitel MiCollab : Mitel MiCollab OS Command Injection Vulnerability",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
+"summary": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary system commands.",
+"date": "2026-11-25T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-11-28",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"exploit"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
 },
 {
 "id": "6c270107d3982041",
@@ -743,7 +1736,7 @@
 "id": "20109cca376cb36a",
 "title": "IA : tout savoir sur l’émergence des modèles de décision",
 "link": "https://www.lemagit.fr/conseil/IA-tout-savoir-sur-lemergence-des-modeles-de-decision",
-"summary": "Les modèles de décision constituent un type d'IA rapide et peu coûteux, conçu pour produire des valeurs précises et structurées. L’analyste Kashyap Kompella revient sur leur raison d’être, les cas d’usage ciblés et ceux où il vaut mieux les éviter, ainsi que l’approche à observer…",
+"summary": "Les modèles de décision constituent un type d’IA rapide et peu coûteux, conçu pour produire des valeurs précises et structurées. L’analyste Kashyap Kompella revient sur leur raison d’être, les cas d’usage ciblés et ceux où il vaut mieux les éviter, ainsi que l’approche à observer…",
 "date": "2026-11-24T13:55:00+00:00",
 "source": "LeMagIT",
 "kind": "media",
@@ -814,7 +1807,7 @@
 "id": "92ff23de6ebc58d6",
 "title": "Stockage : Huawei propose disponibilité et fonctions inédites pour l’IA",
 "link": "https://www.lemagit.fr/actualites/366655497/Stockage-Huawei-propose-disponibilite-et-fonctions-inedites-pour-lIA",
-"summary": "Huawei lance en Europe les configurations OceanStor A800 « AI Data Platform », « AI Data Lake » et M900 « Context Memory Storage » précédemment dévoilées en Chine. Elles ont vocation à apporter aux entreprises de toutes tailles des caractéristiques de pointe, sans souffrir des pé…",
+"summary": "Huawei lance en Europe les configurations OceanStor A800 « AI Data Platform », « AI Data Lake » et M900 « Context Memory Storage », précédemment dévoilées en Chine. Elles ont vocation à apporter aux entreprises de toutes tailles des caractéristiques de pointe, sans souffrir des p…",
 "date": "2026-11-24T12:53:00+00:00",
 "source": "LeMagIT",
 "kind": "media",
@@ -1777,6 +2770,23 @@
 "vuln"
 ],
 "first_seen": "2026-11-24T00:06:00+00:00"
+},
+{
+"id": "0b1e34ecb07bb4a3",
+"title": "CVE-2026-65817",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-65817",
+"summary": "Improper neutralization of special elements used in an os command ('os command injection') in Azure Managed Instance for Apache Cassandra allows an unauthorized attacker to execute code over an adjacent network.",
+"date": "2026-11-23T22:20:52.977000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.6,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
 },
 {
 "id": "465fadc6233fa0b8",
@@ -5379,6 +6389,40 @@
 "sev": null,
 "themes": [],
 "first_seen": "2026-11-19T20:50:13+00:00"
+},
+{
+"id": "934910d42889aa4a",
+"title": "CVE-2026-133323",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
+"summary": "A vulnerability in the Audio, Web, and Video Conferencing (AWV) component of Mitel MiCollab through 10.3 (10.3.0.18) could allow an unauthenticated attacker to conduct a blind command injection attack due to insufficient parameter sanitization. A successful exploit could allow an…",
+"date": "2026-11-19T17:18:52.880000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 10.0,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "1c919f9755bdc7b1",
+"title": "CVE-2026-133303",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
+"summary": "A vulnerability in the Audio, Web, and Video Conferencing (AWV) component of Mitel MiCollab through 10.3 (10.3.0.18) could allow an unauthenticated attacker to leverage pre-staged malicious content to conduct an XML injection attack due to insufficient parameter validation. A suc…",
+"date": "2026-11-19T17:18:51.670000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.8,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T21:50:56+00:00"
 },
 {
 "id": "c0b2110866740c07",
