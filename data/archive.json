@@ -1,5 +1,296 @@
 [
 {
+"id": "3bc6f96dec950b6c",
+"title": "Hackers reportedly breached CIA intelligence analysis system",
+"link": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+"summary": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]",
+"date": "2026-11-25T07:45:03+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "0c55f9c844ada926",
+"title": "Cyberattaques dopées à l’IA : IBM appelle les entreprises à anticiper les défaillances",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaques-dopees-a-l-ia-ibm-appelle-les-entreprises-a-anticiper-les-defaillances",
+"summary": "Face à l’accélération des cyberattaques liée à l’intelligence artificielle, les entreprises doivent revoir leurs stratégies de cybersécurité. Pour Mark Hughes, responsable mondial des services de cybersécurité d’IBM Consulting, les attaquants exploitent désormais les vulnérabilit…",
+"date": "2026-11-25T07:30:00+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "a6adbf24fd083c5b",
+"title": "Cyberattaque contre Ipsos : le groupe Qilin revendique un vol de données sensibles",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-contre-ipsos-le-groupe-qilin-revendique-un-vol-de-donnees-sensibles",
+"summary": "Le groupe de cybercriminels Qilin revendique une attaque contre Ipsos et affirme détenir des documents commerciaux appartenant au spécialiste français des études de marché. Plusieurs extraits de fichiers, qui mentionneraient notamment Roblox, KPMG et Ferrero, ont été publiés sur…",
+"date": "2026-11-25T07:00:00+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ransomware"
+],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "1933e8aeee0dc7f6",
+"title": "Collectivités territoriales : la cybersécurité passe par la mutualisation des moyens",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/collectivites-territoriales-la-cybersecurite-passe-par-la-mutualisation-des-moyens",
+"summary": "Les petites communes peinent encore à disposer des compétences et des ressources nécessaires pour protéger leurs systèmes d'information. Devant une commission du Sénat, l'ANSSI et le GIP ACYMA ont plaidé pour un accompagnement de proximité et une meilleure mise en commun des moye…",
+"date": "2026-11-25T07:00:00+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"regl"
+],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "be8229fa86883728",
+"title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+"link": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+"summary": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world. The intrusion activity, tracked by GreyNoise under the moniker GreyN…",
+"date": "2026-11-25T06:50:19+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "7a5ea8907df3325d",
+"title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+"link": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+"summary": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts. The attacks have targeted financial services, he…",
+"date": "2026-11-25T06:37:06+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ransomware"
+],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "d52512d72b3d3b7a",
+"title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+"link": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+"summary": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise of the developer's account. The WordPress plugins team has i…",
+"date": "2026-11-25T06:21:12+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "97dd6b1458845a19",
+"title": "Leaks by Installments: Cross-Session Answer Disclosure in LLM Tutors and a Ledger-Based Defense",
+"link": "https://arxiv.org/abs/2611.31429",
+"summary": "arXiv:2611.31429v1 Announce Type: new Abstract: Tutors built on large language models (LLMs) are told not to give away answers, but a learner does not have to ask for the answer all at once. Existing safeguards judge each reply within the current conversation, so a learner can op…",
+"date": "2026-11-25T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "39db2583880389e1",
+"title": "Aftershock: Yesterday's Linux Kernel Bugs, Tomorrow's Android Exploits",
+"link": "https://arxiv.org/abs/2611.31547",
+"summary": "arXiv:2611.31547v1 Announce Type: new Abstract: Android kernels have long suffered from slow patch propagation from Linux upstream, with fixes often reaching devices far later than conventional Linux distributions. Until recently, this lag was largely a patch-management problem.…",
+"date": "2026-11-25T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "87961df12f30574f",
+"title": "Evaluating LLM Security Review Agents with Operationally Sourced Ground Truth",
+"link": "https://arxiv.org/abs/2611.31606",
+"summary": "arXiv:2611.31606v1 Announce Type: new Abstract: LLM-based security review agents can reason about vulnerabilities that deterministic tools miss, but deploying them responsibly requires knowing whether they actually work. Existing benchmarks construct ground truth synthetically or…",
+"date": "2026-11-25T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "6e1666fbd299543b",
+"title": "Mixed-Initiative Mining of Root-Cause Analyses into Audit Priors for C/C++ Vulnerability Hunting",
+"link": "https://arxiv.org/abs/2611.31744",
+"summary": "arXiv:2611.31744v1 Announce Type: new Abstract: Vulnerability auditing of large C/C++ codebases is constrained by limited review attention. Human auditors and LLM-based agents need operational priors that indicate where to look first and what to suspect, but such priors are rarel…",
+"date": "2026-11-25T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "0077e08203570349",
+"title": "Separating Measurement Failures from Defence Failures in Split Language-Model Privacy",
+"link": "https://arxiv.org/abs/2611.31752",
+"summary": "arXiv:2611.31752v1 Announce Type: new Abstract: Split-training privacy evaluations fail through distinct mechanisms. Evaluators can overlook an exposed gradient channel, align reconstructions against shifted labels, or deploy uncalibrated probes before testing a candidate defence…",
+"date": "2026-11-25T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "294d1be6def77426",
+"title": "SwarmLeak: Does Coordination Improve Privacy Attacks on LLM Agents?",
+"link": "https://arxiv.org/abs/2611.31791",
+"summary": "arXiv:2611.31791v1 Announce Type: new Abstract: LLM agents increasingly collaborate in group chats while holding tool access to confidential records, which makes the shared chat an attack surface. It remains unclear whether several colluding attackers extract such information mor…",
+"date": "2026-11-25T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "f96b5b69bb30c487",
+"title": "Where Did My Tokens Go? Verifiable Token Billing for LLM Services",
+"link": "https://arxiv.org/abs/2611.31806",
+"summary": "arXiv:2611.31806v1 Announce Type: new Abstract: Users of large language model (LLM) services receive token bills with limited evidence of which calls incurred their charges. In broker-mediated agent workflows, calls arise after authorization and billing evidence spans service dom…",
+"date": "2026-11-25T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "17c863b6111d0de6",
+"title": "Agentic Discovery of Soundness Bugs in Safe Rust Bindings",
+"link": "https://arxiv.org/abs/2611.31813",
+"summary": "arXiv:2611.31813v1 Announce Type: new Abstract: Rust crates confine unsafe code, such as calls into C or C++ libraries or system calls, behind safe interfaces that must uphold Rust's invariants. If an interface encodes one rule of the code beneath it too weakly, a program written…",
+"date": "2026-11-25T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "b268cc76e06e6da4",
+"title": "Not Just Any Example: Security Requirements and Fix Patterns for Guiding LLM Vulnerability Repair",
+"link": "https://arxiv.org/abs/2611.31993",
+"summary": "arXiv:2611.31993v1 Announce Type: new Abstract: Software vulnerabilities leave systems open to attack, and their remediation is often delayed. Large language models (LLMs) have advanced automated patch generation, yet passing functionality tests does not ensure that a patch enfor…",
+"date": "2026-11-25T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "277d1abc1b27a3f8",
+"title": "Bit-Flip Attacks on Quantized Neural Networks without Knowledge of Model Parameters",
+"link": "https://arxiv.org/abs/2611.32128",
+"summary": "arXiv:2611.32128v1 Announce Type: new Abstract: We show that quantization asymmetry concentrates bit-flip vulnerability in small tensors retained at high precision. CoarseHammer targets these tensors and accepts flips at any bit, without parameter values, gradients, or data. It r…",
+"date": "2026-11-25T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
 "id": "6c270107d3982041",
 "title": "Rackspace shuts down Spot cloud platform after security breach",
 "link": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
@@ -76,6 +367,57 @@
 "sev": null,
 "themes": [],
 "first_seen": "2026-11-24T22:37:53+00:00"
+},
+{
+"id": "0d2bfc1978278d46",
+"title": "CVE-2026-123986",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123986",
+"summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary…",
+"date": "2026-11-24T18:18:53.603000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.9,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "55d816e22485a223",
+"title": "CVE-2026-123723",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123723",
+"summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary…",
+"date": "2026-11-24T18:18:53.453000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.9,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T08:52:42+00:00"
+},
+{
+"id": "0c58b86b097bae7b",
+"title": "CVE-2026-123342",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123342",
+"summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary…",
+"date": "2026-11-24T18:18:53+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.9,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-25T08:52:42+00:00"
 },
 {
 "id": "adb18ca6aea028ca",
