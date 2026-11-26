@@ -1,5 +1,330 @@
 [
 {
+"id": "e0bf93ab8a32087a",
+"title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+"link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+"summary": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before. [...]",
+"date": "2026-11-26T21:06:22+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "2cde4a64c5deb9d2",
+"title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+"link": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+"summary": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works…",
+"date": "2026-11-26T19:39:57+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "1c0fdc3979bbc9ce",
+"title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+"link": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+"summary": "NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection. [...]",
+"date": "2026-11-26T17:58:42+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "42756c94ced72ba9",
+"title": "Fake paid expert interviews impersonate brands to steal Google logins",
+"link": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+"summary": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars. [...]",
+"date": "2026-11-26T17:15:27+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"identite"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "368bf905ac5f8064",
+"title": "Les lunettes Meta dans le viseur de la justice néerlandaise",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/les-lunettes-meta-dans-le-viseur-de-la-justice-neerlandaise",
+"summary": "Deux associations néerlandaises demandent à la justice de suspendre la commercialisation des lunettes connectées de Meta et Ray-Ban. Elles dénoncent un dispositif qui permet de filmer des personnes à leur insu, en contradiction avec les règles européennes sur la protection de la…",
+"date": "2026-11-26T16:18:59+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "91326e11d1b801a3",
+"title": "La santé figure toujours en bonne place dans le top 250 des éditeurs de Numeum pour 2025",
+"link": "https://www.ticsante.com/Story?Id=8541",
+"summary": "PARIS (TICsanté) - Les éditeurs d'informatique de santé sont toujours bien présents dans l'édition 2025 du top 250 des éditeurs réalisé par Numeum et EY, publié le 5 novembre, qu'ils soient actifs dans ce seul secteur ou dans plusieurs.",
+"date": "2026-11-26T16:00:00+00:00",
+"source": "TICsanté",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "17ea7e9dd6a3abc4",
+"title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+"link": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+"summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
+"date": "2026-11-26T15:23:28+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"exploit"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "f5eee8a53f92f417",
+"title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+"link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+"summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils package or in conftest.py,\" SafeDep said in…",
+"date": "2026-11-26T15:13:41+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "cee8b0cc5c9c5688",
+"title": "RGPD : le registre allégé pour les entreprises de moins de 1 000 salariés",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/rgpd-le-registre-allege-pour-les-entreprises-de-moins-de-1-000-salaries",
+"summary": "Les eurodéputés ont adopté une mesure de simplification qui dispense certaines entreprises de tenir un registre exhaustif de leurs traitements de données personnelles. Cette évolution du RGPD, intégrée au règlement Omnibus IV, maintient toutefois des obligations pour les activité…",
+"date": "2026-11-26T14:39:32+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"regl"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "c73735cdb9d6b2c5",
+"title": "Les outils IA accélèrent la livraison logicielle… et la hausse des coûts IT (étude)",
+"link": "https://www.lemagit.fr/actualites/366655558/Les-outils-IA-accelerent-la-livraison-logicielle-et-la-hausse-des-couts-IT-etude",
+"summary": "Dans son rapport Sate of Code Abundance consacré à trois pays européens, dont la France, Cloudbees observe l’accélération de la livraison logicielle au sein des entreprises. Le spécialiste des pipelines CI/CD estime toutefois que le coût de développement est en hausse et que la m…",
+"date": "2026-11-26T14:27:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"supply"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "1586a86100d11ae1",
+"title": "Lancement de la vague 2 du Ségur du numérique pour les logiciels de gestion d'officine (arrêté)",
+"link": "https://www.ticsante.com/Story?Id=8540",
+"summary": "PARIS (TICsanté) - Un arrêté publié au Journal officiel (JO) début novembre donne le coup d'envoi de la vague 2 du Ségur du numérique pour l'équipement des pharmacies de ville en logiciels de gestion d'officine (LGO).",
+"date": "2026-11-26T14:00:00+00:00",
+"source": "TICsanté",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "e9dc606b587feefb",
+"title": "Cyberattaque : la FIFA confirme le vol de données personnelles et professionnelles",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-la-fifa-confirme-le-vol-de-donnees-personnelles-et-professionnelles",
+"summary": "La Fédération internationale de football (FIFA) a été victime d'une cyberattaque ayant permis à des pirates d'accéder à des informations personnelles et professionnelles. l'organisation assure que les documents liés à son projet controversé de cession d'une partie de ses activité…",
+"date": "2026-11-26T13:46:15+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "4f4ac4937c11e222",
+"title": "Avec Zscaler, CrowdStrike se transforme en colosse",
+"link": "https://www.lemagit.fr/tribune/Avec-Zscaler-CrowdStrike-se-transforme-en-colosse",
+"summary": "L'acquisition vient tout juste d'être annoncée, mais les analystes d'Omdia estiment que les points positifs sont plus nombreux que les éventuelles difficultés.",
+"date": "2026-11-26T13:22:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "7cadc7c983ab98ac",
+"title": "Rançongiciels : une menace qui s’intensifie",
+"link": "https://www.lemagit.fr/actualites/366655557/Rancongiciels-une-menace-qui-sintensifie",
+"summary": "Si la France peut apparaître relativement protégée de l’intensification de la menace, il serait malvenu de baisser la garde. Car la menace des ransomwares change, qualitativement, avec un raccourcissement de la fenêtre de détection.",
+"date": "2026-11-26T13:10:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ransomware"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "23ec231ca044747f",
+"title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+"link": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+"summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
+"date": "2026-11-26T11:50:17+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "27c41b73faa55f9a",
+"title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+"link": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+"summary": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about. At Push Security, we measure this as breakthrough…",
+"date": "2026-11-26T10:57:55+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"identite"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "420627cd7e6f59c1",
+"title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+"link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+"summary": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed. \"While we to…",
+"date": "2026-11-26T10:57:25+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "0a9ef7b2dc31d0ed",
+"title": "1Password victime d'une intrusion via GitHub",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/1password-victime-d-une-intrusion-via-github",
+"summary": "Le gestionnaire de mots de passe a subi une compromission de ses systèmes internes à la suite du piratage d'un compte GitHub d'entreprise. Si les coffres-forts chiffrés n'ont pas été affectés, des informations personnelles et des données techniques ont été exfiltrées, exposant le…",
+"date": "2026-11-26T10:28:36+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "a8c0a5b3d64967b3",
+"title": "Artex et les autres : ces « frameworks » offensifs basés sur l’IA qui accélèrent le tempo de la menace",
+"link": "https://www.zdnet.fr/actualites/artex-et-les-autres-ces-frameworks-offensifs-bases-sur-lia-qui-accelerent-le-tempo-de-la-menace-508642.htm#xtor=RSS-1",
+"summary": "Derrière Artex, cet outil qui permet d’automatiser des attaques, plusieurs dizaines d’autres « frameworks » ont également été identifiés. Autant d’outils qui permettent aux attaquants de prendre de vitesse les défenseurs.",
+"date": "2026-11-26T10:11:38+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "d595995231ea72ae",
+"title": "ZDNET Morning 26/11/2026 : Incident de sécurité chez 1Password, Le secteur financier évalue le quantique, Starmind : un réseau de datacenters IA en orbite,...",
+"link": "https://www.zdnet.fr/actualites/zdnet-morning-26-11-2026-incident-de-securite-chez-1password-le-secteur-financier-evalue-le-quantique-starmind-un-reseau-de-datacenters-ia-en-orbite-508680.htm#xtor=RSS-1",
+"summary": "Le ZDNET Morning le brief de l'actu tech pour les pros tous les matins à 9h00. Transformation numérique, IA, matériel, logiciels,... ne passez pas à côté de ce qui fait la Une du secteur.",
+"date": "2026-11-26T10:11:33+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
 "id": "7d5dfac398ee8691",
 "title": "De faux tests de recrutement ciblent les développeurs .NET via NuGet",
 "link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/de-faux-tests-de-recrutement-ciblent-les-developpeurs-net-via-nuget",
@@ -241,21 +566,6 @@
 "first_seen": "2026-11-26T08:38:54+00:00"
 },
 {
-"id": "420627cd7e6f59c1",
-"title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-"link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-"summary": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed. \"While we to…",
-"date": "2026-11-26T04:20:22+00:00",
-"source": "The Hacker News",
-"kind": "media",
-"cote": "C",
-"group": "Médias",
-"cvss": null,
-"sev": null,
-"themes": [],
-"first_seen": "2026-11-26T08:38:54+00:00"
-},
-{
 "id": "98bf0c432201829a",
 "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
 "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
@@ -269,6 +579,91 @@
 "sev": null,
 "themes": [],
 "first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "312e7ad895910314",
+"title": "Jenkins - CVE-2026-136835",
+"link": "https://cyberveille.esante.gouv.fr/alertes/jenkins-cve-2026-136835-2026-11-26",
+"summary": "Il s'agit d'une vulnérabilité de contournement du bac à sable dans le Script Security Plugin de Jenkins. Jenkins Script Security Plugin est un plugin Jenkins qui fournit une...",
+"date": "2026-11-26T03:01:02+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "913bf0332d53ee40",
+"title": "PostgreSQL - CVE-2026-136502",
+"link": "https://cyberveille.esante.gouv.fr/alertes/postgresql-cve-2026-136502-2026-11-26",
+"summary": "Il s'agit d'une vulnérabilité dans le pilote ODBC psqlODBC . psqlODBC est le pilote ODBC officiel de PostgreSQL. Il permet aux applications d'accéder à une base PostgreSQL par l...",
+"date": "2026-11-26T03:00:04+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "41ce1081521f0b66",
+"title": "HPE - CVE-2026-133973",
+"link": "https://cyberveille.esante.gouv.fr/alertes/hpe-cve-2026-133973-2026-11-26",
+"summary": "Il s'agit d'une vulnérabilité d' injection de commandes dans l' interface web de gestion de HPE Networking Management Software (AirWave). HPE Networking Management Software (AirWave)...",
+"date": "2026-11-26T02:58:50+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "7ce8b487c9fb7afa",
+"title": "Drupal - CVE-2026-132165",
+"link": "https://cyberveille.esante.gouv.fr/alertes/drupal-cve-2026-132165-2026-11-26",
+"summary": "Il s'agit d'une vulnérabilité dans le fichier install.php de Drupal core . Drupal core est le noyau du système de gestion de contenu libre Drupal. Il fournit les fonctions de base...",
+"date": "2026-11-26T02:57:06+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "646134e2ed542799",
+"title": "Adobe - CVE-2026-123266",
+"link": "https://cyberveille.esante.gouv.fr/alertes/adobe-cve-2026-123266-2026-11-26",
+"summary": "Il s'agit d'une vulnérabilité dans Adobe Experience Manager . Adobe Experience Manager est une plateforme de gestion de contenu web et d'actifs numériques. Elle est proposée en...",
+"date": "2026-11-26T02:56:00+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
 },
 {
 "id": "e24f0139b14512c7",
@@ -286,6 +681,141 @@
 "sante"
 ],
 "first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "65446f6e8787042e",
+"title": "Vulnérabilité dans Drupal (26 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1623/",
+"summary": "Une vulnérabilité a été découverte dans Drupal. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité. Drupal indique que la vulnérabilité CVE-2026-136716 est activement exploitée.",
+"date": "2026-11-26T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"exploit",
+"vuln"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "26a75f263cf133c9",
+"title": "Multiples vulnérabilités dans GitLab (26 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1624/",
+"summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+"date": "2026-11-26T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "038e5b1cf4d6d5e5",
+"title": "Multiples vulnérabilités dans les produits Tenable (26 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1625/",
+"summary": "De multiples vulnérabilités ont été découvertes dans les produits Tenable. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et un contournement de la politique de sécurité.",
+"date": "2026-11-26T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "65fec0a1436a385c",
+"title": "Multiples vulnérabilités dans les produits NetApp (26 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1626/",
+"summary": "De multiples vulnérabilités ont été découvertes dans les produits NetApp. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+"date": "2026-11-26T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "e646e2f8ea2bace3",
+"title": "Vulnérabilité dans Mattermost Server (26 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1627/",
+"summary": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+"date": "2026-11-26T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "a42997dbded90dd5",
+"title": "Multiples vulnérabilités dans HPE Aruba Networking Airwave (26 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1628/",
+"summary": "De multiples vulnérabilités ont été découvertes dans HPE Aruba Networking Airwave. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+"date": "2026-11-26T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "5cd492e60aad2755",
+"title": "Multiples vulnérabilités dans les produits Veeam (26 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1629/",
+"summary": "De multiples vulnérabilités ont été découvertes dans les produits Veeam. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance. L'éditeur fournit également une mesure de contournement provisoire.",
+"date": "2026-11-26T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "c0ff4a7ff77afe9e",
+"title": "UK’s long-awaited National Cyber Action Plan delayed until December",
+"link": "https://therecord.media/britain-delays-national-cyber-action-plan-again",
+"summary": "Officials, who had planned to publish the document in mid-November, now aim to unveil the strategy for defending the wider economy against state-backed and criminal hackers on December 9.",
+"date": "2026-11-26T00:00:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-26T21:44:42+00:00"
 },
 {
 "id": "50a53afadcff1570",
@@ -1665,6 +2195,40 @@
 "sev": null,
 "themes": [],
 "first_seen": "2026-11-24T22:37:53+00:00"
+},
+{
+"id": "06e998729636ddab",
+"title": "CVE-2026-125717",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-125717",
+"summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to sensi…",
+"date": "2026-11-24T18:18:54.533000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.6,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "9a64cf10660ffc4c",
+"title": "CVE-2026-123987",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123987",
+"summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary…",
+"date": "2026-11-24T18:18:53.753000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.9,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-26T21:44:42+00:00"
 },
 {
 "id": "0d2bfc1978278d46",
@@ -14337,23 +14901,6 @@
 "themes": [
 "supply",
 "etat"
-],
-"first_seen": "2026-11-19T10:50:56+00:00"
-},
-{
-"id": "d91ccaa80fa58937",
-"title": "AI Worming through Word",
-"link": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/",
-"summary": "AI Worming through Word Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms: An attacker places hidden instructions in a document that is later used as source material in Copil…",
-"date": "2026-07-29T18:43:03+00:00",
-"source": "Simon Willison · Prompt injection",
-"kind": "recherche",
-"cote": "B",
-"group": "Sécurité de l'IA",
-"cvss": null,
-"sev": null,
-"themes": [
-"ia"
 ],
 "first_seen": "2026-11-19T10:50:56+00:00"
 }
