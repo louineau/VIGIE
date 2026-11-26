@@ -1,5 +1,310 @@
 [
 {
+"id": "7d5dfac398ee8691",
+"title": "De faux tests de recrutement ciblent les développeurs .NET via NuGet",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/de-faux-tests-de-recrutement-ciblent-les-developpeurs-net-via-nuget",
+"summary": "Une campagne malveillante cible les développeurs .NET en diffusant de faux exercices techniques de recrutement contenant des dépendances NuGet compromises. Dans un rapport publié le 23 novembre 2026, Socket indique avoir identifié 13 paquets suspects, déclinés en 28 versions et a…",
+"date": "2026-11-26T08:15:00+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "05861889cfa7e8ae",
+"title": "Artex : les cyberattaquants intensifient l'utilisation d'agents IA offensifs",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/artex-les-cyberattaquants-intensifient-l-utilisation-d-agents-ia-offensifs",
+"summary": "L’utilisation d’Artex, un framework de tests d’intrusion piloté par des agents d’intelligence artificielle, progresse dans les campagnes malveillantes. Selon Microsoft Threat Intelligence, plusieurs groupes liés à des États et des acteurs cybercriminels l’exploitent pour automati…",
+"date": "2026-11-26T07:30:00+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "457c08cf27ea6f55",
+"title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+"link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+"summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions.…",
+"date": "2026-11-26T07:02:34+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"exploit",
+"vuln"
+],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "1d57aa7ac03a11fd",
+"title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+"link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+"summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week. The Mitel MiCollab vulnerabilities ar…",
+"date": "2026-11-26T06:44:46+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"exploit",
+"vuln"
+],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "8f97b21be91525bc",
+"title": "Demystifying Real-world LLM Service Freeloading",
+"link": "https://arxiv.org/abs/2611.33218",
+"summary": "arXiv:2611.33218v1 Announce Type: new Abstract: Third-party projects repackage free inference from LLM web applications and dedicated clients into independent APIs. We refer to such use beyond providers' permitted access, allocation, or redistribution conditions as LLM service fr…",
+"date": "2026-11-26T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "5f392b2194993ecb",
+"title": "Real Package, Wrong Controller: Static Auditing of Vendor--Protocol Mismatches in LLM-Generated PLC Code",
+"link": "https://arxiv.org/abs/2611.33227",
+"summary": "arXiv:2611.33227v1 Announce Type: new Abstract: Language models can generate Python that drives industrial protocols on programmable logic controllers, yet existing code-grounding checks ask whether an imported package or symbol exists rather than whether it suits the declared in…",
+"date": "2026-11-26T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "b7b70b0f9928d391",
+"title": "RegionAlign: Manipulating Parameter Layouts for Localized Fault Injection on LLMs and VLMs",
+"link": "https://arxiv.org/abs/2611.33370",
+"summary": "arXiv:2611.33370v1 Announce Type: new Abstract: Physical fault injection can flip stored weight bits, degrading LLMs and VLMs. Existing work largely overlooks how supply-chain manipulation affects fault vulnerability. We introduce RegionAlign, which allows a malicious provider to…",
+"date": "2026-11-26T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln",
+"supply"
+],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "ed35a45a710c16cc",
+"title": "Poisoning Self-Evolving Security Policies in LLM Agents",
+"link": "https://arxiv.org/abs/2611.33385",
+"summary": "arXiv:2611.33385v1 Announce Type: new Abstract: Self-evolving defenses improve LLM-agent security by learning reusable policies from observed attacks. However, we demonstrate that this learning process itself can become an attack surface. Using SED (Self-Evolving Defense) in the…",
+"date": "2026-11-26T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "427d8bb5d081bb57",
+"title": "SecID: An LLM-Guided Framework for Threat-Aware Secondary Asset Identification with Quantitative RTL Analysis",
+"link": "https://arxiv.org/abs/2611.33453",
+"summary": "arXiv:2611.33453v1 Announce Type: new Abstract: The growing complexity of modern hardware designs is making security assurance increasingly difficult. One of the foundational steps in pre-silicon security verification is identifying security assets. While primary assets are often…",
+"date": "2026-11-26T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "bf40509517f7fad8",
+"title": "Benchmarking Open-Ended Vulnerability Discovery in Windows Kernel Binaries",
+"link": "https://arxiv.org/abs/2611.33486",
+"summary": "arXiv:2611.33486v1 Announce Type: new Abstract: Frontier models are increasingly used to discover real-world security vulnerabilities, making it critical to systematically evaluate their cybersecurity capabilities. However, existing security benchmarks primarily focus on known vu…",
+"date": "2026-11-26T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "c0e894dfe249c563",
+"title": "The Detour Is the Danger: Preserving Security During LLM Agent Recovery",
+"link": "https://arxiv.org/abs/2611.33605",
+"summary": "arXiv:2611.33605v1 Announce Type: new Abstract: LLM agents increasingly rely on external tools and reusable Skills to execute complex workflows, autonomously replanning when operations fail. However, such recovery may preserve task functionality while silently discarding the secu…",
+"date": "2026-11-26T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "f4b893f6bafe5dd6",
+"title": "FlashProve-Next: Verifiable Inference for Production LLM APIs",
+"link": "https://arxiv.org/abs/2611.33741",
+"summary": "arXiv:2611.33741v1 Announce Type: new Abstract: Clients of closed-weight LLM APIs cannot verify whether a provider ran the advertised model, precision, hidden prompt, and reasoning budget. Existing approaches either trust hardware or third parties, or re-prove every layer of an i…",
+"date": "2026-11-26T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "36be01f6b892cf18",
+"title": "Agentic-Level Adversarial Purification: Revisiting Diffusion Purifiers on Native-Resolution Agentic Inputs",
+"link": "https://arxiv.org/abs/2611.34181",
+"summary": "arXiv:2611.34181v1 Announce Type: new Abstract: Vision-language agents act on native-resolution renders of multi-element pages, where one perturbed photo or a few altered text strokes can redirect the decision. Any content provider can craft such a perturbation on the open model…",
+"date": "2026-11-26T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "b0c8f3c93e84904b",
+"title": "Latent-in-the-Middle: On the Security of Cross-Model Latent Communication in Multi-Agent Systems",
+"link": "https://arxiv.org/abs/2611.34278",
+"summary": "arXiv:2611.34278v1 Announce Type: new Abstract: As large language models increasingly collaborate in heterogeneous multi-agent systems, latent communication has emerged as an efficient alternative to exchanging natural-language messages. By sharing internal representations, agent…",
+"date": "2026-11-26T05:00:00+00:00",
+"source": "arXiv · cs.CR (IA)",
+"kind": "recherche",
+"cote": "B",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "420627cd7e6f59c1",
+"title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+"link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+"summary": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed. \"While we to…",
+"date": "2026-11-26T04:20:22+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "98bf0c432201829a",
+"title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+"link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+"summary": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button controls,\" Socket s…",
+"date": "2026-11-26T03:48:52+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "e24f0139b14512c7",
+"title": "Le groupement hospitalier Côte-d'Or Haute-Marne déploie un système d'achat inédit en France",
+"link": "https://dsih.fr/articles/6480/le-groupement-hospitalier-cote-dor-haute-marne-deploie-un-systeme-dachat-inedit-en-france",
+"summary": "Une nouvelle étape dans la mutualisation des achats hospitaliers : le GHT Côte-d'Or Haute-Marne déploie un système d'information partagé entre onze établissements, quatre éditeurs et six métiers. Un dispositif homogène, cohérent, robuste, efficient et facile d'utilisation, qui fl…",
+"date": "2026-11-26T00:00:00+00:00",
+"source": "DSIH",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
+"id": "50a53afadcff1570",
+"title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+"link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+"summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
+"date": "2026-11-25T22:05:09+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-26T08:38:54+00:00"
+},
+{
 "id": "70f66acc3de798b1",
 "title": "1Password customer data stolen after employee GitHub account breach",
 "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
