@@ -1,5 +1,89 @@
 [
 {
+"id": "55d9dc131445f9bb",
+"title": "Cyberattaque contre l'AFP : la plateforme AFP Forum mise hors ligne",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-contre-l-afp-la-plateforme-afp-forum-mise-hors-ligne",
+"summary": "L'Agence France-Presse (AFP) a été victime d'une cyberattaque dans la nuit du 25 au 26 novembre 2026. L'intrusion a conduit l'agence à suspendre temporairement l'accès à AFP Forum, une plateforme utilisée par ses clients pour consulter et télécharger ses contenus. Des solutions d…",
+"date": "2026-11-27T08:27:48+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T08:49:54+00:00"
+},
+{
+"id": "15e93fc59e91b640",
+"title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+"link": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+"summary": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
+"date": "2026-11-27T08:06:58+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T08:49:54+00:00"
+},
+{
+"id": "5095449529cf2a47",
+"title": "MiniMax visé par des soupçons d'exposition de données, Apple retire Talkie de l'App Store",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/minimax-vise-par-des-soupcons-d-exposition-de-donnees-apple-retire-talkie-de-l-app-store",
+"summary": "Le groupe chinois MiniMax fait face à deux affaires distinctes. Selon une enquête de Dragos révélée par Reuters le 26 novembre 2026, des liens confidentiels transmis à ses modèles d'intelligence artificielle auraient été consultés par des parties non identifiées, malgré des deman…",
+"date": "2026-11-27T08:00:00+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-27T08:49:54+00:00"
+},
+{
+"id": "bdba96d745bb1de4",
+"title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+"link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+"summary": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two o…",
+"date": "2026-11-27T06:04:20+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-27T08:49:54+00:00"
+},
+{
+"id": "706168821faab9b6",
+"title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+"link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+"summary": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL a…",
+"date": "2026-11-27T05:48:20+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"exploit",
+"vuln"
+],
+"first_seen": "2026-11-27T08:49:54+00:00"
+},
+{
 "id": "e0bf93ab8a32087a",
 "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
 "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
@@ -64,6 +148,23 @@
 "identite"
 ],
 "first_seen": "2026-11-26T21:44:42+00:00"
+},
+{
+"id": "d72464e5879a8670",
+"title": "IA sur site : Microsoft Azure s’associe à Dell",
+"link": "https://www.lemagit.fr/actualites/366655357/IA-sur-site-Microsoft-Azure-sassocie-a-Dell",
+"summary": "Les deux acteurs élargissent leur partenariat autour des solutions physiques Azure Local pour que les machines censées déporter localement les fonctions du cloud de Microsoft intègrent des GPU B300 de Nvidia.",
+"date": "2026-11-26T16:53:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-27T08:49:54+00:00"
 },
 {
 "id": "368bf905ac5f8064",
