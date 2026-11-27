@@ -1,5 +1,542 @@
 [
 {
+"id": "c33ac200edb1beb1",
+"title": "pCloud confirms password manager hack after suspicious login alerts",
+"link": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+"summary": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
+"date": "2026-11-27T19:26:04+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"identite"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "72cf1a5347d22a62",
+"title": "New Boston Scientific data breach exposes personal, medical info",
+"link": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+"summary": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]",
+"date": "2026-11-27T18:57:42+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante",
+"fuite"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "e499b4b704caf116",
+"title": "v2026.11",
+"link": "https://github.com/mitre-atlas/atlas-data/releases/tag/v2026.11",
+"summary": "Content v2026.11 This version of ATLAS data contains 1 matrix, 16 tactics, 137 techniques, 98 sub-techniques, 44 mitigations, 85 case studies, 50 entities, and 39 software records. Techniques Added new techniques LLM Response Components Manipulation: Links LLM Response Components…",
+"date": "2026-11-27T18:43:48+00:00",
+"source": "MITRE ATLAS · Versions",
+"kind": "version",
+"cote": "A",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "c1ab5c3cb4bf425d",
+"title": "v6.2.0",
+"link": "https://github.com/mitre-atlas/atlas-data/releases/tag/v6.2.0",
+"summary": "GitHub release on 2026-11-27",
+"date": "2026-11-27T18:00:10+00:00",
+"source": "MITRE ATLAS · Versions",
+"kind": "version",
+"cote": "A",
+"group": "Sécurité de l'IA",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "8b62149719af4472",
+"title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+"link": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+"summary": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]",
+"date": "2026-11-27T17:06:13+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"exploit",
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "f01224df1f54e40b",
+"title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+"link": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+"summary": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements. The previously undocumented incursion set, detaile…",
+"date": "2026-11-27T16:36:11+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"etat"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "e9cc73d530d73b02",
+"title": "Un projet de décret créant un système d'information sur les ruptures de médicaments en ville notifié à Bruxelles",
+"link": "https://www.ticsante.com/Story?Id=8543",
+"summary": "BRUXELLES (TICsanté) - Un projet de décret créant un système d'information sur les ruptures des médicaments d'intérêt thérapeutique majeur (MITM) en ville, en application d'une mesure de la loi de financement de la sécurité sociale (LFSS) pour 2025, a été notifié début novembre à…",
+"date": "2026-11-27T16:00:00+00:00",
+"source": "TICsanté",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "026114624245300f",
+"title": "Cyberattaques en série, les systèmes IT sous pression",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaques-en-serie-es-systemes-it-sous-pression",
+"summary": "Cloud militaire américain, infrastructures critiques suisses, administration britannique, SAP et AFP ont été touchés par des incidents de sécurité ces derniers jours. Ces attaques mettent en évidence la diversité des cibles et la fragilité de systèmes devenus essentiels, alors qu…",
+"date": "2026-11-27T15:24:08+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "2778b393e6347199",
+"title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+"link": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+"summary": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]",
+"date": "2026-11-27T15:09:40+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "96edb4ed0f1cdbb3",
+"title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+"link": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+"summary": "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help reduce these risks.…",
+"date": "2026-11-27T15:00:10+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "8aa8e6d82d674d9e",
+"title": "Le Royaume-Uni rejette une pétition réclamant l’interdiction de nouveaux datacenters dédiés à l'IA",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/le-royaume-uni-rejette-une-petition-reclamant-l-interdiction-de-nouveaux-datacenters-dedies-a-l-ia",
+"summary": "Le gouvernement britannique a déclaré qu’il n’a “aucune intention” d'interdire la construction de nouveaux centres de données destinés à l'IA, malgré une pétition parlementaire dénonçant leur consommation de ressources et leurs conséquences environnementales. Les autorités privil…",
+"date": "2026-11-27T14:50:50+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "05052e2cee070d55",
+"title": "Binance rétablit les retraits après le piratage de 6,3 Md$ de crypto-actifs",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/binance-retablit-les-retraits-apres-le-piratage-de-6-3-md-de-crypto-actifs",
+"summary": "Près d’un mois après le vol de crypto-actifs survenu le 29 octobre, Binance annonce avoir achevé la remise en service des retraits sur sa plateforme. L’exchange avait suspendu cette fonctionnalité pour contenir l’incident et sécuriser ses infrastructures, après la compromission d…",
+"date": "2026-11-27T14:39:12+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "814d32c90295b943",
+"title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+"link": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+"summary": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, identity theft protection, and personal data removal services. [...]",
+"date": "2026-11-27T14:22:06+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "4a82d3723014bbc0",
+"title": "Japan’s education ministry discloses breach of government procurement system",
+"link": "https://therecord.media/japan-education-ministry-cyberattack",
+"summary": "Japan’s education ministry disclosed earlier this week that hackers breached its government procurement system, potentially exposing records containing business information and email addresses.",
+"date": "2026-11-27T14:15:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "b85423d98496107a",
+"title": "De nouveaux lauréats pour l'appel à projets sur les tiers-lieux d'expérimentation en santé",
+"link": "https://www.ticsante.com/Story?Id=8542",
+"summary": "PARIS (TICsanté) - La ministre de la santé, Stéphanie Rist, a annoncé cinq nouveaux projets lauréats de l'appel à projets (AAP) sur les tiers-lieux d'expérimentation en santé, à l'occasion de la journée nationale de l'innovation en santé, organisée le 10 novembre par la nouvelle…",
+"date": "2026-11-27T14:00:00+00:00",
+"source": "TICsanté",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"sante"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "9a79f6f175dbf801",
+"title": "Software giant SAP confirms cyber incident amid reports of source code breach",
+"link": "https://therecord.media/sap-germany-cyberattack-github",
+"summary": "German software giant SAP confirmed a cybersecurity incident following reports that hackers infiltrated its software development infrastructure, potentially gaining access to the company’s source code.",
+"date": "2026-11-27T13:15:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "e66a2e1c8c17bc39",
+"title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+"link": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+"summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-120705 OSGeo GeoServer XML Injection Vulnerability CVE-2026-129243 OSGeo GeoServer Incorrect Authorization Vulnerability CVE-2026-136…",
+"date": "2026-11-27T12:00:00+00:00",
+"source": "CISA · Advisories",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": null,
+"themes": [
+"exploit",
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "4895aa5a5bc0ae74",
+"title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+"link": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+"summary": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with a redirection to a bogus site for a snipi…",
+"date": "2026-11-27T11:49:34+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "7b714952d08e1b2f",
+"title": "Microsoft removes WSUS server role in Windows Server 2028",
+"link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+"summary": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]",
+"date": "2026-11-27T11:18:36+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "6bc062806a4005dc",
+"title": "La CNAF bascule ses ordinateurs en libre service de Windows à Linux",
+"link": "https://www.zdnet.fr/actualites/la-cnaf-bascule-ses-ordinateurs-en-libre-service-de-windows-a-linux-508732.htm#xtor=RSS-1",
+"summary": "La Caisse Nationale des Affaires Familiales bascule 2400 ordinateurs proposés en libre service dans ses agences vers des systèmes d'exploitation basés sur Linux. Un choix justifié à la fois par des considérations de sécurité, de souveraineté technologique et par les conditions ta…",
+"date": "2026-11-27T11:11:44+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "29024fd919171152",
+"title": "Stockage : Nvidia et Kioxia étendent la mémoire des GPU avec des SSD",
+"link": "https://www.lemagit.fr/actualites/366655464/Stockage-Nvidia-et-Kioxia-etendent-la-memoire-des-GPU-avec-des-SSD",
+"summary": "Une première implémentation de l’architecture Storage-Next basée sur la bibliothèque SCADA de Nvidia a permis d’étendre la mémoire adressable d’un GPU à 30 To, via quatre SSD. Le bénéfice est de charger 128 fois plus rapidement des connaissances dans une IA.",
+"date": "2026-11-27T11:02:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "415efee3262bc9c4",
+"title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+"link": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+"summary": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment…",
+"date": "2026-11-27T10:32:18+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "6290651224febd8b",
+"title": "Europe : les Gafam ont payé moins de 1% de leurs amendes",
+"link": "https://www.zdnet.fr/blogs/l-esprit-libre/europe-les-gafam-ont-paye-moins-de-1-de-leurs-amendes-508858.htm#xtor=RSS-1",
+"summary": "«Pognon de dingue»: les cinq géants ont acquitté une part minuscule des 17 milliards d’euros d’amendes qui leur ont été infligées pour pratiques anti-concurrentielles, a pointé le rapport parlementaire sur les dépendances et les vulnérabilités dans le numérique.",
+"date": "2026-11-27T10:11:01+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "30a43f231a877acd",
+"title": "Drupal warns of new site takeover flaw exploited in attacks",
+"link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+"summary": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
+"date": "2026-11-27T10:10:15+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "4f07ba2eee9957aa",
+"title": "Artex : le DIVD donne un aperçu précieux de ce à quoi s’attendre",
+"link": "https://www.lemagit.fr/actualites/366655506/Artex-le-DIVD-donne-un-apercu-precieux-de-ce-a-quoi-sattendre",
+"summary": "L’ère des cyberattaques organisées par des frameworks offensifs agentiques dopés à l’IA s’est ouverte. L’institut danois de divulgation des vulnérabilités semble en avoir fait l’expérience. Il la partage.",
+"date": "2026-11-27T10:06:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "358fdfe6361a1076",
+"title": "Cybersécurité : les agents IA prennent le contrôle du cloud plus vite que les entreprises ne sécurisent leurs accès",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cybersecurite-les-agents-ia-prennent-le-controle-du-cloud-plus-vite-que-les-entreprises-ne-securisent-leurs-acces",
+"summary": "99 % des entreprises utilisent des agents IA dans leurs chaînes de développement. Mais leur capacité à modifier du codeet à intervenir en production progresse plus vite que les dispositifs de sécurité, selon une étude de Palo Alto Networks.",
+"date": "2026-11-27T09:56:54+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "34ba075e7282f4ea",
+"title": "SAP confirms security incident after suspicious GitHub activity",
+"link": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+"summary": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
+"date": "2026-11-27T09:56:36+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "4b2f5b470897cb92",
+"title": "SAP envisage de se séparer de 9 % de ses employés",
+"link": "https://www.lemagit.fr/actualites/366655442/SAP-envisage-de-se-separer-de-9-de-ses-employes",
+"summary": "La raison invoquée est, sans surprise, l’IA. L’ingénierie produit devrait être particulièrement touchée. Plusieurs experts anticipent que l’IA détruira entre 5 % et 15 % des effectifs, y compris en dehors du secteur tech.",
+"date": "2026-11-27T09:52:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "99bc87f8212c6dd2",
+"title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+"link": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+"summary": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. \"Evidence indicates that malicious files were generated not only when users downloaded…",
+"date": "2026-11-27T09:29:30+00:00",
+"source": "The Hacker News",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"supply"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "05f4c13650df3f7c",
+"title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+"link": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+"summary": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]",
+"date": "2026-11-27T09:08:16+00:00",
+"source": "BleepingComputer",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "da133585068696c5",
+"title": "Cyberattaque chez SAP : des soupçons d'accès au code source sur GitHub",
+"link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-chez-sap-des-soupcons-d-acces-au-code-source-sur-github",
+"summary": "SAP a confirmé, le 27 novembre 2026, avoir détecté des activités suspectes dans son environnement informatique. Selon plusieurs médias allemands, des attaquants auraient utilisé des jetons d'authentification dérobés à des employés pour accéder à du code source sur GitHub. L'incid…",
+"date": "2026-11-27T09:08:03+00:00",
+"source": "Le Monde Informatique · Sécurité",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "953efe4636bb588e",
+"title": "Cyberhebdo du 27 novembre 2026 : une semaine d’une intensité sans précédent",
+"link": "https://www.lemagit.fr/actualites/366655521/Cyberhebdo-du-27-novembre-2026-une-semaine-dune-intensite-sans-precedent",
+"summary": "Chaque semaine, dans le Cyberhebdo, nous vous présentons une liste aussi exhaustive que possible des cyberattaques évoquées par la presse dans le monde entier.",
+"date": "2026-11-27T08:45:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "12ba0a40298ac995",
+"title": "Agents d’IA : 5 étapes clefs pour automatiser un processus de bout en bout",
+"link": "https://www.lemagit.fr/conseil/Agents-dIA-5-etapes-clefs-pour-automatiser-un-processus-de-bout-en-bout",
+"summary": "Le nombre d’agents déployés est devenu l’indicateur préféré des comités de direction. C’est sans doute le plus trompeur. Une entreprise qui compte deux cents agents et aucun processus transformé de bout en bout n’a pas avancé. Elle a dispersé ses efforts.",
+"date": "2026-11-27T08:29:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
 "id": "55d9dc131445f9bb",
 "title": "Cyberattaque contre l'AFP : la plateforme AFP Forum mise hors ligne",
 "link": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-contre-l-afp-la-plateforme-afp-forum-mise-hors-ligne",
@@ -49,6 +586,36 @@
 "first_seen": "2026-11-27T08:49:54+00:00"
 },
 {
+"id": "aa2edb604a716904",
+"title": "Jules choisit une passerelle de sécurité souveraine pour ses magasins",
+"link": "https://www.lemagit.fr/etude/Jules-opte-pour-une-passerelle-de-securite-souveraine-pour-ses-magasins",
+"summary": "Victime d’une cyberattaque en 2022, l’enseigne de prêt-à-porter masculin a renforcé ses mesures de sécurité, mais s’est heurtée au manque de réactivité de son fournisseur de Gateway américain. Son RSO s’est tourné vers une solution française.",
+"date": "2026-11-27T07:58:00+00:00",
+"source": "LeMagIT",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "3053c6f7e41b8532",
+"title": "Gmail perso, budget sous 1 000 €, les petites mairies particulièrement vulnérables aux cyberattaques",
+"link": "https://www.zdnet.fr/actualites/gmail-perso-budget-sous-1-000-e-les-petites-mairies-particulierement-vulnerables-aux-cyberattaques-508823.htm#xtor=RSS-1",
+"summary": "La fracture numérique et territoriale laisse les maires ruraux sur le bord du chemin face aux cybermenaces, mentionne une étude, alors que l'AMF se tenait cette semaine.",
+"date": "2026-11-27T07:11:30+00:00",
+"source": "ZDNet.fr",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
 "id": "bdba96d745bb1de4",
 "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
 "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
@@ -82,6 +649,392 @@
 "vuln"
 ],
 "first_seen": "2026-11-27T08:49:54+00:00"
+},
+{
+"id": "31b9d3a3d54dbd6c",
+"title": "Traefik - CVE-2026-137481",
+"link": "https://cyberveille.esante.gouv.fr/alertes/traefik-cve-2026-137481-2026-11-27",
+"summary": "Il s'agit d'une vulnérabilité dans l'option sanitizePath des points d'entrée de Traefik . Traefik est un reverse proxy HTTP et répartiteur de charge open source, utilisé pour router...",
+"date": "2026-11-27T03:09:13+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "a4559aa3dbc796ac",
+"title": "Mitel - CVE-2026-137721",
+"link": "https://cyberveille.esante.gouv.fr/alertes/mitel-cve-2026-137721-2026-11-27",
+"summary": "Il s'agit d'une vulnérabilité dans le composant Platform de Mitel OpenScape 4000 et d' OpenScape 4000 Manager . Mitel OpenScape 4000 est un système de communication d'entreprise de...",
+"date": "2026-11-27T03:01:30+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "7e00c9e31b7e86eb",
+"title": "Exim - CVE-2026-137702",
+"link": "https://cyberveille.esante.gouv.fr/alertes/exim-cve-2026-137702-2026-11-27",
+"summary": "Il s'agit d'une vulnérabilité dans la réception SMTP d' Exim . Exim est un agent de transfert de courrier (MTA) open source utilisé pour la réception, le routage et l'envoi des...",
+"date": "2026-11-27T03:00:11+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "559c286f05e24fab",
+"title": "Keycloak - CVE-2026-137435",
+"link": "https://cyberveille.esante.gouv.fr/alertes/keycloak-cve-2026-137435-2026-11-27",
+"summary": "Il s'agit d'une vulnérabilité dans le composant de fédération d'identités SAML (identity brokering) de Keycloak . Keycloak est une solution open source de gestion des identités et...",
+"date": "2026-11-27T02:59:06+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "f95f073ec9551164",
+"title": "Apache - CVE-2026-120353",
+"link": "https://cyberveille.esante.gouv.fr/alertes/apache-cve-2026-120353-2026-11-27",
+"summary": "Il s'agit d'une vulnérabilité dans les décorateurs TaskFlow d' Apache Airflow , fournis par quatre providers . Apache Airflow est une plateforme open source de création, de...",
+"date": "2026-11-27T02:56:54+00:00",
+"source": "CERT Santé · Alertes",
+"kind": "alerte",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "6052fc8ed1991f26",
+"title": "Multiples vulnérabilités dans Synology DSM et DSM Enterprise (27 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1630/",
+"summary": "De multiples vulnérabilités ont été découvertes dans Synology DSM et DSM Enterprise. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+"date": "2026-11-27T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "76be5ce26807ec75",
+"title": "Multiples vulnérabilités dans Xen (27 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1631/",
+"summary": "De multiples vulnérabilités ont été découvertes dans Xen. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
+"date": "2026-11-27T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "b692e8a4c70e8ba6",
+"title": "Multiples vulnérabilités dans FreeRADIUS (27 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1632/",
+"summary": "De multiples vulnérabilités ont été découvertes dans FreeRADIUS. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+"date": "2026-11-27T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "10767ddfae6ccacf",
+"title": "Multiples vulnérabilités dans MongoDB (27 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1633/",
+"summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données.",
+"date": "2026-11-27T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "4832539171d5c6fc",
+"title": "Multiples vulnérabilités dans SolarWinds Serv-U (27 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1634/",
+"summary": "De multiples vulnérabilités ont été découvertes dans SolarWinds Serv-U. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+"date": "2026-11-27T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "de0ed9bd91714b1c",
+"title": "Multiples vulnérabilités dans SPIP (27 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1635/",
+"summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une falsification de requêtes côté serveur (SSRF).",
+"date": "2026-11-27T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "7df4c9913553b60b",
+"title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (27 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1636/",
+"summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+"date": "2026-11-27T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "1ddf073fd50698ea",
+"title": "Multiples vulnérabilités dans le noyau Linux de SUSE (27 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1637/",
+"summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+"date": "2026-11-27T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "da87b6bb5d9e8831",
+"title": "Multiples vulnérabilités dans le noyau Linux de Debian (27 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1638/",
+"summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à l'intégrité des données.",
+"date": "2026-11-27T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "0fe38e6960521bd1",
+"title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (27 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1639/",
+"summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+"date": "2026-11-27T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "f35e516ce2ee22dd",
+"title": "Multiples vulnérabilités dans les produits IBM (27 novembre 2026)",
+"link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1640/",
+"summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+"date": "2026-11-27T00:00:00+00:00",
+"source": "CERT-FR · Avis",
+"kind": "avis",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"sev": "high",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "f9571136225a9842",
+"title": "Cyberattack disrupts global news distribution platform at France’s AFP",
+"link": "https://therecord.media/france-afp-hit-by-cyberattack",
+"summary": "French international news agency Agence France-Presse was hit by a cyberattack Thursday, forcing it to take offline one of its main platforms for distributing news content to media organizations worldwide.",
+"date": "2026-11-27T00:00:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "875b913eba1346d0",
+"title": "British government takes services offline following ‘cyber incident’",
+"link": "https://therecord.media/uk-department-work-pensions-cyber-incident",
+"summary": "The Department for Work and Pensions said Friday that it had experienced a cyber incident, with several services taken down as a precaution.",
+"date": "2026-11-27T00:00:00+00:00",
+"source": "The Record",
+"kind": "media",
+"cote": "C",
+"group": "Médias",
+"cvss": null,
+"sev": null,
+"themes": [],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "5465ada9d4ae2cbc",
+"title": "Gaspard Desgeorge (Vidal) : « L’IA accélère et précise notre accès à la connaissance médicale »",
+"link": "https://dsih.fr/articles/6481/gaspard-desgeorge-vidal-lia-accelere-et-precise-notre-acces-a-la-connaissance-medicale",
+"summary": "L’IA générative ouvre de nouvelles perspectives pour l’aide à la décision clinique. Directeur Clinical Intelligence Solutions chez Vidal, Gaspard Desgeorge explique comment l’entreprise met sa connaissance médicale et ses moteurs d’inférence à disposition des modèles de langage,…",
+"date": "2026-11-27T00:00:00+00:00",
+"source": "DSIH",
+"kind": "media",
+"cote": "C",
+"group": "Santé numérique",
+"cvss": null,
+"sev": null,
+"themes": [
+"ia",
+"sante"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "0f4f976a87b774ec",
+"title": "CVE-2026-120705 — OSGeo GeoServer : OSGeo GeoServer XML Injection Vulnerability",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120705",
+"summary": "OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a crafted ID parameter in the WFS 2.0 GetFeat…",
+"date": "2026-11-27T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-11-30",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"exploit"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "953868282b2ee8e2",
+"title": "CVE-2026-129243 — OSGeo GeoServer : OSGeo GeoServer Incorrect Authorization Vulnerability",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129243",
+"summary": "GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks via a request with a prefixed service parameter. This vulnerability can be chained…",
+"date": "2026-11-27T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-11-30",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"exploit"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "b22815844383a9eb",
+"title": "CVE-2026-136716 — Drupal Core : Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716",
+"summary": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states.",
+"date": "2026-11-27T00:00:00+00:00",
+"source": "CISA · KEV (vulnérabilités exploitées)",
+"kind": "kev",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": null,
+"extra": {
+"due": "2026-11-30",
+"ransomware": false
+},
+"sev": "high",
+"themes": [
+"vuln",
+"exploit"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
 },
 {
 "id": "e0bf93ab8a32087a",
@@ -219,7 +1172,7 @@
 "id": "f5eee8a53f92f417",
 "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
 "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
-"summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils package or in conftest.py,\" SafeDep said in…",
+"summary": "The threat actors behind the PolinRider campaign have compromised over 7,600 GitHub repositories, in some cases planting a Python loader capable of delivering next-stage payloads, as evidence emerges that the activity may have started as far back as February 2025. \"These are real…",
 "date": "2026-11-26T15:13:41+00:00",
 "source": "The Hacker News",
 "kind": "media",
@@ -301,7 +1254,7 @@
 "id": "4f4ac4937c11e222",
 "title": "Avec Zscaler, CrowdStrike se transforme en colosse",
 "link": "https://www.lemagit.fr/tribune/Avec-Zscaler-CrowdStrike-se-transforme-en-colosse",
-"summary": "L'acquisition vient tout juste d'être annoncée, mais les analystes d'Omdia estiment que les points positifs sont plus nombreux que les éventuelles difficultés.",
+"summary": "L’acquisition vient tout juste d’être annoncée, mais les analystes d’Omdia estiment que les points positifs sont plus nombreux que les éventuelles difficultés.",
 "date": "2026-11-26T13:22:00+00:00",
 "source": "LeMagIT",
 "kind": "media",
@@ -314,9 +1267,9 @@
 },
 {
 "id": "7cadc7c983ab98ac",
-"title": "Rançongiciels : une menace qui s’intensifie",
+"title": "Rançongiciels : une menace qui s’intensifie (nouveau magazine Information sécurité)",
 "link": "https://www.lemagit.fr/actualites/366655557/Rancongiciels-une-menace-qui-sintensifie",
-"summary": "Si la France peut apparaître relativement protégée de l’intensification de la menace, il serait malvenu de baisser la garde. Car la menace des ransomwares change, qualitativement, avec un raccourcissement de la fenêtre de détection.",
+"summary": "Si la France peut apparaître relativement protégée de l’intensification de la menace, il serait malvenu de baisser la garde. Car la menace des ransomwares change, qualitativement, avec un raccourcissement de la fenêtre de détection. C’est le sujet que nous abordons dans ce numéro…",
 "date": "2026-11-26T13:10:00+00:00",
 "source": "LeMagIT",
 "kind": "media",
@@ -2296,6 +3249,40 @@
 "sev": null,
 "themes": [],
 "first_seen": "2026-11-24T22:37:53+00:00"
+},
+{
+"id": "09cee57271f49881",
+"title": "CVE-2026-135791",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-135791",
+"summary": "A flaw has been found in Panabit Smart Application Gateway TANGr7p10. This vulnerability affects the function edit_data_pie of the file /cgi-bin/flowcontrol/ajax_data_pie. This manipulation of the argument Name causes os command injection. The attack may be initiated remotely. Th…",
+"date": "2026-11-24T18:19:02.880000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.9,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
+},
+{
+"id": "09ccfecc393e0406",
+"title": "CVE-2026-125718",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-125718",
+"summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measure…",
+"date": "2026-11-24T18:18:54.717000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.1,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-27T21:29:14+00:00"
 },
 {
 "id": "06e998729636ddab",
@@ -14966,42 +15953,6 @@
 "sev": null,
 "themes": [
 "vuln"
-],
-"first_seen": "2026-11-19T10:50:56+00:00"
-},
-{
-"id": "bb94814d6eeb1351",
-"title": "Escaping Linux Sandboxes via PipeWire (CVE-2026-5674)",
-"link": "https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/",
-"summary": "This post walks through a sandbox escape from a Flatpak application via PipeWire. The vulnerability was discovered using my automated research pipeline with Claude Code and Opus 4.6 back in April 2026. It was an exciting find, as this was the first bug I submitted to Red Hat. Cla…",
-"date": "2026-07-30T16:00:00+00:00",
-"source": "Embrace The Red",
-"kind": "recherche",
-"cote": "B",
-"group": "Sécurité de l'IA",
-"cvss": null,
-"sev": null,
-"themes": [
-"ia",
-"vuln"
-],
-"first_seen": "2026-11-19T10:50:56+00:00"
-},
-{
-"id": "a54947805223a051",
-"title": "Batten Down Your Packages: Mitigation Guidance for Supply Chain Compromise",
-"link": "https://cloud.google.com/blog/topics/threat-intelligence/mitigation-guidance-for-supply-chain-compromise/",
-"summary": "Written by: Kelli Vanderlee, Stuart Carrera For years, the cybersecurity industry's understanding of software supply chain compromise has been anchored by a few watershed events, including Russian cyber espionage actor ICE RELIC’s (formerly known as APT29) 2020 compromise of Sola…",
-"date": "2026-07-30T14:00:00+00:00",
-"source": "Google Threat Intelligence",
-"kind": "cti",
-"cote": "B",
-"group": "Éditeurs",
-"cvss": null,
-"sev": null,
-"themes": [
-"supply",
-"etat"
 ],
 "first_seen": "2026-11-19T10:50:56+00:00"
 }
