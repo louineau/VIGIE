@@ -2524,6 +2524,40 @@
 "first_seen": "2026-11-25T08:52:42+00:00"
 },
 {
+"id": "86468052ff5fba03",
+"title": "CVE-2026-136550",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-136550",
+"summary": "A weakness has been identified in Tenda RX3 16.03.13.11_multi. This affects the function fromAdvSetMacMtuWan of the file /goform/AdvSetMacMtuWan. This manipulation of the argument mac causes command injection. The attack is possible to be carried out remotely. The exploit has bee…",
+"date": "2026-11-25T06:17:15.807000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.1,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-28T08:07:14+00:00"
+},
+{
+"id": "357ef6e02938f825",
+"title": "CVE-2026-136549",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-136549",
+"summary": "A security flaw has been discovered in Tenda RX3 16.03.13.11_multi. The impacted element is the function formSetSafeWanWebMan of the file /goform/SetRemoteWebCfg. The manipulation of the argument remoteIp results in command injection. The attack can be executed remotely. The expl…",
+"date": "2026-11-25T06:17:15.597000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 10.0,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-28T08:07:14+00:00"
+},
+{
 "id": "7157a41ea4ec36dd",
 "title": "Télétravail, déplacements, Wi-Fi public : comment protéger les connexions de tous les collaborateurs d’une équipe ?",
 "link": "https://www.zdnet.fr/publicite/teletravail-deplacements-wi-fi-public-comment-proteger-les-connexions-de-tous-les-collaborateurs-dune-equipe-508623.htm#xtor=RSS-1",
@@ -2814,6 +2848,23 @@
 "vuln"
 ],
 "first_seen": "2026-11-25T21:50:56+00:00"
+},
+{
+"id": "959a3f90da43ba32",
+"title": "CVE-2026-136136",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-136136",
+"summary": "A vulnerability was identified in Netis WF2409E up to 20261026. Affected by this issue is some unknown functionality of the file /cgi-bin/skk_set.cgi of the component CGI Interface. The manipulation of the argument app/password/new_pwd_confirm/passwd_set/mode_name/wl_link leads t…",
+"date": "2026-11-25T00:17:10.560000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 10.0,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-28T08:07:14+00:00"
 },
 {
 "id": "66d1308e754f8508",
@@ -3234,6 +3285,40 @@
 "sev": null,
 "themes": [],
 "first_seen": "2026-11-24T22:37:53+00:00"
+},
+{
+"id": "ab3879a56e959549",
+"title": "CVE-2026-135797",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-135797",
+"summary": "A vulnerability was identified in Volans NGFW Next-Generation Firewall r5.1. Impacted is the function exec of the file sslvpn/sslvpn_client.php of the component SSLVPN Client. Such manipulation of the argument img leads to os command injection. The attack can be executed remotely…",
+"date": "2026-11-24T19:18:14.630000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 10.0,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-28T08:07:14+00:00"
+},
+{
+"id": "a5ed2be3f738cc09",
+"title": "CVE-2026-135796",
+"link": "https://nvd.nist.gov/vuln/detail/CVE-2026-135796",
+"summary": "A vulnerability was determined in Volans NGFW Next-Generation Firewall r5.1. This issue affects the function exec/system of the file modules/assets/port_serve_scan.mds of the component Web Management UI. This manipulation of the argument task_name/where/path causes os command inj…",
+"date": "2026-11-24T19:18:14.430000+00:00",
+"source": "NVD · CVE critiques",
+"kind": "cve",
+"cote": "A",
+"group": "Institutionnel",
+"cvss": 9.9,
+"sev": "crit",
+"themes": [
+"vuln"
+],
+"first_seen": "2026-11-28T08:07:14+00:00"
 },
 {
 "id": "5f76ac4f7ca9daa3",
